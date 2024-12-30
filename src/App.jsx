@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Programming from "./pages/Programming";
 import MyBookmarks from "./pages/MyBookmarks";
 function App() {
+  
   return (
     <Router>
       <AnimatedCursor />
