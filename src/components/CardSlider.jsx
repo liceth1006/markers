@@ -1,39 +1,55 @@
-import categories from "../services/categories.json";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
-const CardSlider = () => {
+function CardSlider() {
   const settings = {
+    dots: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: true,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
   };
 
   return (
-    <div className="container my-4">
-      <div className="d-flex justify-content-between align-items-center mb-3">
-        <h1 className="text-primary fw-semibold fs-3">Categorías</h1>
-        <button className="btn btn-success">Ver todas</button>
-      </div>
-      <div>
-        <Slider {...settings}>
-          {categories.map((item, index) => (
-            <div key={index} className="text-center">
+    <section className=" overflow-hidden px-10">
+      <div className=" px-8 md:px-12 mx-auto  space-y-24 h-svh flex flex-col justify-center">
+        <div className="flex flex-col sm:flex-row mx-auto space-y-4 sm:space-y-0 sm:space-x-4">
+          {[
+            {
+              src: "https://images.unsplash.com/photo-1530035415911-95194de4ebcc?q=80&w=2670&auto=format&fit=crop",
+              alt: "Scenic Landscape 1",
+              rotate: "rotate-6",
+            },
+            {
+              src: "https://images.unsplash.com/photo-1487180144351-b8472da7d491?q=80&w=2672&auto=format&fit=crop",
+              alt: "Scenic Landscape 2",
+              rotate: "-rotate-12",
+            },
+            {
+              src: "https://images.unsplash.com/photo-1586996292898-71f4036c4e07?q=80&w=2670&auto=format&fit=crop",
+              alt: "Scenic Landscape 3",
+              rotate: "rotate-6",
+            },
+            {
+              src: "https://images.unsplash.com/photo-1522775417749-29284fb89f43?q=80&w=2574&auto=format&fit=crop",
+              alt: "Scenic Landscape 4",
+              rotate: "-rotate-12",
+            },
+          ].map((image, index) => (
+            <a href="#_" key={index} className="group">
               <img
-                src={item.categories_url}
-                alt={item.name}
-                className="rounded-circle img-fluid"
-                style={{ width: "6rem", height: "6rem", objectFit: "cover" }}
+                src={image.src}
+                alt={image.alt}
+                className={`rounded-xl ${image.rotate} hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-150 transform origin-bottom`}
               />
-              <h3 className="mt-2 text-secondary fw-medium">{item.name}</h3>
-            </div>
+            </a>
           ))}
-        </Slider>
+        </div>
       </div>
-    </div>
+    </section>
   );
-};
+}
 
 export default CardSlider;

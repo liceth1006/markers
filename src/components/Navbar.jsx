@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { FaRegFolderOpen } from "react-icons/fa6";
 import LanguageSelector from "./LanguageSelector";
 import { IoMdMenu } from "react-icons/io";
 import { useEffect, useRef, useState } from "react";
@@ -51,7 +52,7 @@ function Navbar() {
 
   return (
     <div>
-      <header className="shadow-md">
+      <header className="shadow-md ">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <Link
             to={"/"}
@@ -97,6 +98,14 @@ function Navbar() {
           </nav>
 
           <div className="ml-4 flex items-center space-x-4">
+          <Link
+                  to={"/my-bookmarks"}
+                  className="bg-[var(--background-second-color)] w-auto px-4 py-2 flex items-center justify-center rounded-lg border-2 border-gray-500"
+                >
+                  <FaRegFolderOpen  className="text-[var(--second-color)] hover:text-[var(--first-color)] hover:scale-125 transition-transform duration-300
+          w-6 h-6 mr-2"/>
+                  Mis Marcadores
+                </Link>
             <LanguageSelector />
           </div>
         </div>

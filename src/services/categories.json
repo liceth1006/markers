@@ -4,132 +4,151 @@
     "department_id": 1,
     "name": "Diseño Gráfico",
     "description": "Recursos para la creación de gráficos y diseño visual.",
-    "categories_url": "./images/categories/settings.svg"
+    "categories_url": "./images/categories/settings.svg",
+    "path": "/graphic-design"
   },
   {
     "category_id": 2,
     "department_id": 1,
     "name": "UI/UX",
     "description": "Herramientas y recursos para diseño de interfaces y experiencia de usuario.",
-    "categories_url": "./images/categories/settings.svg"
+    "categories_url": "./images/categories/settings.svg",
+    "path": "/ui-ux"
   },
   {
     "category_id": 3,
     "department_id": 1,
     "name": "Tipografía",
     "description": "Fuentes, generadores de tipografía y guías de estilo tipográfico.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/typography"
   },
   {
     "category_id": 4,
     "department_id": 1,
     "name": "Color",
     "description": "Recursos relacionados con paletas de colores y teoría del color.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/color"
   },
   {
     "category_id": 5,
     "department_id": 2,
     "name": "Programación",
     "description": "Recursos y herramientas para desarrolladores, incluyendo lenguajes y frameworks.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/programming"
   },
   {
     "category_id": 6,
     "department_id": 2,
     "name": "API",
     "description": "Plataformas y servicios que ofrecen APIs para integración en aplicaciones.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/api"
   },
   {
     "category_id": 7,
     "department_id": 2,
     "name": "Componentes",
     "description": "Bibliotecas y frameworks de componentes que puedes usar en tus proyectos.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/components"
   },
   {
     "category_id": 8,
     "department_id": 2,
     "name": "Librerías",
     "description": "Bibliotecas útiles para mejorar el desarrollo de software y aplicaciones.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/libraries"
   },
   {
     "category_id": 9,
     "department_id": 3,
     "name": "YouTubers de Programación",
     "description": "Canales de YouTube que enseñan programación y desarrollo de software.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/programming-youtubers"
   },
   {
     "category_id": 10,
     "department_id": 3,
     "name": "YouTubers de Diseño",
     "description": "Canales de YouTube enfocados en diseño gráfico, UI/UX y creación de interfaces.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/design-youtubers"
   },
   {
     "category_id": 11,
     "department_id": 3,
     "name": "Documentación",
     "description": "Plataformas y herramientas para crear, generar y mantener documentación técnica.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/documentation"
   },
   {
     "category_id": 12,
     "department_id": 4,
     "name": "Remover Fondos IA",
     "description": "Herramientas basadas en inteligencia artificial para eliminar fondos de imágenes, videos y texto.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/ai-background-remover"
   },
   {
     "category_id": 13,
     "department_id": 4,
     "name": "Fotos",
     "description": "Recursos para editar, mejorar y trabajar con imágenes y fotografías.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/photos"
   },
   {
     "category_id": 14,
     "department_id": 4,
     "name": "Videos",
     "description": "Herramientas y plataformas para la edición y creación de videos.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/videos"
   },
   {
     "category_id": 15,
     "department_id": 4,
     "name": "Texto",
     "description": "Herramientas para trabajar con texto, convertirlo en imágenes o manipularlo de diferentes formas.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/text"
   },
   {
     "category_id": 16,
     "department_id": 5,
     "name": "E-commerce",
     "description": "Recursos y herramientas para crear tiendas en línea y gestionar productos.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/e-commerce"
   },
   {
     "category_id": 17,
     "department_id": 5,
     "name": "Marketing Digital",
     "description": "Plataformas y herramientas para gestionar campañas de marketing digital y redes sociales.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/digital-marketing"
   },
   {
     "category_id": 18,
     "department_id": 5,
     "name": "Productividad",
     "description": "Herramientas para mejorar la productividad tanto en el trabajo como en proyectos personales.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/productivity"
   },
   {
     "category_id": 19,
     "department_id": 6,
     "name": "Desarrollo Móvil",
     "description": "Recursos para el desarrollo de aplicaciones móviles tanto para Android como para iOS.",
-    "categories_url":  "./images/categories/settings.svg"
+    "categories_url":  "./images/categories/settings.svg",
+    "path": "/mobile-development"
   }
 ]

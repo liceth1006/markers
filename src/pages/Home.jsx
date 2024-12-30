@@ -1,9 +1,13 @@
-
+import CardSlider from "../components/CardSlider";
+import Hero from "../components/Hero";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div>
+      <Hero />
+      <CardSlider />
+    </div>
+  );
 }
 
-export default Home
+export default Home;

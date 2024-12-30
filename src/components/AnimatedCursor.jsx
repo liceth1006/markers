@@ -16,7 +16,7 @@ function AnimatedCursor() {
 
   return (
     <motion.div
-      className="fixed w-6 h-6 bg-[var(--first-color)] rounded-full pointer-events-none"
+      className="fixed w-6 h-6 bg-amber-400 rounded-full pointer-events-none"
       style={{
         x: cursorPosition.x - 10, 
         y: cursorPosition.y - 10,
