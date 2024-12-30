@@ -1,0 +1,32 @@
+[
+  {
+    "department_id": 1,
+    "department": "Diseño",
+    "description": "Recursos y herramientas para diseñadores gráficos, UI/UX, y creación de interfaces."
+  },
+  {
+    "department_id": 2,
+    "department": "Desarrollo",
+    "description": "Recursos y herramientas para desarrolladores, incluidos lenguajes de programación, frameworks y bibliotecas."
+  },
+  {
+    "department_id": 3,
+    "department": "Contenido",
+    "description": "Recursos relacionados con contenido educativo, tutoriales, videos y documentación técnica."
+  },
+  {
+    "department_id": 4,
+    "department": "Multimedia",
+    "description": "Herramientas y recursos para la creación y edición de contenido multimedia como imágenes, videos y texto."
+  },
+  {
+    "department_id": 5,
+    "department": "Negocios",
+    "description": "Recursos relacionados con la creación de negocios, marketing digital, e-commerce, y productividad."
+  },
+  {
+    "department_id": 6,
+    "department": "Móvil",
+    "description": "Recursos para el desarrollo de aplicaciones móviles y optimización para dispositivos móviles."
+  }
+]
