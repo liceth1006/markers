@@ -1,23 +1,20 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
 
-import Slider from 'react-slick';
-import './App.css'
-import CardSlider from './components/CardSlider'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-
+import Navbar from "./components/Navbar";
+import AnimatedCursor from "./components/AnimatedCursor";
+import Home from "./pages/Home";
 function App() {
-
-
-
   return (
-    <>
-   <Navbar/>
-   <Hero/>
-   <CardSlider/>
-  
-      
-    </>
-  )
+    <Router>
+      <AnimatedCursor />
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

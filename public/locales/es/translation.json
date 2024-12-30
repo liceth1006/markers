@@ -1,0 +1,9 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "aboutMe": "Sobre Mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "downloadResume": "Descargar CV"
+  }
+}

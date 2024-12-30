@@ -1,143 +1,178 @@
+import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "./LanguageSelector";
+import { IoMdMenu } from "react-icons/io";
+import { useEffect, useRef, useState } from "react";
+import { MdOutlineClose } from "react-icons/md";
 import { GiRooster } from "react-icons/gi";
 import categories from "../services/categories.json";
 import department from "../services/department.json";
-import { useState } from "react";
+
 function Navbar() {
+  const { t } = useTranslation();
+  const [isOpen, setIsOpen] = useState(false);
   const [selectedDepartment, setSelectedDepartment] = useState(
     department[0]?.department_id
   );
+  const location = useLocation();
+  const itemNavbar = [
+    { name: t("navbar.aboutMe"), path: "/about" },
+    { name: t("navbar.projects"), path: "/projects" },
+    { name: t("navbar.contact"), path: "/contact" },
+    { name: t("navbar.downloadResume"), path: "/download-resume" },
+  ];
+
+  const dropdownRef = useRef(null);
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const closeDropdown = () => {
+    setIsOpen(false);
+  };
 
   const handleDepartmentChange = (event) => {
     setSelectedDepartment(Number(event.target.value));
   };
 
   return (
-    <header>
-      <div className="container-fluid ">
-        <div className="row py-3 border-bottom">
-          <div className="col-6 col-sm-4 col-lg-3 d-flex justify-content-center justify-content-sm-start align-items-center">
-            <a
-              href="index.html"
-              className="logo-link text-decoration-none d-flex align-items-center"
-            >
-              <GiRooster className="logo-icon fs-1 text-dark me-2" />
-              <span className="logo-text fs-3 fw-bold text-dark">
-                RoosterTools
-              </span>
-            </a>
-          </div>
+    <div>
+      <header className="shadow-md">
+        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+          <Link
+            to={"/"}
+            className="text-[var(--first-color)] text-2xl font-semibold flex items-center"
+          >
+            <GiRooster className="text-3xl me-2" />
+            <span className="logo-text font-bold text-dark">
+              Rooster<span className="text-yellow-600">Tools</span>
+            </span>
+          </Link>
 
-          <div className="col-12 pt-2 col-lg-5 d-flex justify-content-center justify-content-lg-start mt-3 mt-lg-0">
-            <form className="w-100">
-              <div className="input-group mb-3">
-                <select
-                  className="form-select rounded-start p-2"
-                  aria-label="Select category"
-                >
-                  {categories.map((item) => (
-                    <option key={item.category_id} selected>
-                      {item.name}
-                    </option>
-                  ))}
-                </select>
+          <nav>
+            <div className="hidden md:flex space-x-6">
+              <form className="w-full flex flex-wrap">
+                <div className="flex w-full lg:w-auto mb-3 lg:mb-0">
+                  <select
+                    className="rounded-l-lg p-2 border w-full lg:w-auto"
+                    aria-label="Select category"
+                  >
+                    {categories.map((item) => (
+                      <option key={item.category_id} selected>
+                        {item.name}
+                      </option>
+                    ))}
+                  </select>
 
-                <input
-                  type="text"
-                  className="form-control rounded-end  p-2"
-                  placeholder="Search for more than 20,000 products"
-                  aria-label="Search"
-                />
+                  <input
+                    type="text"
+                    className="form-control rounded-r-lg p-2 border w-full lg:w-auto"
+                    placeholder="Search for more than 20,000 products"
+                    aria-label="Search"
+                  />
 
-                <button className="btn btn-warning" type="submit">
-                  buscar
-                </button>
-              </div>
-            </form>
-          </div>
-
-          <div className="col-6 col-sm-4 col-lg-4 d-flex justify-content-center justify-content-sm-end align-items-center mt-3 mt-lg-0">
-            <ul className="d-flex list-unstyled m-0">
-              <li>
-                <a
-                  href="#"
-                  className="btn btn-dark px-4 py-2 text-white text-decoration-none rounded-3 shadow-sm"
-                >
-                  Mis Marcadores
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div className="container-fluid">
-        <div className="row py-3">
-          <div className="d-flex  justify-content-center justify-content-sm-between align-items-center">
-            <nav className="main-menu d-flex navbar navbar-expand-lg">
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-
-              <div
-                className="offcanvas offcanvas-end"
-                id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel"
-              >
-                <div className="offcanvas-header justify-content-center">
                   <button
-                    type="button"
-                    className="btn-close"
-                    data-bs-dismiss="offcanvas"
-                    aria-label="Close"
-                  ></button>
+                    className="bg-yellow-500 text-black px-4 py-2 rounded-r-lg w-full lg:w-auto"
+                    type="submit"
+                  >
+                    Buscar
+                  </button>
                 </div>
+              </form>
+            </div>
+          </nav>
 
-                <div className="offcanvas-body">
-                  <div className="offcanvas-body">
-                    <select
-                      className="filter-categories border-0 mb-0 me-5"
-                      value={selectedDepartment} // Establecer el valor del select como el department_id seleccionado
-                      onChange={handleDepartmentChange}
-                    >
-                      {department.map((item) => (
-                        <option
-                          key={item.department_id}
-                          value={item.department_id}
-                        >
-                          {item.department}
-                        </option>
-                      ))}
-                    </select>
-                    <ul className="navbar-nav justify-content-end menu-list list-unstyled d-flex gap-md-3 mb-0">
-                      {categories
-                        .filter(
-                          (item) => item.department_id === selectedDepartment
-                        ) // Filtrar las categorías según el department_id seleccionado
-                        .map((item) => (
-                          <li
-                            key={item.category_id}
-                            className="nav-item active"
-                          >
-                            <a href="#women" className="nav-link">
-                              {item.name}
-                            </a>
-                          </li>
-                        ))}
-                    </ul>{" "}
-                  </div>
-                </div>
-              </div>
-            </nav>
+          <div className="ml-4 flex items-center space-x-4">
+            <LanguageSelector />
           </div>
         </div>
-      </div>
-    </header>
+
+        <div className="md:hidden">
+          <button
+            onClick={toggleDropdown}
+            id="menu-button"
+            className="text-indigo-500 focus:outline-none"
+          >
+            {isOpen ? (
+              <MdOutlineClose
+                size={30}
+                style={{ color: "var(--first-color)" }}
+              />
+            ) : (
+              <IoMdMenu size={30} style={{ color: "var(--first-color)" }} />
+            )}
+          </button>
+        </div>
+
+        {isOpen && (
+          <ul
+            ref={dropdownRef}
+            className="absolute top-[4rem] right-5 bg-[var(--background-second-color)] shadow-md border rounded mt-2 px-3 md:w-auto z-20"
+          >
+            {itemNavbar.map((item, index) => (
+              <li
+                key={index}
+                className="dropdown-item flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer"
+              >
+                <Link
+                  to={item.path}
+                  className="hover:text-[var(--first-color)]"
+                  onClick={closeDropdown}
+                >
+                  {item.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        <div className="flex items-center justify-between px-5 py-4">
+          <select
+            className="border rounded-md p-2 mb-3 md:mb-0 w-full md:w-auto"
+            value={selectedDepartment}
+            onChange={handleDepartmentChange}
+          >
+            {department.map((item) => (
+              <option key={item.department_id} value={item.department_id}>
+                {item.department}
+              </option>
+            ))}
+          </select>
+
+          <div className="flex flex-wrap gap-4 md:gap-6">
+            {categories
+              .filter((item) => item.department_id === selectedDepartment)
+              .map((item) => (
+                <Link
+                  to={item.path}
+                  key={item.category_id}
+                  className={`${
+                    location.pathname === item.path
+                      ? "text-[var(--first-color)]"
+                      : "hover:text-[var(--first-color)]"
+                  } text-sm md:text-base`}
+                >
+                  {item.name}
+                </Link>
+              ))}
+          </div>
+        </div>
+      </header>
+    </div>
   );
 }
 

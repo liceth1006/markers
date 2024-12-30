@@ -12,30 +12,22 @@ const CardSlider = () => {
   };
 
   return (
-    <div className="w-full space-y-4">
-      <div className="font-semibold text-3xl flex flex-row justify-between items-center">
-        <h1 className="text-[var(--second-color)] text-3xl font-semibold">
-          Categorías
-        </h1>
-        <button className="bg-green-500 text-white px-4 py-2 rounded">
-          Ver todas
-        </button>
+    <div className="container my-4">
+      <div className="d-flex justify-content-between align-items-center mb-3">
+        <h1 className="text-primary fw-semibold fs-3">Categorías</h1>
+        <button className="btn btn-success">Ver todas</button>
       </div>
-      <div className="w-full">
+      <div>
         <Slider {...settings}>
           {categories.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center space-y-2"
-            >
+            <div key={index} className="text-center">
               <img
-                src={item.image}
+                src={item.categories_url}
                 alt={item.name}
-                className="w-24 h-24 rounded-full object-cover"
+                className="rounded-circle img-fluid"
+                style={{ width: "6rem", height: "6rem", objectFit: "cover" }}
               />
-              <h3 className="text-center text-gray-700 font-medium">
-                {item.name}
-              </h3>
+              <h3 className="mt-2 text-secondary fw-medium">{item.name}</h3>
             </div>
           ))}
         </Slider>
