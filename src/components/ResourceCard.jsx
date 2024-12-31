@@ -2,6 +2,8 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { MdOutlineAddTask } from "react-icons/md";
 import PropTypes from "prop-types";
+import ShareModal from "./ShareModal";
+import { useState } from "react";
 
 const ResourceCard = ({
   title,
@@ -10,18 +12,20 @@ const ResourceCard = ({
   category,
   link,
   onSave,
-  onShare,
 }) => {
+   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="rounded overflow-hidden shadow-lg flex flex-col border border-gray-200">
-      <a href="#"></a>
+    <>
+  
+    <div className="rounded overflow-hidden shadow-lg flex flex-col border border-gray-200 transition-transform transform hover:scale-105 hover:border-indigo-600">
       <div className="relative">
         <a href="#">
           <img className="w-full" src={imgUrl} alt={title} />
         </a>
         <a href="#!">
-        <span className="text-sm absolute top-0 right-0  border-none rounded pl-2 bg-green-100  text-dark ">  {category}</span>
-          
+          <span className="text-sm absolute top-0 right-0 border-none rounded p-2 m-2 bg-gray-200 text-dark">
+            {category}
+          </span>
         </a>
       </div>
       <div className="px-6 py-4 mb-auto">
@@ -43,7 +47,7 @@ const ResourceCard = ({
           <MdOutlineAddTask className="mr-2" /> Guardar
         </button>
         <button
-          onClick={onShare}
+          onClick={() => setIsOpen(true)}
           className="text-sm text-blue-600 hover:text-blue-800 font-medium flex items-center"
         >
           <IoShareSocialSharp className="mr-2" /> Compartir
@@ -57,7 +61,15 @@ const ResourceCard = ({
           <FaExternalLinkAlt className="mr-2" /> Abrir
         </a>
       </div>
+      
     </div>
+    {isOpen && 
+        <ShareModal setIsOpen={setIsOpen}
+        link={link}
+        />
+       
+      }
+    </>
   );
 };
 

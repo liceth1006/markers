@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Adobe Color",
+    "description": "Herramienta gratuita que permite crear paletas de colores basadas en la teoría del color. Ofrece un círculo cromático para aplicar reglas de armonía y generar combinaciones personalizadas.",
+    "category": "Color",
+    "imgUrl": "/images/programming/AdobeColor.jpg",
+    "link": "https://color.adobe.com/es/",
+    "pricing": "Gratis"
+  },
+  {
+    "title": "Coolors",
+    "description": "Generador de paletas de colores en línea que permite crear combinaciones rápidamente. Su interfaz intuitiva facilita la exploración de diferentes esquemas de color.",
+    "category": "Color",
+    "imgUrl": "/images/programming/Coolors.jpg",
+    "link": "https://coolors.co/",
+    "pricing": "Gratis"
+  },
+  {
+    "title": "Color Hunt",
+    "description": "Plataforma que ofrece una amplia colección de paletas de colores hechas a mano, ideal para inspirarse y encontrar combinaciones armónicas.",
+    "category": "Color",
+    "imgUrl": "/images/programming/ColorHunt.jpg",
+    "link": "https://colorhunt.co/",
+    "pricing": "Gratis"
+  },
+  {
+    "title": "Paletton",
+    "description": "Herramienta en línea para crear paletas de colores basadas en principios tradicionales de la teoría del color, como monocromías, tríadas y tétradas.",
+    "category": "Color",
+    "imgUrl": "/images/programming/Paletton.jpg",
+    "link": "https://paletton.com/",
+    "pricing": "Gratis"
+  },
+  {
+    "title": "Khroma",
+    "description": "Generador de paletas de colores que utiliza inteligencia artificial para sugerir combinaciones personalizadas según las preferencias del usuario.",
+    "category": "Color",
+    "imgUrl": "/images/programming/Khroma.jpg",
+    "link": "http://khroma.co/",
+    "pricing": "Gratis"
+  },
+  {
+    "title": "Canva Colors",
+    "description": "Parte de la plataforma Canva, ofrece herramientas para generar paletas de colores, incluyendo la posibilidad de extraer colores de imágenes y explorar combinaciones populares.",
+    "category": "Color",
+    "imgUrl": "/images/programming/CanvaColors.jpg",
+    "link": "https://www.canva.com/colors/color-palette-generator/",
+    "pricing": "Gratis"
+  },
+  {
+    "title": "ColorSpace",
+    "description": "Generador de combinaciones de colores que permite crear degradados y explorar paletas basadas en un color inicial.",
+    "category": "Color",
+    "imgUrl": "/images/programming/ColorSpace.jpg",
+    "link": "https://mycolor.space/",
+    "pricing": "Gratis"
+  },
+  {
+    "title": "Muzli Colors",
+    "description": "Herramienta que facilita la creación de esquemas de colores y permite previsualizar cómo se verían en interfaces de usuario.",
+    "category": "Color",
+    "imgUrl": "/images/programming/MuzliColors.jpg",
+    "link": "https://colors.muz.li/",
+    "pricing": "Gratis"
+  }
+]
