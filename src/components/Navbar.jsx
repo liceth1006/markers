@@ -16,13 +16,7 @@ function Navbar() {
     department[0]?.department_id
   );
   const location = useLocation();
-  const itemNavbar = [
-    { name: t("navbar.aboutMe"), path: "/about" },
-    { name: t("navbar.projects"), path: "/projects" },
-    { name: t("navbar.contact"), path: "/contact" },
-    { name: t("navbar.downloadResume"), path: "/download-resume" },
-  ];
-
+ 
   const dropdownRef = useRef(null);
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -42,9 +36,7 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
-  const closeDropdown = () => {
-    setIsOpen(false);
-  };
+
 
   const handleDepartmentChange = (event) => {
     setSelectedDepartment(Number(event.target.value));
@@ -127,27 +119,6 @@ function Navbar() {
           </button>
         </div>
 
-        {isOpen && (
-          <ul
-            ref={dropdownRef}
-            className="absolute top-[4rem] right-5 bg-[var(--background-second-color)] shadow-md border rounded mt-2 px-3 md:w-auto z-20"
-          >
-            {itemNavbar.map((item, index) => (
-              <li
-                key={index}
-                className="dropdown-item flex items-center px-4 py-2 hover:bg-gray-100 cursor-pointer"
-              >
-                <Link
-                  to={item.path}
-                  className="hover:text-[var(--first-color)]"
-                  onClick={closeDropdown}
-                >
-                  {item.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        )}
 
         <div className="flex items-center justify-between px-5 py-4">
           <select

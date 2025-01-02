@@ -13,11 +13,16 @@ function ShareModal({ setIsOpen, link }) {
   };
 
   const shareWhatsApp = () => {
-    window.open(`https://wa.me/?text=${encodeURIComponent(shareLink)}`, "_blank");
+    window.open(
+      `https://wa.me/?text=${encodeURIComponent(shareLink)}`,
+      "_blank"
+    );
   };
   const shareFacebook = () => {
     window.open(
-      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareLink)}`,
+      `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+        shareLink
+      )}`,
       "_blank"
     );
   };
@@ -30,17 +35,6 @@ function ShareModal({ setIsOpen, link }) {
     );
   };
 
-  const shareEmail = () => {
-    window.open(
-      `mailto:?subject=${encodeURIComponent(
-        "Mira este enlace"
-      )}&body=${encodeURIComponent(shareLink)}`,
-      "_self"
-    );
-  };
-  
-    
-  
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-20">
       <div className="bg-white rounded-lg p-6 w-96 relative">
@@ -53,23 +47,24 @@ function ShareModal({ setIsOpen, link }) {
         <h3 className="text-lg font-semibold mb-4">Compartir enlace</h3>
 
         <div className="grid grid-cols-3 gap-3 mb-6">
-          <button 
-           onClick={shareWhatsApp}
-          className="bg-gray-100 p-2 rounded-md text-sm">
+          <button
+            onClick={shareWhatsApp}
+            className="text-white bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
             WhatsApp
           </button>
-          <button 
-           onClick={shareFacebook}
-          className="bg-gray-100 p-2 rounded-md text-sm">
+          <button
+            className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            type="button"
+            onClick={shareFacebook}
+          >
             Facebook
           </button>
           <button
-           onClick={shareX}
-          className="bg-gray-100 p-2 rounded-md text-sm">X</button>
-          <button 
-           onClick={shareEmail}
-          className="bg-gray-100 p-2 rounded-md text-sm col-span-2">
-            Correo electrónico
+            onClick={shareX}
+             className="text-white bg-gradient-to-r from-gray-500 via-black to-black hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            X
           </button>
         </div>
 

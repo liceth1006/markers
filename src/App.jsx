@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <AnimatedCursor />
-      <Toaster position="top-center" />
+      <Toaster position="top-right" />
       <Navbar />
 
       <Routes>

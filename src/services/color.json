@@ -1,66 +1,74 @@
 [
   {
+    "resource_id": 1,
     "title": "Adobe Color",
-    "description": "Herramienta gratuita que permite crear paletas de colores basadas en la teoría del color. Ofrece un círculo cromático para aplicar reglas de armonía y generar combinaciones personalizadas.",
+    "description": "Free tool that allows you to create color palettes based on color theory. It offers a color wheel to apply harmony rules and generate custom combinations.",
     "category": "Color",
     "imgUrl": "/images/programming/AdobeColor.jpg",
     "link": "https://color.adobe.com/es/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
+    "resource_id": 2,
     "title": "Coolors",
-    "description": "Generador de paletas de colores en línea que permite crear combinaciones rápidamente. Su interfaz intuitiva facilita la exploración de diferentes esquemas de color.",
+    "description": "Online color palette generator that allows you to create combinations quickly. Its intuitive interface makes it easy to explore different color schemes.",
     "category": "Color",
     "imgUrl": "/images/programming/Coolors.jpg",
     "link": "https://coolors.co/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
+    "resource_id": 3,
     "title": "Color Hunt",
-    "description": "Plataforma que ofrece una amplia colección de paletas de colores hechas a mano, ideal para inspirarse y encontrar combinaciones armónicas.",
+    "description": "Platform offering a large collection of handmade color palettes, ideal for inspiration and finding harmonious combinations.",
     "category": "Color",
     "imgUrl": "/images/programming/ColorHunt.jpg",
     "link": "https://colorhunt.co/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
+    "resource_id": 4,
     "title": "Paletton",
-    "description": "Herramienta en línea para crear paletas de colores basadas en principios tradicionales de la teoría del color, como monocromías, tríadas y tétradas.",
+    "description": "Online tool for creating color palettes based on traditional color theory principles, such as monochromes, triads, and tetrads.",
     "category": "Color",
     "imgUrl": "/images/programming/Paletton.jpg",
     "link": "https://paletton.com/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
+    "resource_id": 5,
     "title": "Khroma",
-    "description": "Generador de paletas de colores que utiliza inteligencia artificial para sugerir combinaciones personalizadas según las preferencias del usuario.",
+    "description": "Color palette generator that uses artificial intelligence to suggest custom combinations based on user preferences.",
     "category": "Color",
     "imgUrl": "/images/programming/Khroma.jpg",
     "link": "http://khroma.co/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
+    "resource_id": 6,
     "title": "Canva Colors",
-    "description": "Parte de la plataforma Canva, ofrece herramientas para generar paletas de colores, incluyendo la posibilidad de extraer colores de imágenes y explorar combinaciones populares.",
+    "description": "Part of the Canva platform, it offers tools for generating color palettes, including the ability to extract colors from images and explore popular combinations.",
     "category": "Color",
     "imgUrl": "/images/programming/CanvaColors.jpg",
     "link": "https://www.canva.com/colors/color-palette-generator/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
+    "resource_id": 7,
     "title": "ColorSpace",
-    "description": "Generador de combinaciones de colores que permite crear degradados y explorar paletas basadas en un color inicial.",
+    "description": "Color combination generator that allows you to create gradients and explore palettes based on an initial color.",
     "category": "Color",
     "imgUrl": "/images/programming/ColorSpace.jpg",
     "link": "https://mycolor.space/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
+    "resource_id": 8,
     "title": "Muzli Colors",
-    "description": "Herramienta que facilita la creación de esquemas de colores y permite previsualizar cómo se verían en interfaces de usuario.",
+    "description": "Tool that makes it easy to create color schemes and preview how they would look in user interfaces.",
     "category": "Color",
     "imgUrl": "/images/programming/MuzliColors.jpg",
     "link": "https://colors.muz.li/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   }
 ]
