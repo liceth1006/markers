@@ -1,5 +1,5 @@
-import { useRef, useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useRef, useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { IoLanguageOutline } from "react-icons/io5";
 
 function LanguageSelector() {
@@ -40,27 +40,27 @@ function LanguageSelector() {
     <div className="relative">
       <button
         onClick={toggleDropdown}
-        className="bg-[var(--background-second-color)] w-auto px-4 py-2 flex items-center justify-center rounded-lg border-2 border-gray-500"
+        className="text-text-light dark:text-text-dark w-auto px-4 py-2 flex items-center justify-center rounded-lg border-2 border-gray-500"
         type="button"
         aria-expanded={isOpen ? "true" : "false"}
       >
         <IoLanguageOutline
-          className="text-[var(--second-color)] hover:text-[var(--first-color)] hover:scale-125 transition-transform duration-300
+          className=" hover:scale-125 transition-transform duration-300
           w-6 h-6 mr-2"
         />
-        <span>{i18n.language === 'en' ? 'English' : 'Español'}</span>
+        <span>{i18n.language === "en" ? "English" : "Español"}</span>
       </button>
 
       {isOpen && (
         <ul
-          className="dropdown-menu absolute bg-white shadow-md border rounded mt-2"
+          className="dropdown-menu absolute z-20 bg-white shadow-md border rounded mt-2"
           ref={dropdownRef}
         >
           {languages.map((language, index) => (
             <li
               key={index}
               onClick={() => changeLanguage(language.code)}
-              className="dropdown-item flex items-center px-4 py-2 hover:bg-[var(--second-color)] hover:text-[var(--background-first-color)] cursor-pointer"
+              className=" text-text-light dark:text-text-dark bg-background-secondary-light dark:bg-background-secondary-dark dropdown-item flex items-center px-4 py-2 hover:bg-background-light  dark:hover:bg-background-dark cursor-pointer"
             >
               <img
                 src={language.flag}
