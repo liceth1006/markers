@@ -1,39 +1,31 @@
-function SelectCategory() {
+import PropTypes from "prop-types";
+import categories from "../services/categories.json";
+
+function SelectCategory({filter,selectCategory}) {
   return (
     <div className="flex justify-end items-center">
-      <label className="block text-sm text-gray-600 mr-2">Select Category</label>
-      <div className="relative">
-        <button
-          className="py-1 px-3 w-auto text-sm bg-gray-50 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-brand focus:outline-none flex items-center justify-between">
-          All
-          <span className="ml-2 text-gray-500">&#9660;</span>
-        </button>
-        <div
-          className="absolute right-0 z-10 mt-1 w-auto bg-white border border-gray-200 rounded-md shadow-lg opacity-0 invisible group-focus-within:opacity-100 group-focus-within:visible transition duration-200">
-          <div
-            className="px-4 py-2 cursor-pointer hover:bg-gray-100 text-gray-700">
-            All (9)
-          </div>
-          <div
-            className="px-4 py-2 cursor-pointer hover:bg-gray-100 text-gray-700">
-            Full Stack (6)
-          </div>
-          <div
-            className="px-4 py-2 cursor-pointer hover:bg-gray-100 text-gray-700">
-            Front End (1)
-          </div>
-          <div
-            className="px-4 py-2 cursor-pointer hover:bg-gray-100 text-gray-700">
-            Freelance (1)
-          </div>
-          <div
-            className="px-4 py-2 cursor-pointer hover:bg-gray-100 text-gray-700">
-            New Stack Project (1)
-          </div>
-        </div>
-      </div>
-    </div>
+           <label className="block text-sm text-gray-600 mr-2">
+             Select Category
+           </label>
+           <select
+             className="rounded-l-lg p-2 border w-full lg:w-auto"
+             aria-label="Select category"
+             value={filter}
+             onChange={selectCategory}
+           >
+             <option value="">All Categories</option>
+             {categories.map((item) => (
+               <option key={item.category_id} value={item.category_id}>
+                 {item.name}
+               </option>
+             ))}
+           </select>
+         </div>
   );
+}
+SelectCategory.propTypes={
+  filter: PropTypes.string.isRequired,
+  selectCategory: PropTypes.func.isRequired,
 }
 
 export default SelectCategory;

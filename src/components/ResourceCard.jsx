@@ -18,7 +18,8 @@ const ResourceCard = ({
   resource,
   resource_id,
   savedResources,
-  setSavedResources
+  setSavedResources,
+  onDelete
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   
@@ -50,6 +51,7 @@ const ResourceCard = ({
       setSavedResources(updatedResources);
       localStorage.setItem("savedResources", JSON.stringify(updatedResources)); // Actualizar en LocalStorage
       toast.success("Recurso eliminado!");
+      if (onDelete) onDelete(resource_id);
     } else {
       toast.error("Este recurso no se encontraba guardado.");
     }
@@ -125,17 +127,17 @@ const ResourceCard = ({
 
 // Validación de props
 ResourceCard.propTypes = {
-  resource_id: PropTypes.number.isRequired,
-  resource: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   imgUrl: PropTypes.string.isRequired,
   description: PropTypes.string,
   category: PropTypes.string.isRequired,
   pricing: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+  resource: PropTypes.object.isRequired,
+  resource_id: PropTypes.number.isRequired,
+  savedResources: PropTypes.array.isRequired,
   setSavedResources: PropTypes.func.isRequired,
-  savedResources: PropTypes.func.isRequired,
-  onShare: PropTypes.func.isRequired,
+  onDelete: PropTypes.func,
 };
 
 export default ResourceCard;

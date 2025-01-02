@@ -12,6 +12,7 @@ import department from "../services/department.json";
 function Navbar() {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [filter,setFilter]= useState("")
   const [selectedDepartment, setSelectedDepartment] = useState(
     department[0]?.department_id
   );
@@ -42,6 +43,10 @@ function Navbar() {
     setSelectedDepartment(Number(event.target.value));
   };
 
+  const selectCategory=(event)=>{
+    setFilter(Number(event.target.value))
+  }
+
   return (
     <div>
       <header className="shadow-md ">
@@ -63,9 +68,11 @@ function Navbar() {
                   <select
                     className="rounded-l-lg p-2 border w-full lg:w-auto"
                     aria-label="Select category"
+                    value={filter}
+                    onChange={selectCategory}
                   >
                     {categories.map((item) => (
-                      <option key={item.category_id} selected>
+                      <option key={item.category_id} value={item.category_id} >
                         {item.name}
                       </option>
                     ))}
