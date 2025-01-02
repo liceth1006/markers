@@ -6,19 +6,53 @@ import { IoMdMenu } from "react-icons/io";
 import { useEffect, useRef, useState } from "react";
 import { MdOutlineClose } from "react-icons/md";
 import { GiRooster } from "react-icons/gi";
-import categories from "../services/categories.json";
-import department from "../services/department.json";
+import ThemeToggle from "./ThemeToggle";
+import i18n from "../i18n";
 
 function Navbar() {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
-  const [filter,setFilter]= useState("")
-  const [selectedDepartment, setSelectedDepartment] = useState(
-    department[0]?.department_id
-  );
+  const [selectedDepartment, setSelectedDepartment] = useState(null);
+  const [departments, setDepartments] = useState([]);
+  const [categories, setCategories] = useState([]); 
   const location = useLocation();
- 
   const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const fetchDepartmentsAndCategories = async () => {
+      const lang = i18n.language;
+      try {
+        // Cargar departamentos
+        const deptUrl = `/locales/${lang}/department.json`;
+        const deptResponse = await fetch(deptUrl);
+        if (!deptResponse.ok) throw new Error("Error al cargar los departamentos");
+        const deptData = await deptResponse.json();
+        setDepartments(deptData);
+  
+        // Recuperar el departamento seleccionado desde localStorage, si existe
+        const storedDepartment = localStorage.getItem("selectedDepartment");
+        if (storedDepartment) {
+          setSelectedDepartment(Number(storedDepartment)); // Asignar el departamento guardado
+        } else if (deptData.length > 0) {
+          setSelectedDepartment(deptData[0].department_id); // Asignar el primer departamento por defecto
+        }
+  
+        // Cargar categorías
+        const catUrl = `/locales/${lang}/categories.json`; // Ruta de las categorías
+        const catResponse = await fetch(catUrl);
+        if (!catResponse.ok) throw new Error("Error al cargar las categorías");
+        const catData = await catResponse.json();
+        setCategories(catData);
+      } catch (error) {
+        console.error("Error al cargar datos:", error);
+      }
+    };
+  
+    fetchDepartmentsAndCategories();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [i18n.language]); // Dependiendo del idioma
+  
+  // Manejo de clics fuera del dropdown para cerrarlo
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -33,24 +67,22 @@ function Navbar() {
     };
   }, []);
 
+  // Función para alternar el menú móvil
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
-
-
+  // Manejo de cambios en el departamento seleccionado
   const handleDepartmentChange = (event) => {
-    setSelectedDepartment(Number(event.target.value));
+    const selectedDept = Number(event.target.value);
+    setSelectedDepartment(selectedDept);
+    localStorage.setItem("selectedDepartment", selectedDept);
   };
-
-  const selectCategory=(event)=>{
-    setFilter(Number(event.target.value))
-  }
 
   return (
     <div>
-      <header className="shadow-md ">
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <header className="shadow-md">
+        <div className="container mx-auto py-4 flex justify-between items-center">
           <Link
             to={"/"}
             className="text-[var(--first-color)] text-2xl font-semibold flex items-center"
@@ -61,51 +93,16 @@ function Navbar() {
             </span>
           </Link>
 
-          <nav>
-            <div className="hidden md:flex space-x-6">
-              <form className="w-full flex flex-wrap">
-                <div className="flex w-full lg:w-auto mb-3 lg:mb-0">
-                  <select
-                    className="rounded-l-lg p-2 border w-full lg:w-auto"
-                    aria-label="Select category"
-                    value={filter}
-                    onChange={selectCategory}
-                  >
-                    {categories.map((item) => (
-                      <option key={item.category_id} value={item.category_id} >
-                        {item.name}
-                      </option>
-                    ))}
-                  </select>
-
-                  <input
-                    type="text"
-                    className="form-control rounded-r-lg p-2 border w-full lg:w-auto"
-                    placeholder="Search for more than 20,000 products"
-                    aria-label="Search"
-                  />
-
-                  <button
-                    className="bg-yellow-500 text-black px-4 py-2 rounded-r-lg w-full lg:w-auto"
-                    type="submit"
-                  >
-                    Buscar
-                  </button>
-                </div>
-              </form>
-            </div>
-          </nav>
-
           <div className="ml-4 flex items-center space-x-4">
-          <Link
-                  to={"/my-bookmarks"}
-                  className="bg-[var(--background-second-color)] w-auto px-4 py-2 flex items-center justify-center rounded-lg border-2 border-gray-500"
-                >
-                  <FaRegFolderOpen  className="text-[var(--second-color)] hover:text-[var(--first-color)] hover:scale-125 transition-transform duration-300
-          w-6 h-6 mr-2"/>
-                  Mis Marcadores
-                </Link>
+            <Link
+              to={"/my-bookmarks"}
+              className="bg-[var(--background-second-color)] w-auto px-4 py-2 flex items-center justify-center rounded-lg border-2 border-gray-500"
+            >
+              <FaRegFolderOpen className="text-[var(--second-color)] hover:text-[var(--first-color)] hover:scale-125 transition-transform duration-300 w-6 h-6 mr-2" />
+              {t("myBookmarks")}
+            </Link>
             <LanguageSelector />
+            <ThemeToggle />
           </div>
         </div>
 
@@ -116,29 +113,29 @@ function Navbar() {
             className="text-indigo-500 focus:outline-none"
           >
             {isOpen ? (
-              <MdOutlineClose
-                size={30}
-                style={{ color: "var(--first-color)" }}
-              />
+              <MdOutlineClose size={30} style={{ color: "var(--first-color)" }} />
             ) : (
               <IoMdMenu size={30} style={{ color: "var(--first-color)" }} />
             )}
           </button>
         </div>
 
-
         <div className="flex items-center justify-between px-5 py-4">
-          <select
-            className="border rounded-md p-2 mb-3 md:mb-0 w-full md:w-auto"
-            value={selectedDepartment}
-            onChange={handleDepartmentChange}
-          >
-            {department.map((item) => (
-              <option key={item.department_id} value={item.department_id}>
-                {item.department}
-              </option>
-            ))}
-          </select>
+          {departments.length > 0 ? (
+            <select
+              className="border rounded-md p-2 mb-3 md:mb-0 w-full md:w-auto"
+              value={selectedDepartment}
+              onChange={handleDepartmentChange}
+            >
+              {departments.map((item) => (
+                <option key={item.department_id} value={item.department_id}>
+                  {item.department}
+                </option>
+              ))}
+            </select>
+          ) : (
+            <div>Cargando departamentos...</div>
+          )}
 
           <div className="flex flex-wrap gap-4 md:gap-6">
             {categories
