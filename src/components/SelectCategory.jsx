@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
-import categories from "../services/categories.json";
+
 
 function SelectCategory({filter,selectCategory}) {
+
+  const categories = []
   return (
     <div className="flex justify-end items-center">
            <label className="block text-sm text-gray-600 mr-2">

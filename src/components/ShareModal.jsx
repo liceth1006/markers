@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
 import toast from "react-hot-toast";
+import { useTranslation } from "react-i18next";
 
 function ShareModal({ setIsOpen, link }) {
+   const { t } = useTranslation();
   const shareLink = link;
 
   const close = () => {
@@ -36,25 +38,25 @@ function ShareModal({ setIsOpen, link }) {
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-20">
-      <div className="bg-white rounded-lg p-6 w-96 relative">
+    <div className="fixed inset-0 bg-slate-400 bg-opacity-70 flex justify-center items-center z-20">
+      <div className=" border border-primary bg-background-secondary-light dark:bg-background-secondary-dark rounded-lg p-6 w-96 relative">
         <button
           onClick={close}
-          className="absolute top-2 right-2 text-gray-600 hover:text-gray-800 text-xl"
+          className="absolute top-2 right-2 text-text-light dark:text-text-dark hover:text-gray-800 text-xl"
         >
           ✖
         </button>
-        <h3 className="text-lg font-semibold mb-4">Compartir enlace</h3>
+        <h3 className="text-lg text-text-light dark:text-text-dark font-semibold mb-4">{t("actions.shareLink")}</h3>
 
         <div className="grid grid-cols-3 gap-3 mb-6">
           <button
             onClick={shareWhatsApp}
-            className="text-white bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className="text-white bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm  py-2.5 text-center mr-2 mb-2 "
           >
             WhatsApp
           </button>
           <button
-            className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+            className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm  py-2.5 text-center mr-2 mb-2"
             type="button"
             onClick={shareFacebook}
           >
@@ -73,13 +75,13 @@ function ShareModal({ setIsOpen, link }) {
             type="text"
             value={shareLink}
             readOnly
-            className="w-full p-2 border border-gray-300 rounded-md"
+            className="w-full p-2 border border-primary rounded-md text-text-light dark:text-text-dark bg-background-secondary-light dark:bg-background-secondary-dark"
           />
           <button
             onClick={copyLink}
-            className="bg-blue-600 text-white px-4 py-2 rounded-md"
+            className="bg-primary text-text-light dark:text-text-dark px-4 py-2 rounded-md"
           >
-            Copiar
+            {t("actions.copy")}
           </button>
         </div>
       </div>
