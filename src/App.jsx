@@ -9,6 +9,7 @@ import MyBookmarks from "./pages/MyBookmarks";
 import Color from "./pages/Color";
 import { Toaster } from "react-hot-toast";
 import AllResources from "./pages/AllResources.JSX";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/color" element={<Color />} />
           <Route path="/my-bookmarks" element={<MyBookmarks />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md";
 function ThemeToggle() {
+
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") || "light" 
   );
-
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);

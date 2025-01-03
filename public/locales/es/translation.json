@@ -1,12 +1,44 @@
 {
-  "hero":{
-   "title": "Todos tus recursos",
-   "titletwo": "Creativos",
-   "titlethree": "✨en un solo lugar",
+  "hero": {
+    "title": "Todos tus recursos",
+    "titletwo": "Creativos",
+    "titlethree": "✨en un solo lugar",
     "subtitle": "Simplifica tu día a día con una plataforma innovadora. Encuentra, organiza y accede a recursos de manera sencilla y eficiente.",
     "exploreResources": "Explorar Recursos",
-    "paragraph":"Simplifica tu día a día con una plataforma innovadora. Encuentra,  organiza y accede a recursos de manera sencilla y eficiente."
+    "paragraph": "Simplifica tu día a día con una plataforma innovadora. Encuentra,  organiza y accede a recursos de manera sencilla y eficiente."
+  },
+  "cardsSection": {
+    "title": "Descubre tu próximo recurso favorito",
+    "paragraph": "Más que una herramienta, una fuente de inspiración",
+   "categories": {
+    "categoryOne": "Componentes web",
+    "categoryTwo": "Colores y tipografías",
+    "categoryThree": "Fotos y videos",
+    "categoryFour": "Inspiración creativa",
+    "categoryFive": "Librerías y APIs"
+  }
   },
   "myBookmarks": "Mis Marcadores",
-  "allResources": "Todos los Recursos 🛍️"
+  "allResources": "Todos los Recursos 🛍️",
+  "footer": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "copyright": "Diseñado con ❤️ por Liceth Olmos"
+  },
+  "benefits": {
+    "title": "Beneficios destacados",
+    "items": {
+      "centralization": "Centralización de Herramientas y Recursos",
+      "organization": "Organización Eficiente de Recursos",
+      "time_saving": "Ahorro de Tiempo",
+      "secure_storage": "Almacenamiento Local Seguro"
+    }
+  },
+  "section": {
+    "intro": {
+      "text": "En <span class='text-[#F35B04] font-bold'>RoosterTools</span>, creemos que la clave para ser más <span class='bg-[#71f0ce] dark:bg-[#40EEC0] py-1 px-3 rounded-lg font-semibold'>productivo</span> es tener todo lo que necesitas al alcance de tu mano. Ya seas <span class='font-semibold'>programador</span> <span>o</span> <span class='font-semibold'>diseñador</span>, nuestra plataforma te permite <span class='bg-[#fce47b] dark:bg-[#eea840] py-1 px-3 rounded-lg font-semibold'>guardar</span>, <span class='bg-[#da7bff] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>organizar</span>, y <span class='bg-[#9e93fd] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>acceder</span> fácilmente a tus recursos favoritos sin la necesidad de saturar tus marcadores de navegador."
+    }
+  }
+  
 }
