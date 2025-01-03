@@ -40,5 +40,16 @@
     "intro": {
       "text": "At <span class='text-[#F35B04] font-bold'>RoosterTools</span>, we believe that the key to being more <span class='bg-[#71f0ce] dark:bg-[#40EEC0] py-1 px-3 rounded-lg font-semibold'>productive</span> is having everything you need at your fingertips. Whether you are a <span class='font-semibold'>programmer</span> <span>or</span> a <span class='font-semibold'>designer</span>, our platform allows you to <span class='bg-[#fce47b] dark:bg-[#eea840] py-1 px-3 rounded-lg font-semibold'>save</span>, <span class='bg-[#da7bff] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>organize</span>, and <span class='bg-[#9e93fd] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>access</span> your favorite resources easily without overloading your browser bookmarks."
     }
-  }
+  },
+  "color": {
+  "title": "🎨 Transform your design with amazing palettes and colors 🌈"
+},
+"actions": {
+    "delete": "Delete",
+    "save": "Save",
+    "share": "Share",
+    "search": "Search resources",
+   "shareLink": "Open link",
+    "copy": "Copy"
+}
 }

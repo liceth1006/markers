@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import ResourceCard from "../components/ResourceCard";
 import i18n from "../i18n";
 import Search from "../components/Search";
+import { useTranslation } from "react-i18next";
 
 function Color() {
+  const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState("");
   const [savedResources, setSavedResources] = useState([]);
   const [color, setColor] = useState([]);
@@ -37,9 +39,9 @@ function Color() {
   }, [color, searchTerm]);
 
   return (
-    <div className="p-6 bg-gray-100 dark:bg-gray-900 min-h-screen">
-      <h1 className="text-2xl font-bold text-center mb-6">
-        🎨 Explora y Crea Paletas de Colores Perfectas 🌈
+    <div className="p-6 pt-10 bg-background-light py-9 dark:bg-background-dark text-text-light dark:text-text-dark min-h-screen">
+      <h1 className="text-4xl  text-text-light dark:text-text-dark font-bold text-center mb-6">
+        {t("color.title")}
       </h1>
       <Search
         searchTerm={searchTerm}
