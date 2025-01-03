@@ -17,3 +17,23 @@ h1{
   font-family: "Montserrat", serif;
  
 }
+
+.bg-image-1 {
+  background-image: url('/images/api.jpg');
+}
+
+.bg-image-2 {
+  background-image: url('/images/creative.jpg');
+}
+
+.bg-image-3 {
+  background-image: url('/images/web.jpg');
+}
+
+.bg-image-4 {
+  background-image: url('/images/color.jpg');
+}
+
+.bg-image-5 {
+  background-image: url('/images/photo.jpg');
+}

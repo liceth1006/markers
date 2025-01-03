@@ -11,6 +11,8 @@ export default {
         "background-dark": "#121212",
         "text-light": "#333333",
         "text-dark": "#E1E1E1",
+        "text-secondary-light": "#666666",
+        "text-secondary-dark": "#B3B3B3",
         "background-secondary-light": "#F0F0F0",
         "background-secondary-dark": "#1E1E1E",
         accent: "#88C057",

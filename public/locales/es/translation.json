@@ -1,4 +1,12 @@
 {
-  "myBookmarks": "Mis Marcadores"
- 
+  "hero":{
+   "title": "Todos tus recursos",
+   "titletwo": "Creativos",
+   "titlethree": "✨en un solo lugar",
+    "subtitle": "Simplifica tu día a día con una plataforma innovadora. Encuentra, organiza y accede a recursos de manera sencilla y eficiente.",
+    "exploreResources": "Explorar Recursos",
+    "paragraph":"Simplifica tu día a día con una plataforma innovadora. Encuentra,  organiza y accede a recursos de manera sencilla y eficiente."
+  },
+  "myBookmarks": "Mis Marcadores",
+  "allResources": "Todos los Recursos 🛍️"
 }

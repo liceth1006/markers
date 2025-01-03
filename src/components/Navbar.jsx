@@ -95,6 +95,16 @@ function Navbar() {
       />
     
         <div className="flex justify-center items-center flex-wrap gap-4 md:gap-6">
+        <Link
+                to="/all"
+                className={`text-text-light dark:text-text-dark ${
+                  location.pathname === "/all"
+                    ? " bg-primary p-3 rounded-md"
+                    : "hover:text-primary"
+                } text-sm md:text-base`}
+              >
+                {t("allResources")}
+              </Link>
           {categories
             .filter((item) => item.department_id === selectedDepartment)
             .map((item) => (
@@ -163,6 +173,17 @@ function Navbar() {
             </div>
 
             <div className="flex flex-col items-center gap-4">
+            <Link
+                to="/all"
+                onClick={() => setIsOpenDropdown(false)} 
+                className={`text-text-light dark:text-text-dark ${
+                  location.pathname === "/all"
+                    ? " bg-primary p-3 rounded-md"
+                    : "hover:text-primary"
+                } text-sm md:text-base`}
+              >
+               todos
+              </Link>
             {categories
             .filter((item) => item.department_id === selectedDepartment)
             .map((item) => (

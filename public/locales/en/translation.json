@@ -1,3 +1,13 @@
 {
-  "myBookmarks": "My Bookmarks"
+  "hero": {
+    "title": "All your resources",
+    "titletwo": "Creative ",
+    "titlethree": "✨in one place",
+    "subtitle": "Simplify your daily life with an innovative platform. Find, organize, and access resources easily and efficiently.",
+    "exploreResources": "Explore Resources",
+    "paragraph": "Simplify your daily life with an innovative platform. Find, organize, and access resources easily and efficiently."
+
+  },
+  "myBookmarks": "My Bookmarks",
+  "allResources": "All Resources 🛍️"
 }

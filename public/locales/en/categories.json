@@ -2,7 +2,7 @@
   {
     "category_id": 1,
     "department_id": 1,
-    "name": "Graphic Design",
+    "name": "Graphic Design 🎨",
     "description": "Resources for creating graphics and visual design.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/graphic-design"
@@ -10,7 +10,7 @@
   {
     "category_id": 2,
     "department_id": 1,
-    "name": "UI/UX",
+    "name": "UI/UX 📱",
     "description": "Tools and resources for interface design and user experience.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/ui-ux"
@@ -18,7 +18,7 @@
   {
     "category_id": 3,
     "department_id": 1,
-    "name": "Typography",
+    "name": "Typography ✒️",
     "description": "Fonts, typography generators, and typography style guides.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/typography"
@@ -26,7 +26,7 @@
   {
     "category_id": 4,
     "department_id": 1,
-    "name": "Color",
+    "name": "Color 🌈",
     "description": "Resources related to color palettes and color theory.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/color"
@@ -34,7 +34,7 @@
   {
     "category_id": 5,
     "department_id": 2,
-    "name": "Programming",
+    "name": "Programming 💻",
     "description": "Resources and tools for developers, including languages and frameworks.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/programming"
@@ -42,7 +42,7 @@
   {
     "category_id": 6,
     "department_id": 2,
-    "name": "API",
+    "name": "API 🔌",
     "description": "Platforms and services offering APIs for integration in applications.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/api"
@@ -50,7 +50,7 @@
   {
     "category_id": 7,
     "department_id": 2,
-    "name": "Components",
+    "name": "Components 🧩",
     "description": "Component libraries and frameworks you can use in your projects.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/components"
@@ -58,7 +58,7 @@
   {
     "category_id": 8,
     "department_id": 2,
-    "name": "Libraries",
+    "name": "Libraries 📚",
     "description": "Useful libraries to enhance software and application development.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/libraries"
@@ -66,7 +66,7 @@
   {
     "category_id": 9,
     "department_id": 3,
-    "name": "Programming YouTubers",
+    "name": "Programming YouTubers 🎥💻",
     "description": "YouTube channels teaching programming and software development.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/programming-youtubers"
@@ -74,7 +74,7 @@
   {
     "category_id": 10,
     "department_id": 3,
-    "name": "Design YouTubers",
+    "name": "Design YouTubers 🎥🎨",
     "description": "YouTube channels focused on graphic design, UI/UX, and interface creation.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/design-youtubers"
@@ -82,7 +82,7 @@
   {
     "category_id": 11,
     "department_id": 3,
-    "name": "Documentation",
+    "name": "Documentation 📑",
     "description": "Platforms and tools for creating, generating, and maintaining technical documentation.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/documentation"
@@ -90,7 +90,7 @@
   {
     "category_id": 12,
     "department_id": 4,
-    "name": "AI Background Remover",
+    "name": "AI Background Remover 🤖🖼️",
     "description": "AI-based tools for removing backgrounds from images, videos, and text.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/ai-background-remover"
@@ -98,7 +98,7 @@
   {
     "category_id": 13,
     "department_id": 4,
-    "name": "Photos",
+    "name": "Photos 🖼️",
     "description": "Resources for editing, enhancing, and working with images and photographs.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/photos"
@@ -106,7 +106,7 @@
   {
     "category_id": 14,
     "department_id": 4,
-    "name": "Videos",
+    "name": "Videos 🎬",
     "description": "Tools and platforms for video editing and creation.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/videos"
@@ -114,7 +114,7 @@
   {
     "category_id": 15,
     "department_id": 4,
-    "name": "Text",
+    "name": "Text ✍️",
     "description": "Tools for working with text, converting it into images, or manipulating it in various ways.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/text"
@@ -122,7 +122,7 @@
   {
     "category_id": 16,
     "department_id": 5,
-    "name": "E-commerce",
+    "name": "E-commerce 🛒",
     "description": "Resources and tools for creating online stores and managing products.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/e-commerce"
@@ -130,7 +130,7 @@
   {
     "category_id": 17,
     "department_id": 5,
-    "name": "Digital Marketing",
+    "name": "Digital Marketing 📊",
     "description": "Platforms and tools for managing digital marketing campaigns and social media.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/digital-marketing"
@@ -138,7 +138,7 @@
   {
     "category_id": 18,
     "department_id": 5,
-    "name": "Productivity",
+    "name": "Productivity 🗂️",
     "description": "Tools to improve productivity both in work and personal projects.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/productivity"
@@ -146,7 +146,7 @@
   {
     "category_id": 19,
     "department_id": 6,
-    "name": "Mobile Development",
+    "name": "Mobile Development 📱💡",
     "description": "Resources for developing mobile applications for both Android and iOS.",
     "categories_url": "./images/categories/settings.svg",
     "path": "/mobile-development"
