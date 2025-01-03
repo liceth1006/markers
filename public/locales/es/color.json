@@ -1,0 +1,178 @@
+[
+  {
+    "resource_id": 1,
+    "title": "Adobe Color",
+    "description": "Herramienta para crear paletas de colores basadas en diferentes combinaciones como complementarias, análogas y monocromáticas.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/adobe-color.jpg",
+    "link": "https://color.adobe.com",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 2,
+    "title": "Coolors",
+    "description": "Generador de paletas de colores que permite explorar combinaciones armoniosas y ver paletas creadas por otros usuarios.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+   "imgUrl": "./images/categories/color/Coolors.jpg",
+    "link": "https://coolors.co",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 3,
+    "title": "Color Hunt",
+    "description": "Colección de paletas de colores gratuitas y de alta calidad, curadas por la comunidad.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Paletas Curadas",
+    "subcategory_id": 2,
+    "imgUrl": "./images/categories/color/color-hunt.jpg",
+    "link": "https://colorhunt.co",
+    "pricing": "Gratis"
+  },
+  
+  {
+    "resource_id": 6,
+    "title": "Material Palette",
+    "description": "Generador de paletas de colores inspirado en las directrices de Material Design de Google.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/material-palette.jpg",
+    "link": "https://www.materialpalette.com",
+    "pricing": "Gratis"
+  },
+  
+  {
+    "resource_id": 8,
+    "title": "Color Supply",
+    "description": "Generador de paletas de colores que ofrece combinaciones armoniosas y permite explorar paletas creadas por otros usuarios.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/color-supply.jpg",
+    "link": "https://colorsupplyyy.com",
+    "pricing": "Gratis"
+  },
+ 
+  {
+    "resource_id": 10,
+    "title": "ColorSpace",
+    "description": "Generador de paletas de colores que ofrece combinaciones armoniosas y permite explorar paletas creadas por otros usuarios.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/colorspace.jpg",
+    "link": "https://mycolor.space",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 11,
+    "title": "ColorZilla",
+    "description": "Extensión para navegadores que permite obtener el código de color de cualquier elemento en una página web.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Herramientas para Navegadores",
+    "subcategory_id": 3,
+    "imgUrl": "./images/categories/color/colorzilla.jpg",
+    "link": "https://www.colorzilla.com",
+    "pricing": "Gratis"
+  },
+  
+ 
+ 
+  {
+    "resource_id": 15,
+    "title": "Color Picker by Hex",
+    "description": "Herramienta que permite seleccionar colores y obtener sus códigos en formato hexadecimal y RGB.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Herramientas de Selección de Color",
+    "subcategory_id": 6,
+    "imgUrl": "./images/categories/color/colors_picker.jpg",
+    "link": "https://www.w3schools.com/colors/colors_picker.asp",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 14,
+    "title": "Tintmint",
+    "description": "Generador de paletas de colores con una interfaz simple y visual, que permite explorar combinaciones de colores para el diseño.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/tintmint.jpg",
+    "link": "https://tintmint.net/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 15,
+    "title": "UI Colors",
+    "description": "Generador de paletas de colores para diseñadores de interfaces de usuario, con una interfaz sencilla para crear y copiar combinaciones de colores.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/uicolors.jpg",
+    "link": "https://uicolors.app/create",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 16,
+    "title": "Palette Maker",
+    "description": "Aplicación que permite crear paletas de colores a partir de imágenes, con opciones de personalización.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/palettemaker",
+    "link": "https://palettemaker.com/app",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 17,
+    "title": "Color Beta",
+    "description": "Herramienta en línea para explorar combinaciones de colores de manera sencilla, con opciones para crear paletas personalizadas.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/colorbeta",
+    "link": "https://colorbeta.com/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 18,
+    "title": "ColorMind AI",
+    "description": "Generador de paletas de colores impulsado por inteligencia artificial, que sugiere combinaciones armónicas basadas en tendencias.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/colormind-ai.jpg",
+    "link": "http://colormind.io",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 19,
+    "title": "Happy Hues",
+    "description": "Generador de paletas de colores con combinaciones armoniosas y ejemplos de uso para facilitar la elección de colores en diseño web.",
+    "category": "Color",
+    "category_id": 4,
+    "subcategory": "Generadores de Paletas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/color/happy-hues",
+    "link": "https://www.happyhues.co",
+    "pricing": "Gratis"
+  }
+ 
+ 
+]
