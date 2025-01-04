@@ -2,241 +2,241 @@
   {
     "resource_id": 1,
     "title": "Unsplash Backgrounds",
-    "description": "Imágenes gratuitas y de alta resolución ideales para fondos digitales.",
+    "description": "Free, high-resolution images ideal for digital backgrounds.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Fondos fotográficos",
+    "subcategory": "Photographic Backgrounds",
     "subcategory_id": 1,
     "imgUrl": "./images/categories/backgrounds/unsplash.jpg",
     "link": "https://unsplash.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 2,
     "title": "Pexels Backgrounds",
-    "description": "Fondos gratuitos para diseño web, móvil y digital.",
+    "description": "Free backgrounds for web, mobile, and digital design.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Fondos de uso general",
+    "subcategory": "General Use Backgrounds",
     "subcategory_id": 2,
     "imgUrl": "./images/categories/backgrounds/pexels.jpg",
     "link": "https://www.pexels.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 3,
     "title": "Background Labs",
-    "description": "Crea patrones de fondo personalizados para tus proyectos.",
+    "description": "Create custom background patterns for your projects.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Patrones personalizados",
+    "subcategory": "Custom Patterns",
     "subcategory_id": 3,
     "imgUrl": "./images/categories/backgrounds/backgroundlabs.jpg",
     "link": "https://www.backgroundlabs.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 4,
     "title": "Hero Patterns",
-    "description": "Patrones SVG gratuitos para mejorar el diseño de fondos.",
+    "description": "Free SVG patterns to enhance background design.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Patrones SVG",
+    "subcategory": "SVG Patterns",
     "subcategory_id": 4,
     "imgUrl": "./images/categories/backgrounds/heropatterns.jpg",
     "link": "https://www.heropatterns.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 5,
     "title": "Transparent Textures",
-    "description": "Texturas semitransparentes para fondos modernos y minimalistas.",
+    "description": "Semi-transparent textures for modern and minimalist backgrounds.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Texturas transparentes",
+    "subcategory": "Transparent Textures",
     "subcategory_id": 5,
     "imgUrl": "./images/categories/backgrounds/transparenttextures.jpg",
     "link": "https://www.transparenttextures.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 6,
     "title": "Subtle Patterns",
-    "description": "Colección de patrones sutiles y elegantes para fondos.",
+    "description": "A collection of subtle and elegant patterns for backgrounds.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Patrones sutiles",
+    "subcategory": "Subtle Patterns",
     "subcategory_id": 6,
     "imgUrl": "./images/categories/backgrounds/subtlepatterns.jpg",
     "link": "https://www.toptal.com/designers/subtlepatterns",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 7,
     "title": "Freepik Backgrounds",
-    "description": "Fondos y gráficos vectoriales gratuitos para proyectos digitales.",
+    "description": "Free and premium backgrounds and vector graphics for digital projects.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Gráficos vectoriales",
+    "subcategory": "Vector Graphics",
     "subcategory_id": 7,
     "imgUrl": "./images/categories/backgrounds/freepik.jpg",
     "link": "https://www.freepik.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 8,
     "title": "BGJar",
-    "description": "Generador de fondos SVG personalizables para la web.",
+    "description": "Customizable SVG background generator for the web.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Generadores de fondos",
+    "subcategory": "Background Generators",
     "subcategory_id": 8,
     "imgUrl": "./images/categories/backgrounds/bgjar.jpg",
     "link": "https://bgjar.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 9,
     "title": "UI Gradient",
-    "description": "Amplia colección de degradados listos para usar en proyectos.",
+    "description": "A large collection of gradients ready to use in projects.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Degradados",
+    "subcategory": "Gradients",
     "subcategory_id": 9,
     "imgUrl": "./images/categories/backgrounds/uigradient.jpg",
     "link": "https://uigradients.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 10,
     "title": "Cool Backgrounds",
-    "description": "Crea fondos geniales y únicos con colores vibrantes.",
+    "description": "Create cool and unique backgrounds with vibrant colors.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Fondos creativos",
+    "subcategory": "Creative Backgrounds",
     "subcategory_id": 10,
     "imgUrl": "./images/categories/backgrounds/coolbackgrounds.jpg",
     "link": "https://coolbackgrounds.io",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 11,
     "title": "Patternico",
-    "description": "Generador de patrones personalizables con íconos y colores.",
+    "description": "Customizable pattern generator with icons and colors.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Generadores de patrones",
+    "subcategory": "Pattern Generators",
     "subcategory_id": 11,
     "imgUrl": "./images/categories/backgrounds/patternico.jpg",
     "link": "https://patternico.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 12,
     "title": "SVG Backgrounds",
-    "description": "Fondos SVG gratuitos y personalizables para la web.",
+    "description": "Free and customizable SVG backgrounds for the web.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "SVG personalizables",
+    "subcategory": "Customizable SVG",
     "subcategory_id": 12,
     "imgUrl": "./images/categories/backgrounds/svgbackgrounds.jpg",
     "link": "https://www.svgbackgrounds.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 13,
     "title": "Blobmaker",
-    "description": "Generador de formas orgánicas para fondos y diseños.",
+    "description": "Generator for organic shapes for backgrounds and designs.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Formas orgánicas",
+    "subcategory": "Organic Shapes",
     "subcategory_id": 13,
     "imgUrl": "./images/categories/backgrounds/blobmaker.jpg",
     "link": "https://www.blobmaker.app",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 14,
     "title": "Canva Backgrounds",
-    "description": "Fondos prediseñados y personalizables en Canva.",
+    "description": "Pre-designed and customizable backgrounds in Canva.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Diseño gráfico",
+    "subcategory": "Graphic Design",
     "subcategory_id": 14,
     "imgUrl": "./images/categories/backgrounds/canva.jpg",
     "link": "https://www.canva.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 15,
     "title": "Wallpaper Access",
-    "description": "Fondos de pantalla para dispositivos y diseños web.",
+    "description": "Wallpapers for devices and web designs.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Fondos de pantalla",
+    "subcategory": "Wallpapers",
     "subcategory_id": 15,
     "imgUrl": "./images/categories/backgrounds/wallpaperaccess.jpg",
     "link": "https://wallpaperaccess.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 16,
     "title": "Designify",
-    "description": "Fondos y elementos visuales para presentaciones y diseños.",
+    "description": "Backgrounds and visual elements for presentations and designs.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Elementos visuales",
+    "subcategory": "Visual Elements",
     "subcategory_id": 16,
     "imgUrl": "./images/categories/backgrounds/designify.jpg",
     "link": "https://www.designify.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 17,
     "title": "Abstract Backgrounds",
-    "description": "Fondos abstractos modernos para diseño digital.",
+    "description": "Modern abstract backgrounds for digital design.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Abstractos",
+    "subcategory": "Abstract",
     "subcategory_id": 17,
     "imgUrl": "./images/categories/backgrounds/abstractbackgrounds.jpg",
     "link": "https://abstractbackgrounds.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 18,
     "title": "ShapeFactory",
-    "description": "Generador de formas geométricas para fondos creativos.",
+    "description": "Generator of geometric shapes for creative backgrounds.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Formas geométricas",
+    "subcategory": "Geometric Shapes",
     "subcategory_id": 18,
     "imgUrl": "./images/categories/backgrounds/shapefactory.jpg",
     "link": "https://www.shapefactory.co",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 19,
     "title": "Background Generator",
-    "description": "Herramienta para crear fondos personalizados con degradados.",
+    "description": "Tool to create custom backgrounds with gradients.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Degradados avanzados",
+    "subcategory": "Advanced Gradients",
     "subcategory_id": 19,
     "imgUrl": "./images/categories/backgrounds/backgroundgenerator.jpg",
     "link": "https://background-generator.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 20,
     "title": "Mesh Gradient",
-    "description": "Generador de fondos de malla con colores degradados.",
+    "description": "Mesh gradient background generator.",
     "category": "Backgrounds",
     "category_id": 5,
-    "subcategory": "Degradados de malla",
+    "subcategory": "Mesh Gradients",
     "subcategory_id": 20,
     "imgUrl": "./images/categories/backgrounds/meshgradient.jpg",
     "link": "https://www.meshgradient.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   }
 ]

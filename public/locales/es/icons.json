@@ -61,6 +61,18 @@
   },
   {
     "resource_id": 6,
+    "title": "Remix Icon",
+    "description": "Colección de íconos diseñados para proyectos de interfaz de usuario.",
+    "category": "Icons",
+    "category_id": 7,
+    "subcategory": "Íconos de interfaz",
+    "subcategory_id": 5,
+    "imgUrl": "./images/categories/icons/remix-icon.jpg",
+    "link": "https://remixicon.com",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 7,
     "title": "Feather Icons",
     "description": "Colección de íconos ligeros, minimalistas y de código abierto.",
     "category": "Icons",
@@ -72,19 +84,19 @@
     "pricing": "Gratis"
   },
   {
-    "resource_id": 7,
+    "resource_id": 8,
     "title": "Noun Project",
     "description": "Colección masiva de íconos gratuitos y premium para todos los propósitos.",
     "category": "Icons",
     "category_id": 7,
-    "subcategory": "Íconos variados",
-    "subcategory_id": 7,
+    "subcategory": "Colecciones de íconos",
+    "subcategory_id": 2,
     "imgUrl": "./images/categories/icons/noun-project.jpg",
     "link": "https://thenounproject.com",
     "pricing": "Gratis y de pago"
   },
   {
-    "resource_id": 8,
+    "resource_id": 9,
     "title": "Boxicons",
     "description": "Biblioteca gratuita de íconos simples, perfectos para diseños modernos.",
     "category": "Icons",
@@ -96,7 +108,7 @@
     "pricing": "Gratis"
   },
   {
-    "resource_id": 9,
+    "resource_id": 10,
     "title": "Eva Icons",
     "description": "Conjunto de íconos hermosos y personalizables para aplicaciones web.",
     "category": "Icons",
@@ -108,7 +120,7 @@
     "pricing": "Gratis"
   },
   {
-    "resource_id": 10,
+    "resource_id": 11,
     "title": "Streamline Icons",
     "description": "Colección de íconos de alta calidad con opciones para personalización.",
     "category": "Icons",
@@ -120,7 +132,7 @@
     "pricing": "De pago"
   },
   {
-    "resource_id": 11,
+    "resource_id": 12,
     "title": "Lineicons",
     "description": "Biblioteca de íconos de líneas con opciones modernas y minimalistas.",
     "category": "Icons",
@@ -132,19 +144,31 @@
     "pricing": "Gratis y de pago"
   },
   {
-    "resource_id": 12,
+    "resource_id": 13,
+    "title": "SVGRepo",
+    "description": "Plataforma con miles de íconos y gráficos SVG para usar en cualquier proyecto.",
+    "category": "Icons",
+    "category_id": 7,
+    "subcategory": "Plataformas SVG",
+    "subcategory_id": 19,
+    "imgUrl": "./images/categories/icons/svgrepo.jpg",
+    "link": "https://svgrepo.com",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 14,
     "title": "Tabler Icons",
     "description": "Íconos SVG gratuitos con un diseño simple y personalizable.",
     "category": "Icons",
     "category_id": 7,
-    "subcategory": "Íconos SVG",
-    "subcategory_id": 12,
+    "subcategory": "Plataformas SVG",
+    "subcategory_id": 19,
     "imgUrl": "./images/categories/icons/tabler-icons.jpg",
     "link": "https://tabler-icons.io",
     "pricing": "Gratis"
   },
   {
-    "resource_id": 13,
+    "resource_id": 15,
     "title": "Bootstrap Icons",
     "description": "Conjunto oficial de íconos de Bootstrap para usar en proyectos web.",
     "category": "Icons",
@@ -156,7 +180,7 @@
     "pricing": "Gratis"
   },
   {
-    "resource_id": 14,
+    "resource_id": 16,
     "title": "Ionicons",
     "description": "Íconos de código abierto diseñados para aplicaciones móviles y web.",
     "category": "Icons",
@@ -168,31 +192,19 @@
     "pricing": "Gratis"
   },
   {
-    "resource_id": 15,
-    "title": "Remix Icon",
-    "description": "Colección de íconos diseñados para proyectos de interfaz de usuario.",
-    "category": "Icons",
-    "category_id": 7,
-    "subcategory": "Íconos de interfaz",
-    "subcategory_id": 15,
-    "imgUrl": "./images/categories/icons/remix-icon.jpg",
-    "link": "https://remixicon.com",
-    "pricing": "Gratis"
-  },
-  {
-    "resource_id": 16,
+    "resource_id": 17,
     "title": "Pictogrammers",
     "description": "Colección de íconos gratuitos basados en Material Design.",
     "category": "Icons",
     "category_id": 7,
-    "subcategory": "Íconos de diseño",
-    "subcategory_id": 16,
+    "subcategory": "Diseño de materiales",
+    "subcategory_id": 3,
     "imgUrl": "./images/categories/icons/pictogrammers.jpg",
     "link": "https://pictogrammers.com",
     "pricing": "Gratis"
   },
   {
-    "resource_id": 17,
+    "resource_id": 18,
     "title": "Ikonate",
     "description": "Íconos accesibles y editables diseñados para web y apps.",
     "category": "Icons",
@@ -204,7 +216,7 @@
     "pricing": "Gratis"
   },
   {
-    "resource_id": 18,
+    "resource_id": 19,
     "title": "Phosphor Icons",
     "description": "Íconos flexibles y modernos que soportan múltiples estilos.",
     "category": "Icons",
@@ -213,18 +225,6 @@
     "subcategory_id": 18,
     "imgUrl": "./images/categories/icons/phosphor-icons.jpg",
     "link": "https://phosphoricons.com",
-    "pricing": "Gratis"
-  },
-  {
-    "resource_id": 19,
-    "title": "SVGRepo",
-    "description": "Plataforma con miles de íconos y gráficos SVG para usar en cualquier proyecto.",
-    "category": "Icons",
-    "category_id": 7,
-    "subcategory": "Plataformas SVG",
-    "subcategory_id": 19,
-    "imgUrl": "./images/categories/icons/svgrepo.jpg",
-    "link": "https://svgrepo.com",
     "pricing": "Gratis"
   },
   {

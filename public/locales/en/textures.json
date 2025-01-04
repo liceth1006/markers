@@ -2,241 +2,241 @@
   {
     "resource_id": 1,
     "title": "Textures.com",
-    "description": "Amplia biblioteca de texturas gratuitas y premium para diseño gráfico y 3D.",
+    "description": "Extensive library of free and premium textures for graphic and 3D design.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas generales",
+    "subcategory": "General textures",
     "subcategory_id": 1,
     "imgUrl": "./images/categories/textures/textures-com.jpg",
     "link": "https://www.textures.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and paid"
   },
   {
     "resource_id": 2,
     "title": "3DTextures.me",
-    "description": "Texturas gratuitas en alta resolución para modelado 3D y renderizado.",
+    "description": "Free high-resolution textures for 3D modeling and rendering.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas 3D",
+    "subcategory": "3D textures",
     "subcategory_id": 2,
     "imgUrl": "./images/categories/textures/3dtextures.jpg",
     "link": "https://3dtextures.me",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 3,
     "title": "Subtle Patterns",
-    "description": "Colección de patrones y texturas sutiles para diseño web.",
+    "description": "Collection of subtle patterns and textures for web design.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Patrones sutiles",
+    "subcategory": "Subtle patterns",
     "subcategory_id": 3,
     "imgUrl": "./images/categories/textures/subtle-patterns.jpg",
     "link": "https://www.toptal.com/designers/subtlepatterns",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 4,
     "title": "Poliigon",
-    "description": "Texturas de alta calidad diseñadas para renders fotorrealistas.",
+    "description": "High-quality textures designed for photorealistic renders.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas realistas",
+    "subcategory": "Realistic textures",
     "subcategory_id": 4,
     "imgUrl": "./images/categories/textures/poliigon.jpg",
     "link": "https://www.poliigon.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 5,
     "title": "Seamless Textures",
-    "description": "Texturas sin costuras gratuitas para diseño gráfico y 3D.",
+    "description": "Free seamless textures for graphic and 3D design.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas sin costuras",
+    "subcategory": "Seamless textures",
     "subcategory_id": 5,
     "imgUrl": "./images/categories/textures/seamless-textures.jpg",
     "link": "https://www.texturex.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 6,
     "title": "CGTextures",
-    "description": "Amplia colección de texturas para artistas digitales y modeladores 3D.",
+    "description": "Extensive collection of textures for digital artists and 3D modelers.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas digitales",
+    "subcategory": "Digital textures",
     "subcategory_id": 6,
     "imgUrl": "./images/categories/textures/cgtextures.jpg",
     "link": "https://www.cgtextures.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 7,
     "title": "SketchUp Texture Club",
-    "description": "Texturas gratuitas y premium para proyectos de diseño arquitectónico.",
+    "description": "Free and premium textures for architectural design projects.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas arquitectónicas",
+    "subcategory": "Architectural textures",
     "subcategory_id": 7,
     "imgUrl": "./images/categories/textures/sketchup-texture.jpg",
     "link": "https://www.sketchuptextureclub.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and paid"
   },
   {
     "resource_id": 8,
     "title": "ShareTextures",
-    "description": "Texturas PBR gratuitas para modelado 3D y diseño de juegos.",
+    "description": "Free PBR textures for 3D modeling and game design.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas PBR",
+    "subcategory": "PBR textures",
     "subcategory_id": 8,
     "imgUrl": "./images/categories/textures/sharetextures.jpg",
     "link": "https://www.sharetextures.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 9,
     "title": "Good Textures",
-    "description": "Texturas gratuitas en alta resolución para proyectos creativos.",
+    "description": "Free high-resolution textures for creative projects.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Alta resolución",
+    "subcategory": "High resolution",
     "subcategory_id": 9,
     "imgUrl": "./images/categories/textures/good-textures.jpg",
     "link": "https://www.goodtextures.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 10,
     "title": "Environment Textures",
-    "description": "Texturas panorámicas y HDRI para proyectos de renderizado.",
+    "description": "Panoramic and HDRI textures for rendering projects.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas HDRI",
+    "subcategory": "HDRI textures",
     "subcategory_id": 10,
     "imgUrl": "./images/categories/textures/environment-textures.jpg",
     "link": "https://www.environment-textures.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 11,
     "title": "Filter Forge",
-    "description": "Creador de texturas y filtros personalizables para diseño gráfico.",
+    "description": "Customizable texture and filter creator for graphic design.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Generador de texturas",
+    "subcategory": "Texture generator",
     "subcategory_id": 11,
     "imgUrl": "./images/categories/textures/filter-forge.jpg",
     "link": "https://www.filterforge.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 12,
     "title": "Texture Haven",
-    "description": "Texturas PBR 100% gratuitas en alta resolución.",
+    "description": "100% free PBR textures in high resolution.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas gratuitas",
+    "subcategory": "Free textures",
     "subcategory_id": 12,
     "imgUrl": "./images/categories/textures/texture-haven.jpg",
     "link": "https://www.texturehaven.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 13,
     "title": "3D Total",
-    "description": "Recursos de texturas y tutoriales para artistas 3D.",
+    "description": "Texture resources and tutorials for 3D artists.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas y tutoriales",
+    "subcategory": "Textures and tutorials",
     "subcategory_id": 13,
     "imgUrl": "./images/categories/textures/3d-total.jpg",
     "link": "https://www.3dtotal.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 14,
     "title": "Free PBR",
-    "description": "Texturas PBR gratuitas para juegos y proyectos 3D.",
+    "description": "Free PBR textures for games and 3D projects.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas para juegos",
+    "subcategory": "Game textures",
     "subcategory_id": 14,
     "imgUrl": "./images/categories/textures/free-pbr.jpg",
     "link": "https://www.freepbr.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 15,
     "title": "Plain Textures",
-    "description": "Texturas planas gratuitas para diseño gráfico.",
+    "description": "Free flat textures for graphic design.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas planas",
+    "subcategory": "Flat textures",
     "subcategory_id": 15,
     "imgUrl": "./images/categories/textures/plain-textures.jpg",
     "link": "https://www.plaintextures.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 16,
     "title": "AmbientCG",
-    "description": "Texturas y materiales gratuitos con licencias libres para cualquier uso.",
+    "description": "Free textures and materials with open licenses for any use.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas libres",
+    "subcategory": "Open textures",
     "subcategory_id": 16,
     "imgUrl": "./images/categories/textures/ambientcg.jpg",
     "link": "https://www.ambientcg.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 17,
     "title": "Real Textures",
-    "description": "Colección de texturas realistas para arquitectura y visualización.",
+    "description": "Collection of realistic textures for architecture and visualization.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas realistas",
+    "subcategory": "Realistic textures",
     "subcategory_id": 17,
     "imgUrl": "./images/categories/textures/real-textures.jpg",
     "link": "https://www.realtextures.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 18,
     "title": "CC0 Textures",
-    "description": "Texturas gratuitas con licencia CC0 para uso comercial.",
+    "description": "Free textures with CC0 licenses for commercial use.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas CC0",
+    "subcategory": "CC0 textures",
     "subcategory_id": 18,
     "imgUrl": "./images/categories/textures/cc0-textures.jpg",
     "link": "https://www.cc0textures.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 19,
     "title": "Texture Ninja",
-    "description": "Gran colección de texturas gratuitas en alta resolución.",
+    "description": "Large collection of free high-resolution textures.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Texturas HD",
+    "subcategory": "HD textures",
     "subcategory_id": 19,
     "imgUrl": "./images/categories/textures/texture-ninja.jpg",
     "link": "https://www.textureninja.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 20,
     "title": "Arroway Textures",
-    "description": "Texturas premium diseñadas para visualizaciones arquitectónicas.",
+    "description": "Premium textures designed for architectural visualizations.",
     "category": "Textures",
     "category_id": 9,
-    "subcategory": "Visualización arquitectónica",
+    "subcategory": "Architectural visualization",
     "subcategory_id": 20,
     "imgUrl": "./images/categories/textures/arroway-textures.jpg",
     "link": "https://www.arroway-textures.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   }
 ]

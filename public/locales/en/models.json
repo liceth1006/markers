@@ -2,217 +2,217 @@
   {
     "resource_id": 1,
     "title": "TurboSquid",
-    "description": "Amplia colección de modelos 3D gratuitos y de pago para diseño y animación.",
+    "description": "Extensive collection of free and paid 3D models for design and animation.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos 3D generales",
+    "subcategory": "General 3D Models",
     "subcategory_id": 1,
     "imgUrl": "./images/categories/3d-models/turbosquid.jpg",
     "link": "https://www.turbosquid.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and paid"
   },
   {
     "resource_id": 2,
     "title": "Sketchfab",
-    "description": "Plataforma para descargar y compartir modelos 3D interactivos.",
+    "description": "Platform for downloading and sharing interactive 3D models.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos 3D interactivos",
+    "subcategory": "Interactive 3D Models",
     "subcategory_id": 2,
     "imgUrl": "./images/categories/3d-models/sketchfab.jpg",
     "link": "https://www.sketchfab.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and paid"
   },
   {
     "resource_id": 3,
     "title": "CGTrader",
-    "description": "Modelos 3D para impresión, diseño y realidad aumentada.",
+    "description": "3D models for printing, design, and augmented reality.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos para impresión 3D",
+    "subcategory": "3D Printing Models",
     "subcategory_id": 3,
     "imgUrl": "./images/categories/3d-models/cgtrader.jpg",
     "link": "https://www.cgtrader.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and paid"
   },
   {
     "resource_id": 4,
     "title": "Free3D",
-    "description": "Modelos 3D gratuitos en diversos formatos para proyectos creativos.",
+    "description": "Free 3D models in various formats for creative projects.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos 3D gratuitos",
+    "subcategory": "Free 3D Models",
     "subcategory_id": 4,
     "imgUrl": "./images/categories/3d-models/free3d.jpg",
     "link": "https://www.free3d.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 5,
     "title": "BlenderKit",
-    "description": "Complemento de Blender con miles de modelos y materiales 3D.",
+    "description": "Blender add-on with thousands of 3D models and materials.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Complementos para Blender",
+    "subcategory": "Blender Add-ons",
     "subcategory_id": 5,
     "imgUrl": "./images/categories/3d-models/blenderkit.jpg",
     "link": "https://www.blenderkit.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and paid"
   },
   {
     "resource_id": 6,
     "title": "Thingiverse",
-    "description": "Modelos 3D gratuitos para impresión y diseño personal.",
+    "description": "Free 3D models for printing and personal design.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos para impresión 3D",
+    "subcategory": "3D Printing Models",
     "subcategory_id": 6,
     "imgUrl": "./images/categories/3d-models/thingiverse.jpg",
     "link": "https://www.thingiverse.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 7,
     "title": "3DExport",
-    "description": "Modelos 3D, texturas y tutoriales para diseñadores y artistas.",
+    "description": "3D models, textures, and tutorials for designers and artists.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Recursos de diseño 3D",
+    "subcategory": "3D Design Resources",
     "subcategory_id": 7,
     "imgUrl": "./images/categories/3d-models/3dexport.jpg",
     "link": "https://www.3dexport.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 8,
     "title": "MyMiniFactory",
-    "description": "Modelos 3D de alta calidad para impresión y diseño.",
+    "description": "High-quality 3D models for printing and design.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos 3D impresos",
+    "subcategory": "Printed 3D Models",
     "subcategory_id": 8,
     "imgUrl": "./images/categories/3d-models/myminifactory.jpg",
     "link": "https://www.myminifactory.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and paid"
   },
   {
     "resource_id": 9,
     "title": "3D Warehouse",
-    "description": "Biblioteca de modelos 3D gratuita integrada con SketchUp.",
+    "description": "Free 3D model library integrated with SketchUp.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Bibliotecas 3D",
+    "subcategory": "3D Libraries",
     "subcategory_id": 9,
     "imgUrl": "./images/categories/3d-models/3dwarehouse.jpg",
     "link": "https://3dwarehouse.sketchup.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 10,
     "title": "GrabCAD",
-    "description": "Biblioteca de modelos CAD y 3D gratuitos para ingeniería y diseño.",
+    "description": "Library of free CAD and 3D models for engineering and design.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos CAD",
+    "subcategory": "CAD Models",
     "subcategory_id": 10,
     "imgUrl": "./images/categories/3d-models/grabcad.jpg",
     "link": "https://grabcad.com/library",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 11,
     "title": "Hum3D",
-    "description": "Modelos 3D realistas de vehículos, productos y accesorios.",
+    "description": "Realistic 3D models of vehicles, products, and accessories.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos 3D realistas",
+    "subcategory": "Realistic 3D Models",
     "subcategory_id": 11,
     "imgUrl": "./images/categories/3d-models/hum3d.jpg",
     "link": "https://www.hum3d.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 12,
     "title": "CadNav",
-    "description": "Modelos 3D y recursos CAD gratuitos para proyectos de diseño.",
+    "description": "Free 3D models and CAD resources for design projects.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Recursos CAD",
+    "subcategory": "CAD Resources",
     "subcategory_id": 12,
     "imgUrl": "./images/categories/3d-models/cadnav.jpg",
     "link": "https://www.cadnav.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 13,
     "title": "3Dsky",
-    "description": "Modelos 3D premium de alta calidad para visualización.",
+    "description": "High-quality premium 3D models for visualization.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos premium",
+    "subcategory": "Premium Models",
     "subcategory_id": 13,
     "imgUrl": "./images/categories/3d-models/3dsky.jpg",
     "link": "https://www.3dsky.org",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 14,
     "title": "Renderpeople",
-    "description": "Modelos 3D de personas en poses realistas para renders.",
+    "description": "3D human models in realistic poses for renders.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos humanos",
+    "subcategory": "Human Models",
     "subcategory_id": 14,
     "imgUrl": "./images/categories/3d-models/renderpeople.jpg",
     "link": "https://www.renderpeople.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and paid"
   },
   {
     "resource_id": 15,
     "title": "XYZRGB",
-    "description": "Modelos 3D escaneados en alta calidad para renders.",
+    "description": "High-quality scanned 3D models for renders.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos escaneados",
+    "subcategory": "Scanned Models",
     "subcategory_id": 15,
     "imgUrl": "./images/categories/3d-models/xyzrgb.jpg",
     "link": "https://www.xyzrgb.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 16,
     "title": "Mixamo",
-    "description": "Modelos y animaciones 3D para diseño de personajes.",
+    "description": "3D models and animations for character design.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Animación de personajes",
+    "subcategory": "Character Animation",
     "subcategory_id": 16,
     "imgUrl": "./images/categories/3d-models/mixamo.jpg",
     "link": "https://www.mixamo.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 17,
     "title": "Evermotion",
-    "description": "Modelos 3D y recursos para visualización arquitectónica.",
+    "description": "3D models and resources for architectural visualization.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Visualización arquitectónica",
+    "subcategory": "Architectural Visualization",
     "subcategory_id": 17,
     "imgUrl": "./images/categories/3d-models/evermotion.jpg",
     "link": "https://www.evermotion.org",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 18,
     "title": "Open3DModel",
-    "description": "Modelos 3D gratuitos para cualquier tipo de proyecto creativo.",
+    "description": "Free 3D models for any type of creative project.",
     "category": "3D Models",
     "category_id": 10,
-    "subcategory": "Modelos gratuitos",
+    "subcategory": "Free Models",
     "subcategory_id": 18,
     "imgUrl": "./images/categories/3d-models/open3dmodel.jpg",
     "link": "https://www.open3dmodel.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   }
 ]

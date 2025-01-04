@@ -3,6 +3,7 @@ import ResourceCard from "../components/ResourceCard";
 import SelectCategory from "../components/SelectCategory";
 
 function MyBookmarks() {
+  
   const [savedResources, setSavedResources] = useState([]);
   const [filter, setFilter] = useState("");
   const [products, setProducts] = useState([]);

@@ -2,241 +2,241 @@
   {
     "resource_id": 1,
     "title": "Undraw",
-    "description": "Biblioteca de ilustraciones SVG gratuitas, personalizables y listas para usar en proyectos digitales.",
+    "description": "Library of free, customizable SVG illustrations ready for use in digital projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones SVG",
+    "subcategory": "SVG Illustrations",
     "subcategory_id": 1,
     "imgUrl": "./images/categories/illustrations/undraw.jpg",
     "link": "https://undraw.co",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 2,
     "title": "Freepik Illustrations",
-    "description": "Miles de ilustraciones gratuitas y premium para usar en diseño gráfico, web y más.",
+    "description": "Thousands of free and premium illustrations for graphic design, web, and more.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones para diseño",
+    "subcategory": "Design Illustrations",
     "subcategory_id": 2,
     "imgUrl": "./images/categories/illustrations/freepik.jpg",
     "link": "https://freepik.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 3,
     "title": "Blush",
-    "description": "Herramienta para crear ilustraciones personalizadas utilizando colecciones de artistas.",
+    "description": "Tool to create custom illustrations using artist collections.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones personalizadas",
+    "subcategory": "Custom Illustrations",
     "subcategory_id": 3,
     "imgUrl": "./images/categories/illustrations/blush.jpg",
     "link": "https://blush.design",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 4,
     "title": "Storyset",
-    "description": "Ilustraciones animadas y estáticas gratuitas para proyectos web y móviles.",
+    "description": "Free animated and static illustrations for web and mobile projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones animadas",
+    "subcategory": "Animated Illustrations",
     "subcategory_id": 4,
     "imgUrl": "./images/categories/illustrations/storyset.jpg",
     "link": "https://storyset.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 5,
     "title": "Humaaans",
-    "description": "Biblioteca gratuita de ilustraciones de personas con opciones para personalizar poses, ropa y estilos.",
+    "description": "Free library of illustrations featuring people with customizable poses, clothes, and styles.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones de personas",
+    "subcategory": "Human Illustrations",
     "subcategory_id": 5,
     "imgUrl": "./images/categories/illustrations/humaaans.jpg",
     "link": "https://humaaans.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 6,
     "title": "Icons8 Ouch",
-    "description": "Colección de ilustraciones gratuitas y premium en diferentes estilos y formatos.",
+    "description": "Collection of free and premium illustrations in various styles and formats.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones modernas",
+    "subcategory": "Modern Illustrations",
     "subcategory_id": 6,
     "imgUrl": "./images/categories/illustrations/icons8-ouch.jpg",
     "link": "https://icons8.com/illustrations",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 7,
     "title": "Open Peeps",
-    "description": "Colección modular de ilustraciones de personas que puedes mezclar y personalizar.",
+    "description": "Modular collection of illustrations featuring people that can be mixed and customized.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones modulares",
+    "subcategory": "Modular Illustrations",
     "subcategory_id": 8,
     "imgUrl": "./images/categories/illustrations/open-peeps.jpg",
     "link": "https://openpeeps.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 8,
     "title": "VectorStock Illustrations",
-    "description": "Millones de ilustraciones vectoriales para proyectos de diseño, disponibles en diferentes estilos.",
+    "description": "Millions of vector illustrations for design projects, available in various styles.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Vectores",
+    "subcategory": "Vectors",
     "subcategory_id": 9,
     "imgUrl": "./images/categories/illustrations/vectorstock.jpg",
     "link": "https://vectorstock.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 9,
     "title": "DrawKit",
-    "description": "Ilustraciones gratuitas y premium de alta calidad para proyectos personales y comerciales.",
+    "description": "High-quality free and premium illustrations for personal and commercial projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones para comerciales",
+    "subcategory": "Commercial Illustrations",
     "subcategory_id": 10,
     "imgUrl": "./images/categories/illustrations/drawkit.jpg",
     "link": "https://drawkit.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 10,
     "title": "Absurd Design",
-    "description": "Ilustraciones abstractas y únicas para dar un toque creativo a tus proyectos.",
+    "description": "Abstract and unique illustrations to add a creative touch to your projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones abstractas",
+    "subcategory": "Abstract Illustrations",
     "subcategory_id": 11,
     "imgUrl": "./images/categories/illustrations/absurd-design.jpg",
     "link": "https://absurd.design",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 11,
     "title": "Pablo Stanley's Illustrations",
-    "description": "Ilustraciones gratuitas de Pablo Stanley, ideales para proyectos creativos y personales.",
+    "description": "Free illustrations by Pablo Stanley, ideal for creative and personal projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones artísticas",
+    "subcategory": "Artistic Illustrations",
     "subcategory_id": 12,
     "imgUrl": "./images/categories/illustrations/pablo-stanley.jpg",
     "link": "https://pablostanley.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 12,
     "title": "IRA Design",
-    "description": "Herramienta que permite crear ilustraciones únicas combinando colores y formas.",
+    "description": "Tool to create unique illustrations by combining colors and shapes.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones únicas",
+    "subcategory": "Unique Illustrations",
     "subcategory_id": 15,
     "imgUrl": "./images/categories/illustrations/ira-design.jpg",
     "link": "https://iradesign.io",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 13,
     "title": "Froala Illustrations",
-    "description": "Biblioteca de ilustraciones personalizables para proyectos web y aplicaciones.",
+    "description": "Customizable illustration library for web and app projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones personalizables",
+    "subcategory": "Customizable Illustrations",
     "subcategory_id": 16,
     "imgUrl": "./images/categories/illustrations/froala.jpg",
     "link": "https://froala.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 14,
     "title": "Pixeltrue",
-    "description": "Ilustraciones gratuitas y premium para usar en proyectos personales y comerciales.",
+    "description": "Free and premium illustrations for personal and commercial projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones digitales",
+    "subcategory": "Digital Illustrations",
     "subcategory_id": 17,
     "imgUrl": "./images/categories/illustrations/pixeltrue.jpg",
     "link": "https://pixeltrue.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 15,
     "title": "GetIllustrations",
-    "description": "Recursos de ilustraciones premium para diseño y branding.",
+    "description": "Premium illustration resources for design and branding.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Recursos premium",
+    "subcategory": "Premium Resources",
     "subcategory_id": 18,
     "imgUrl": "./images/categories/illustrations/getillustrations.jpg",
     "link": "https://getillustrations.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 16,
     "title": "Drawtify",
-    "description": "Editor online de gráficos y diseño con ilustraciones prediseñadas.",
+    "description": "Online graphic and design editor with pre-designed illustrations.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Herramientas online",
+    "subcategory": "Online Tools",
     "subcategory_id": 19,
     "imgUrl": "./images/categories/illustrations/drawtify.jpg",
     "link": "https://drawtify.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 17,
     "title": "Skribbl",
-    "description": "Colección gratuita de ilustraciones dibujadas a mano para proyectos digitales.",
+    "description": "Free collection of hand-drawn illustrations for digital projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones dibujadas a mano",
+    "subcategory": "Hand-Drawn Illustrations",
     "subcategory_id": 20,
     "imgUrl": "./images/categories/illustrations/skribbl.jpg",
     "link": "https://weareskribbl.com",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 18,
     "title": "Artify",
-    "description": "Banco de recursos de diseño e ilustraciones personalizables.",
+    "description": "Design and customizable illustration resource bank.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Recursos de diseño",
+    "subcategory": "Design Resources",
     "subcategory_id": 21,
     "imgUrl": "./images/categories/illustrations/artify.jpg",
     "link": "https://artify.co",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 19,
     "title": "Handz Illustrations",
-    "description": "Ilustraciones de manos dibujadas a mano con opciones de personalización.",
+    "description": "Hand-drawn illustrations of hands with customization options.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones de manos",
+    "subcategory": "Hand Illustrations",
     "subcategory_id": 22,
     "imgUrl": "./images/categories/illustrations/handz.jpg",
     "link": "https://handz.design",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 20,
     "title": "Iconscout Illustrations",
-    "description": "Miles de ilustraciones gratuitas y premium en diferentes estilos para proyectos digitales.",
+    "description": "Thousands of free and premium illustrations in various styles for digital projects.",
     "category": "Illustrations",
     "category_id": 6,
-    "subcategory": "Ilustraciones variadas",
+    "subcategory": "Varied Illustrations",
     "subcategory_id": 23,
     "imgUrl": "./images/categories/illustrations/iconscout.jpg",
     "link": "https://iconscout.com/illustrations",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   }
 ]
