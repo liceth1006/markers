@@ -1,5 +1,4 @@
 [
- 
   {
     "category_id": 1,
     "department_id": 1,
@@ -31,8 +30,8 @@
   {
     "category_id": 5,
     "department_id": 1,
-    "name": "Backgrounds 📚",
-    "description": "Recursos de aprendizaje y guías paso a paso para diseñadores gráficos.",
+    "name": "Fondos 📚",
+    "description": "Fondos para diseño digital, como páginas web y otros proyectos creativos.",
     "path": "/backgrounds"
   },
   {
@@ -119,159 +118,81 @@
     "description": "Herramientas y estructuras que proporcionan una base para el desarrollo de software.",
     "path": "/frameworks"
   },
-
   {
-    "category_id": 19,
+    "category_id": 18,
     "department_id": 5,
     "name": "YouTubers de Programación 🎥💻",
     "description": "Canales educativos de programación para aprender nuevas habilidades.",
     "path": "/programming-youtubers"
   },
   {
-    "category_id": 20,
+    "category_id": 19,
     "department_id": 5,
     "name": "YouTubers de Diseño 🎥🎨",
     "description": "Canales educativos de diseño para aprendizaje gráfico y creativo.",
     "path": "/design-youtubers"
   },
   {
-    "category_id": 21,
+    "category_id": 20,
     "department_id": 5,
     "name": "Documentación 📑",
     "description": "Guías escritas y recursos para consultar sobre diversos temas.",
     "path": "/documentation"
   },
   {
-    "category_id": 22,
+    "category_id": 21,
     "department_id": 6,
     "name": "Generación de Texto 📝",
     "description": "Herramientas para generar texto usando inteligencia artificial.",
     "path": "/text-generation"
   },
   {
-    "category_id": 23,
+    "category_id": 22,
     "department_id": 6,
     "name": "Generación de Imágenes 🖼️",
     "description": "Herramientas para crear imágenes usando inteligencia artificial.",
     "path": "/image-generation"
   },
   {
-    "category_id": 24,
+    "category_id": 23,
     "department_id": 6,
     "name": "Generación de Videos 🎬",
     "description": "Herramientas para crear videos usando inteligencia artificial.",
     "path": "/video-generation"
   },
   {
-    "category_id": 25,
+    "category_id": 24,
     "department_id": 7,
     "name": "Portfolios Creativos 🌟",
     "description": "Portfolios de diseñadores y creativos para inspirar nuevas ideas.",
     "path": "/creative-portfolios"
   },
   {
-    "category_id": 26,
+    "category_id": 25,
     "department_id": 7,
     "name": "Tendencias de Diseño 🔥",
     "description": "Últimas tendencias en diseño gráfico y digital.",
     "path": "/design-trends"
   },
   {
-    "category_id": 27,
+    "category_id": 26,
     "department_id": 8,
     "name": "Compresores de Imágenes 📉",
     "description": "Herramientas para reducir el tamaño de las imágenes sin perder calidad.",
     "path": "/image-compressors"
   },
   {
-    "category_id": 28,
+    "category_id": 27,
     "department_id": 8,
     "name": "Eliminadores de Fondo 🖼️",
     "description": "Herramientas para eliminar fondos de las imágenes de manera automática.",
     "path": "/background-removers"
   },
   {
-    "category_id": 29,
+    "category_id": 28,
     "department_id": 8,
     "name": "Optimizadores de Recursos ⚙️",
     "description": "Herramientas para optimizar recursos como imágenes, videos y otros archivos.",
     "path": "/resource-optimizers"
-  },
-  {
-    "category_id": 30,
-    "department_id": 9,
-    "name": "SEO 🚀",
-    "description": "Herramientas para optimizar y mejorar el posicionamiento en buscadores.",
-    "path": "/seo"
-  },
-  {
-    "category_id": 31,
-    "department_id": 9,
-    "name": "Redes Sociales 📱",
-    "description": "Herramientas para gestionar y analizar redes sociales.",
-    "path": "/social-media"
-  },
-  {
-    "category_id": 32,
-    "department_id": 9,
-    "name": "Email Marketing 📧",
-    "description": "Herramientas para crear y gestionar campañas de email marketing.",
-    "path": "/email-marketing"
-  },
-  {
-    "category_id": 33,
-    "department_id": 10,
-    "name": "Motores de Juego 🎮",
-    "description": "Plataformas y software para la creación de videojuegos.",
-    "path": "/game-engines"
-  },
-  {
-    "category_id": 34,
-    "department_id": 10,
-    "name": "Assets de Juego 🎮",
-    "description": "Recursos y elementos visuales para videojuegos.",
-    "path": "/game-assets"
-  },
-  {
-    "category_id": 35,
-    "department_id": 10,
-    "name": "Tutoriales de Juegos 🎮",
-    "description": "Tutoriales y recursos educativos para la creación de videojuegos.",
-    "path": "/game-tutorials"
-  },
-  {
-    "category_id": 36,
-    "department_id": 11,
-    "name": "UI/UX 🎨",
-    "description": "Componentes visuales, temas, frameworks para interfaces de usuario.",
-    "path": "/ui-ux-libraries"
-  },
-  {
-    "category_id": 37,
-    "department_id": 11,
-    "name": "Animación ✨",
-    "description": "Efectos visuales, transiciones, animaciones para interfaces.",
-    "path": "/animation-libraries"
-  },
-  {
-    "category_id": 38,
-    "department_id": 11,
-    "name": "Librerías de Manejo de Estado 🗃️",
-    "description": "Redux, MobX, Zustand, para gestionar el estado de la aplicación.",
-    "path": "/state-management-libraries"
-  },
-  {
-    "category_id": 39,
-    "department_id": 11,
-    "name": "Validación ✅",
-    "description": "Librerías para validación de formularios y datos, como Joi, Yup.",
-    "path": "/validation-libraries"
-  },
-  {
-    "category_id": 40,
-    "department_id": 11,
-    "name": "Conexión con APIs 🔗",
-    "description": "Axios, Fetch, GraphQL, herramientas para consumir APIs externas.",
-    "path": "/api-connection-libraries"
   }
 ]
