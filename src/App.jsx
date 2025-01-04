@@ -31,6 +31,9 @@ import ImageGeneration from "./pages/ImageGeneration";
 import VideoGeneration from "./pages/VideoGeneration";
 import CreativePortfolios from "./pages/CreativePortfolios";
 import DesignTrends from "./pages/DesignTrends";
+import ImageCompressors from "./pages/ImageCompressors";
+import BackgroundRemovers from "./pages/BackgroundRemovers";
+import ResourceOptimizers from "./pages/ResourceOptimizers";
 function App() {
   return (
     <Router>
@@ -66,7 +69,10 @@ function App() {
           <Route path="/video-templates" element={<VideoTemplates/>} />
           <Route path="/creative-portfolios" element={<CreativePortfolios/>} />
           <Route path="/design-trends" element={<DesignTrends/>} />
+          <Route path="/image-compressors" element={<ImageCompressors/>} />
           <Route path="/design-tools" element={<DesignTools/>} />
+          <Route path="/resource-optimizers" element={<ResourceOptimizers/>} />
+          <Route path="/background-removers" element={<BackgroundRemovers/>} />
           <Route path="/my-bookmarks" element={<MyBookmarks />} />
         </Routes>
         <Footer/>

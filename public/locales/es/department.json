@@ -38,25 +38,6 @@
     "department_id": 8,
     "department": "Herramientas Útiles",
     "description": "Conjunto de herramientas para facilitar tareas comunes como compresión de imágenes, eliminación de fondos y optimización de recursos."
-  },
-  {
-    "department_id": 9,
-    "department": "Marketing Digital",
-    "description": "Estrategias y herramientas para mejorar la visibilidad y promoción de productos o servicios en línea, incluyendo SEO, redes sociales y email marketing."
-  },
-  {
-    "department_id": 10,
-    "department": "Desarrollo de Juegos",
-    "description": "Recursos y plataformas para la creación y distribución de videojuegos, incluyendo motores de juego, assets y tutoriales."
-  },
-  {
-    "department_id": 11,
-    "department": "Librerías",
-    "description": "Conjunto de librerías y frameworks para facilitar el desarrollo de aplicaciones, desde interfaces de usuario hasta la gestión de datos y APIs."
-  },
-  {
-    "department_id": 12,
-    "department": "Negocios",
-    "description": "Estrategias y herramientas para la gestión empresarial, incluyendo marketing, finanzas, transformación digital y gestión de proyectos."
   }
+  
 ]

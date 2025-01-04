@@ -1,0 +1,122 @@
+[
+  {
+    "resource_id": 1,
+    "title": "TinyPNG",
+    "description": "Herramienta en línea que permite comprimir imágenes PNG y JPEG sin perder calidad.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/tinypng.jpg",
+    "link": "https://tinypng.com/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 2,
+    "title": "JPEG-Optimizer",
+    "description": "Comprime y optimiza imágenes JPEG para que carguen más rápido en la web.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/jpegoptimizer.jpg",
+    "link": "https://www.jpeg-optimizer.com/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 3,
+    "title": "Compressor.io",
+    "description": "Compresor de imágenes en línea que permite reducir el tamaño de archivos PNG, JPEG, GIF y SVG.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/compressor.jpg",
+    "link": "https://compressor.io/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 4,
+    "title": "ImageOptim",
+    "description": "Comprime imágenes PNG, JPEG y GIF de forma sencilla para Mac.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/imageoptim.jpg",
+    "link": "https://imageoptim.com/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 5,
+    "title": "Optimizilla",
+    "description": "Herramienta en línea que permite comprimir imágenes JPEG y PNG con alta calidad.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/optimizilla.jpg",
+    "link": "https://optimizilla.com/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 6,
+    "title": "Kraken.io",
+    "description": "Compresor de imágenes online que reduce el tamaño de imágenes PNG, JPEG y GIF sin perder calidad.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/krakenio.jpg",
+    "link": "https://kraken.io/web-interface",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 7,
+    "title": "Squoosh",
+    "description": "Compresor de imágenes interactivo desarrollado por Google que permite comprimir imágenes en múltiples formatos.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/squoosh.jpg",
+    "link": "https://squoosh.app/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 8,
+    "title": "IloveIMG",
+    "description": "Comprime, redimensiona y convierte imágenes en línea, compatible con varios formatos de imagen.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/iloveimg.jpg",
+    "link": "https://www.iloveimg.com/compress-image",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 9,
+    "title": "ResizeImage.net",
+    "description": "Comprime y redimensiona imágenes PNG, JPEG, GIF, BMP y TIFF sin perder calidad.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/resizeimage.jpg",
+    "link": "https://www.resizeimage.net/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 10,
+    "title": "PunyPNG",
+    "description": "Herramienta de compresión de imágenes PNG que permite optimizar imágenes para web sin perder calidad.",
+    "category": "Compresores de Imágenes",
+    "category_id": 27,
+    "subcategory": "Compresores de Imágenes",
+    "subcategory_id": 28,
+    "imgUrl": "./images/categories/tools/imagecompressors/punypng.jpg",
+    "link": "https://punypng.com/",
+    "pricing": "Gratis"
+  }
+]

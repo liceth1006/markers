@@ -1,0 +1,122 @@
+[
+  {
+    "resource_id": 1,
+    "title": "Google PageSpeed Insights",
+    "description": "Herramienta que analiza la velocidad de carga de una página web y sugiere mejoras para optimizar los recursos.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/pagespeed.jpg",
+    "link": "https://developers.google.com/speed/pagespeed/insights/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 2,
+    "title": "GTmetrix",
+    "description": "Herramienta que proporciona un análisis detallado del rendimiento de tu sitio web y recomendaciones para mejorar su velocidad.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/gtmetrix.jpg",
+    "link": "https://gtmetrix.com/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 3,
+    "title": "Pingdom",
+    "description": "Herramienta para medir el tiempo de carga de tu sitio web desde diferentes ubicaciones y obtener recomendaciones de optimización.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/pingdom.jpg",
+    "link": "https://www.pingdom.com/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 4,
+    "title": "WebPageTest",
+    "description": "Servicio en línea que permite medir el rendimiento de tu sitio web, proporcionando detalles sobre la velocidad de carga y recomendaciones.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/webpagetest.jpg",
+    "link": "https://www.webpagetest.org/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 5,
+    "title": "ImageOptim",
+    "description": "Comprime imágenes para que ocupen menos espacio sin perder calidad, optimizando el rendimiento de las páginas web.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/imageoptim.jpg",
+    "link": "https://imageoptim.com/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 6,
+    "title": "Uptimerobot",
+    "description": "Herramienta que monitorea el tiempo de actividad y el rendimiento de tu sitio web, y envía alertas en caso de caídas o problemas de recursos.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/uptimerobot.jpg",
+    "link": "https://uptimerobot.com/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 7,
+    "title": "LazyLoad",
+    "description": "Librería JavaScript que optimiza la carga de imágenes y otros recursos, cargándolos solo cuando son visibles en el viewport.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/lazyload.jpg",
+    "link": "https://github.com/verlok/lazyload",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 8,
+    "title": "Cloudflare",
+    "description": "Red de distribución de contenido (CDN) y servicio de optimización web que acelera tu sitio al reducir la latencia y minimizar el uso de recursos.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/cloudflare.jpg",
+    "link": "https://www.cloudflare.com/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 9,
+    "title": "TinyPNG",
+    "description": "Herramienta de compresión de imágenes PNG y JPEG que reduce el tamaño del archivo sin perder calidad visual.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/tinypng.jpg",
+    "link": "https://tinypng.com/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 10,
+    "title": "Font Squirrel Webfont Generator",
+    "description": "Herramienta que permite optimizar y generar fuentes web compatibles con todos los navegadores.",
+    "category": "Optimizadores de Recursos",
+    "category_id": 29,
+    "subcategory": "Optimizadores de Recursos",
+    "subcategory_id": 30,
+    "imgUrl": "./images/categories/tools/resourceoptimizers/fontsquirrel.jpg",
+    "link": "https://www.fontsquirrel.com/tools/webfont-generator",
+    "pricing": "Gratis"
+  }
+]

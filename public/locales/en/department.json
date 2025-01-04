@@ -12,17 +12,17 @@
   {
     "department_id": 3,
     "department": "Audio and Video Resources",
-    "description": "Multimedia tools and resources for creating and editing audio and video content, including templates and effects."
+    "description": "Multimedia tools and resources for creating and editing audio and video content, such as templates and effects."
   },
   {
     "department_id": 4,
     "department": "Programming",
-    "description": "Resources, libraries, and frameworks for software development, including APIs, components, and useful tools for programmers."
+    "description": "Resources and frameworks for software development, including APIs, components, and useful tools for developers."
   },
   {
     "department_id": 5,
     "department": "Content",
-    "description": "Online content sources such as YouTubers, blogs, and documentation for programmers and designers seeking to learn and improve their skills."
+    "description": "Online content sources such as YouTubers, blogs, and documentation for programmers and designers looking to learn and improve their skills."
   },
   {
     "department_id": 6,
@@ -37,21 +37,6 @@
   {
     "department_id": 8,
     "department": "Useful Tools",
-    "description": "Set of tools for common tasks like image compression, background removal, and resource optimization."
-  },
-  {
-    "department_id": 9,
-    "department": "Digital Marketing",
-    "description": "Strategies and tools to enhance the visibility and promotion of products or services online, including SEO, social media, and email marketing."
-  },
-  {
-    "department_id": 10,
-    "department": "Game Development",
-    "description": "Resources and platforms for creating and distributing video games, including game engines, assets, and tutorials."
-  },
-  {
-    "department_id": 11,
-    "department": "Libraries",
-    "description": "A set of libraries and frameworks to facilitate application development, from user interfaces to data management and APIs."
+    "description": "Set of tools to simplify common tasks like image compression, background removal, and resource optimization."
   }
 ]

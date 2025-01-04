@@ -1,0 +1,122 @@
+[
+  {
+    "resource_id": 1,
+    "title": "Remove.bg",
+    "description": "Eliminador de fondo de imágenes automático que permite extraer el fondo de una imagen en segundos.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/removebg.jpg",
+    "link": "https://www.remove.bg/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 2,
+    "title": "Clipping Magic",
+    "description": "Herramienta en línea que permite eliminar el fondo de imágenes de forma rápida y precisa con controles manuales.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/clippingmagic.jpg",
+    "link": "https://clippingmagic.com/",
+    "pricing": "De pago"
+  },
+  {
+    "resource_id": 3,
+    "title": "Fotor",
+    "description": "Editor de fotos en línea que incluye una herramienta para eliminar el fondo de las imágenes automáticamente.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/fotor.jpg",
+    "link": "https://www.fotor.com/features/background-remover/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 4,
+    "title": "PhotoScissors",
+    "description": "Eliminador de fondo automático que permite hacer recortes precisos y eliminar el fondo de una imagen con facilidad.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/photoscissors.jpg",
+    "link": "https://photoscissors.com/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 5,
+    "title": "Background Burner",
+    "description": "Herramienta para eliminar el fondo de imágenes con un solo clic, y permite mejorar los resultados con herramientas adicionales.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/backgroundburner.jpg",
+    "link": "https://burner.bonanza.com/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 6,
+    "title": "Canva",
+    "description": "Herramienta de diseño gráfico que ofrece una opción para eliminar el fondo de las imágenes fácilmente.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/canva.jpg",
+    "link": "https://www.canva.com/features/background-remover/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 7,
+    "title": "Pixlr",
+    "description": "Editor de imágenes en línea con una herramienta de eliminación de fondo automática y manual.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/pixlr.jpg",
+    "link": "https://pixlr.com/remove-background/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 8,
+    "title": "Photopea",
+    "description": "Editor de imágenes gratuito en línea que también ofrece una herramienta para eliminar el fondo de las imágenes.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/photopea.jpg",
+    "link": "https://www.photopea.com/",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 9,
+    "title": "InPixio",
+    "description": "Eliminador de fondo que permite quitar el fondo de las imágenes de manera automática y manual con herramientas de edición.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/inpixio.jpg",
+    "link": "https://www.inpixio.com/remove-background/",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 10,
+    "title": "Slazzer",
+    "description": "Herramienta en línea que elimina el fondo de las imágenes de manera automática y permite descargar las imágenes en alta resolución.",
+    "category": "Eliminadores de Fondo",
+    "category_id": 28,
+    "subcategory": "Eliminadores de Fondo",
+    "subcategory_id": 29,
+    "imgUrl": "./images/categories/tools/backgroundremovers/slazzer.jpg",
+    "link": "https://www.slazzer.com/",
+    "pricing": "Gratis y de pago"
+  }
+]
