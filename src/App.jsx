@@ -12,6 +12,7 @@ import AllResources from "./pages/AllResources.JSX";
 import Footer from "./components/Footer";
 import Typography from "./pages/Typography.JSX";
 import Templates from "./pages/Templates";
+import DesignTools from "./pages/DesignTools";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/color" element={<Color />} />
           <Route path="/typography" element={<Typography />} />
           <Route path="/templates" element={<Templates/>} />
+          <Route path="/design-tools" element={<DesignTools/>} />
           <Route path="/my-bookmarks" element={<MyBookmarks />} />
         </Routes>
         <Footer/>

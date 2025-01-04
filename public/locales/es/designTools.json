@@ -1,0 +1,98 @@
+[
+  {
+    "resource_id": 1,
+    "title": "Figma",
+    "description": "Herramienta de diseño colaborativo basada en la nube para interfaces de usuario, prototipos y diagramación.",
+    "category": "Herramientas de diseño",
+    "category_id": 3,
+    "subcategory": "Diseño UI/UX",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/design-tools/figma.jpg",
+    "link": "https://figma.com",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 2,
+    "title": "Adobe Photoshop",
+    "description": "Software de edición de imágenes y diseño gráfico profesional para la creación de gráficos avanzados.",
+    "category": "Herramientas de diseño",
+    "category_id": 3,
+    "subcategory": "Edición de fotos",
+    "subcategory_id": 2,
+    "imgUrl": "./images/categories/design-tools/adobe-photoshop.jpg",
+    "link": "https://adobe.com/products/photoshop.html",
+    "pricing": "De pago"
+  },
+  {
+    "resource_id": 3,
+    "title": "Canva",
+    "description": "Herramienta fácil de usar para la creación de diseños gráficos con plantillas predefinidas para redes sociales, presentaciones y más.",
+    "category": "Herramientas de diseño",
+    "category_id": 3,
+    "subcategory": "Diseño gráfico",
+    "subcategory_id": 3,
+    "imgUrl": "./images/categories/design-tools/canva.jpg",
+    "link": "https://canva.com",
+    "pricing": "Gratis y de pago"
+  },
+  {
+    "resource_id": 4,
+    "title": "Sketch",
+    "description": "Software de diseño vectorial para crear interfaces de usuario, iconos y prototipos interactivos.",
+    "category": "Herramientas de diseño",
+    "category_id": 3,
+    "subcategory": "Diseño UI/UX",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/design-tools/sketch.jpg",
+    "link": "https://sketch.com",
+    "pricing": "De pago"
+  },
+  {
+    "resource_id": 5,
+    "title": "Affinity Designer",
+    "description": "Alternativa económica y profesional a Illustrator para diseño vectorial y gráficos complejos.",
+    "category": "Herramientas de diseño",
+    "category_id": 3,
+    "subcategory": "Diseño gráfico",
+    "subcategory_id": 3,
+    "imgUrl": "./images/categories/design-tools/affinity-designer.jpg",
+    "link": "https://affinity.serif.com/designer",
+    "pricing": "De pago"
+  },
+  {
+    "resource_id": 6,
+    "title": "Procreate",
+    "description": "Aplicación de ilustración digital optimizada para iPad con soporte para stylus y pinceles personalizados.",
+    "category": "Herramientas de diseño",
+    "category_id": 3,
+    "subcategory": "Ilustración digital",
+    "subcategory_id": 4,
+    "imgUrl": "./images/categories/design-tools/procreate.jpg",
+    "link": "https://procreate.art",
+    "pricing": "De pago"
+  },
+  {
+    "resource_id": 7,
+    "title": "GIMP",
+    "description": "Software de edición de imágenes gratuito y de código abierto para retocar fotos y crear gráficos.",
+    "category": "Herramientas de diseño",
+    "category_id": 3,
+    "subcategory": "Edición de fotos",
+    "subcategory_id": 2,
+    "imgUrl": "./images/categories/design-tools/gimp.jpg",
+    "link": "https://gimp.org",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 8,
+    "title": "Blender",
+    "description": "Suite de modelado 3D, renderizado y animación gratuita y de código abierto.",
+    "category": "Herramientas de diseño",
+    "category_id": 3,
+    "subcategory": "Diseño 3D",
+    "subcategory_id": 5,
+    "imgUrl": "./images/categories/design-tools/blender.jpg",
+    "link": "https://blender.org",
+    "pricing": "Gratis"
+  }
+]

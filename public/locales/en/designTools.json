@@ -1,0 +1,98 @@
+[
+  {
+    "resource_id": 1,
+    "title": "Figma",
+    "description": "Cloud-based collaborative design tool for user interfaces, prototypes, and diagrams.",
+    "category": "Design Tools",
+    "category_id": 3,
+    "subcategory": "UI/UX Design",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/design-tools/figma.jpg",
+    "link": "https://figma.com",
+    "pricing": "Free and paid"
+  },
+  {
+    "resource_id": 2,
+    "title": "Adobe Photoshop",
+    "description": "Professional image editing and graphic design software for creating advanced graphics.",
+    "category": "Design Tools",
+    "category_id": 3,
+    "subcategory": "Photo Editing",
+    "subcategory_id": 2,
+    "imgUrl": "./images/categories/design-tools/adobe-photoshop.jpg",
+    "link": "https://adobe.com/products/photoshop.html",
+    "pricing": "Paid"
+  },
+  {
+    "resource_id": 3,
+    "title": "Canva",
+    "description": "Easy-to-use graphic design tool with predefined templates for social media, presentations, and more.",
+    "category": "Design Tools",
+    "category_id": 3,
+    "subcategory": "Graphic Design",
+    "subcategory_id": 3,
+    "imgUrl": "./images/categories/design-tools/canva.jpg",
+    "link": "https://canva.com",
+    "pricing": "Free and paid"
+  },
+  {
+    "resource_id": 4,
+    "title": "Sketch",
+    "description": "Vector design software for creating user interfaces, icons, and interactive prototypes.",
+    "category": "Design Tools",
+    "category_id": 3,
+    "subcategory": "UI/UX Design",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/design-tools/sketch.jpg",
+    "link": "https://sketch.com",
+    "pricing": "Paid"
+  },
+  {
+    "resource_id": 5,
+    "title": "Affinity Designer",
+    "description": "Cost-effective and professional alternative to Illustrator for vector design and complex graphics.",
+    "category": "Design Tools",
+    "category_id": 3,
+    "subcategory": "Graphic Design",
+    "subcategory_id": 3,
+    "imgUrl": "./images/categories/design-tools/affinity-designer.jpg",
+    "link": "https://affinity.serif.com/designer",
+    "pricing": "Paid"
+  },
+  {
+    "resource_id": 6,
+    "title": "Procreate",
+    "description": "Digital illustration app optimized for iPad with stylus support and customizable brushes.",
+    "category": "Design Tools",
+    "category_id": 3,
+    "subcategory": "Digital Illustration",
+    "subcategory_id": 4,
+    "imgUrl": "./images/categories/design-tools/procreate.jpg",
+    "link": "https://procreate.art",
+    "pricing": "Paid"
+  },
+  {
+    "resource_id": 7,
+    "title": "GIMP",
+    "description": "Free and open-source image editing software for photo retouching and graphic creation.",
+    "category": "Design Tools",
+    "category_id": 3,
+    "subcategory": "Photo Editing",
+    "subcategory_id": 2,
+    "imgUrl": "./images/categories/design-tools/gimp.jpg",
+    "link": "https://gimp.org",
+    "pricing": "Free"
+  },
+  {
+    "resource_id": 8,
+    "title": "Blender",
+    "description": "Free and open-source 3D modeling, rendering, and animation suite.",
+    "category": "Design Tools",
+    "category_id": 3,
+    "subcategory": "3D Design",
+    "subcategory_id": 5,
+    "imgUrl": "./images/categories/design-tools/blender.jpg",
+    "link": "https://blender.org",
+    "pricing": "Free"
+  }
+]

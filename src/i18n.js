@@ -20,7 +20,7 @@ i18n
     react: {
       useSuspense: false, 
     },
-    ns: ['translation','categories', 'department','color','typography','templates'],  
+    ns: ['translation','categories', 'department','color','typography','templates','designTools'],  
     defaultNS: 'translation',  
   });
 
