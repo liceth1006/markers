@@ -2,10 +2,12 @@ import { useEffect, useRef, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import PropTypes from "prop-types";
 import i18n from "../i18n";
+import { useTranslation } from "react-i18next";
 
 function SelectDepartment({ setSelectedDepartment, departments }) {
+   const { t } = useTranslation();
   const [isOpenDropdown, setIsOpenDropdown] = useState(false);
-  const [selectedDepartmentName, setSelectedDepartmentName] = useState("Select a department"); // Estado para el nombre del departamento
+  const [selectedDepartmentName, setSelectedDepartmentName] = useState(t("actions.select"));
   const dropdownRef = useRef(null);
 
   // Manejo de clics fuera del dropdown para cerrarlo

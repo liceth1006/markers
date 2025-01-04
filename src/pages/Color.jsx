@@ -65,7 +65,6 @@ function Color() {
           category={resource.subcategory}
           pricing={resource.pricing}
           link={resource.link}
-          savedResources={savedResources}
           setSavedResources={setSavedResources}
           isSaved={savedResources.some(
             (saved) => saved.resource_id === resource.resource_id

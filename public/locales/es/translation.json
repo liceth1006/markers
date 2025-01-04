@@ -50,7 +50,8 @@
     "search": "Buscar recursos",
     "shareLink": "Compartir enlace",
     "openLink": "Enlace",
-    "copy": "Copiar"
+    "copy": "Copiar",
+    "select":"Selecciona un departamento"
   },
   "error": {
     "notFound": {

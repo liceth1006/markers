@@ -51,7 +51,8 @@
     "search": "Search resources",
    "openLink": "Link",
    "shareLink": "Share link",
-    "copy": "Copy"
+    "copy": "Copy",
+    "select":"Select a department"
 },
 "error": {
   "notFound": {

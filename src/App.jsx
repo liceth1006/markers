@@ -4,7 +4,6 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import AnimatedCursor from "./components/AnimatedCursor";
 import Home from "./pages/Home";
-import Programming from "./pages/Programming";
 import MyBookmarks from "./pages/MyBookmarks";
 import Color from "./pages/Color";
 import { Toaster } from "react-hot-toast";
@@ -47,7 +46,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/all" element={<AllResources />} />
-          <Route path="/programming" element={<Programming />} />
           <Route path="/color" element={<Color />} />
           <Route path="/typography" element={<Typography />} />
           <Route path="/templates" element={<Templates/>} />

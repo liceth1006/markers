@@ -18,7 +18,6 @@ const ResourceCard = ({
   link,
   resource,
   resource_id,
-  savedResources,
   setSavedResources,
   onDelete
 }) => {
@@ -26,20 +25,32 @@ const ResourceCard = ({
   
   const location = useLocation();
   
-  // Función para guardar el recurso
   const handleSave = (resource) => {
-    // Si el recurso no está en los recursos guardados, lo agregamos
-  
-    if (!savedResources.some((saved) => saved.resource_id === resource.resource_id)) {
-      const updatedResources = [...savedResources, resource];
-      setSavedResources(updatedResources);
-      localStorage.setItem("savedResources", JSON.stringify(updatedResources)); // Guardar en LocalStorage
-      toast.success(t("success.saved"));
+    const storedResources = JSON.parse(localStorage.getItem("savedResources")) || [];
     
+    // Comprobar si ya existe el recurso con el mismo ID pero en otra categoría
+    const existingResource = storedResources.find(
+      (saved) => saved.resource_id === resource.resource_id
+    );
+  
+    if (!existingResource) {
+      // Si el recurso no existe, lo guardamos
+      const updatedResources = [...storedResources, resource];
+      localStorage.setItem("savedResources", JSON.stringify(updatedResources));
+      setSavedResources(updatedResources);
+      toast.success(t("success.saved"));
+    } else if (existingResource.category !== resource.category) {
+      // Si el recurso existe pero en una categoría diferente, lo permitimos guardar
+      const updatedResources = [...storedResources.filter((saved) => saved.resource_id !== resource.resource_id), resource];
+      localStorage.setItem("savedResources", JSON.stringify(updatedResources));
+      setSavedResources(updatedResources);
+      toast.success(t("success.saved"));
     } else {
+      // Si el recurso ya existe en la misma categoría, mostramos un error
       toast.error(t("error.alreadySaved"));
     }
   };
+  
   const handleDelete = () => {
     // Obtener los recursos guardados desde localStorage
     const resources = JSON.parse(localStorage.getItem("savedResources")) || [];
@@ -138,7 +149,6 @@ ResourceCard.propTypes = {
   link: PropTypes.string.isRequired,
   resource: PropTypes.object.isRequired,
   resource_id: PropTypes.number.isRequired,
-  savedResources: PropTypes.array.isRequired,
   setSavedResources: PropTypes.func.isRequired,
   onDelete: PropTypes.func,
 };

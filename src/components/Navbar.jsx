@@ -9,7 +9,7 @@ import { MdOutlineClose } from "react-icons/md";
 import { GiRooster } from "react-icons/gi";
 import ThemeToggle from "./ThemeToggle";
 import i18n from "../i18n";
-import SelectDepartment from "./selectDepartment";
+import SelectDepartment from "./SelectDepartment";
 
 
 function Navbar() {
