@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 import NotFoundResource from "../components/NotFoundResource";
 
 
-function Typography() {
+function Templates() {
   const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState("");
   const [savedResources, setSavedResources] = useState([]);
@@ -18,7 +18,7 @@ function Typography() {
     const fetchData = async () => {
       const lang = i18n.language;
       try {
-        const url = `/locales/${lang}/typography.json`;
+        const url = `/locales/${lang}/templates.json`;
         const response = await fetch(url);
         if (!response.ok) throw new Error("Error al cargar ");
         const data = await response.json();
@@ -83,4 +83,4 @@ function Typography() {
   );
 }
 
-export default Typography
+export default Templates

@@ -1,0 +1,122 @@
+[
+  {
+    "resource_id": 1,
+    "title": "Google Fonts",
+    "description": "Biblioteca gratuita de fuentes para proyectos web y de diseño.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Fuentes Gratuitas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/typography/google-fonts.jpg",
+    "link": "https://fonts.google.com",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 2,
+    "title": "FontPair",
+    "description": "Herramienta para encontrar combinaciones de tipografías armoniosas.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Combinaciones",
+    "subcategory_id": 2,
+    "imgUrl": "./images/categories/typography/font-pair.jpg",
+    "link": "https://fontpair.co",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 3,
+    "title": "Dafont",
+    "description": "Colección de fuentes gratuitas para descargar y usar en proyectos personales.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Fuentes Gratuitas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/typography/dafont.jpg",
+    "link": "https://dafont.com",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 4,
+    "title": "Adobe Fonts",
+    "description": "Colección premium de fuentes de alta calidad para proyectos de diseño.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Fuentes Premium",
+    "subcategory_id": 3,
+    "imgUrl": "./images/categories/typography/adobe-fonts.jpg",
+    "link": "https://fonts.adobe.com",
+    "pricing": "Suscripción"
+  },
+  {
+    "resource_id": 5,
+    "title": "Typewolf",
+    "description": "Inspiración y guías para elegir fuentes modernas y elegantes.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Inspiración",
+    "subcategory_id": 4,
+    "imgUrl": "./images/categories/typography/typewolf.jpg",
+    "link": "https://typewolf.com",
+    "pricing": "Gratis y Premium"
+  },
+  {
+    "resource_id": 6,
+    "title": "WhatFontIs",
+    "description": "Identificador de fuentes a partir de imágenes cargadas por el usuario.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Identificación",
+    "subcategory_id": 5,
+    "imgUrl": "./images/categories/typography/whatfontis.jpg",
+    "link": "https://www.whatfontis.com",
+    "pricing": "Gratis y Premium"
+  },
+  {
+    "resource_id": 7,
+    "title": "Font Squirrel",
+    "description": "Recursos de fuentes gratuitas de alta calidad para proyectos comerciales.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Fuentes Gratuitas",
+    "subcategory_id": 1,
+    "imgUrl": "./images/categories/typography/font-squirrel.jpg",
+    "link": "https://www.fontsquirrel.com",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 8,
+    "title": "Fonts In Use",
+    "description": "Archivo de tipografías usadas en proyectos reales como referencia e inspiración.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Inspiración",
+    "subcategory_id": 4,
+    "imgUrl": "./images/categories/typography/fonts-in-use.jpg",
+    "link": "https://fontsinuse.com",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 9,
+    "title": "Lost Type Co-op",
+    "description": "Biblioteca de fuentes de pago y 'paga-lo-que-quieras'.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Fuentes Premium",
+    "subcategory_id": 3,
+    "imgUrl": "./images/categories/typography/lost-type.jpg",
+    "link": "https://losttype.com",
+    "pricing": "Paga lo que quieras"
+  },
+  {
+    "resource_id": 10,
+    "title": "MyFonts",
+    "description": "La mayor colección de fuentes comerciales y personalizadas.",
+    "category": "Tipografía",
+    "category_id": 3,
+    "subcategory": "Fuentes Premium",
+    "subcategory_id": 3,
+    "imgUrl": "./images/categories/typography/myfonts.jpg",
+    "link": "https://www.myfonts.com",
+    "pricing": "Pago"
+  }
+]

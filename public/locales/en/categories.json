@@ -2,153 +2,282 @@
   {
     "category_id": 1,
     "department_id": 1,
-    "name": "Graphic Design 🎨",
-    "description": "Resources for creating graphics and visual design.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/graphic-design"
+    "name": "Color 🎨",
+    "description": "Resources and tools for selecting and using color in graphic design.",
+    "path": "/color"
   },
   {
     "category_id": 2,
     "department_id": 1,
-    "name": "UI/UX 📱",
-    "description": "Tools and resources for interface design and user experience.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/ui-ux"
+    "name": "Typography 🔤",
+    "description": "Fonts and tools to improve text readability and design.",
+    "path": "/typography"
   },
   {
     "category_id": 3,
     "department_id": 1,
-    "name": "Typography ✒️",
-    "description": "Fonts, typography generators, and typography style guides.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/typography"
+    "name": "Design Tools 🖌️",
+    "description": "Software and tools for creating and editing graphic designs.",
+    "path": "/design-tools"
   },
   {
     "category_id": 4,
     "department_id": 1,
-    "name": "Color 🌈",
-    "description": "Resources related to color palettes and color theory.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/color"
+    "name": "Templates 📐",
+    "description": "Predefined templates to ease the creation of graphic designs.",
+    "path": "/templates"
   },
   {
     "category_id": 5,
-    "department_id": 2,
-    "name": "Programming 💻",
-    "description": "Resources and tools for developers, including languages and frameworks.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/programming"
+    "department_id": 1,
+    "name": "Tutorials 📚",
+    "description": "Learning resources and step-by-step guides for graphic designers.",
+    "path": "/tutorials"
   },
   {
     "category_id": 6,
     "department_id": 2,
-    "name": "API 🔌",
-    "description": "Platforms and services offering APIs for integration in applications.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/api"
+    "name": "Illustrations 🖼️",
+    "description": "A collection of illustrations for use in graphic projects.",
+    "path": "/illustrations"
   },
   {
     "category_id": 7,
     "department_id": 2,
-    "name": "Components 🧩",
-    "description": "Component libraries and frameworks you can use in your projects.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/components"
+    "name": "Icons 🧭",
+    "description": "A collection of icons to integrate into visual projects.",
+    "path": "/icons"
   },
   {
     "category_id": 8,
     "department_id": 2,
-    "name": "Libraries 📚",
-    "description": "Useful libraries to enhance software and application development.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/libraries"
+    "name": "Photos 📸",
+    "description": "High-quality images for use in graphic and digital projects.",
+    "path": "/photos"
   },
   {
     "category_id": 9,
-    "department_id": 3,
-    "name": "Programming YouTubers 🎥💻",
-    "description": "YouTube channels teaching programming and software development.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/programming-youtubers"
+    "department_id": 2,
+    "name": "Textures 🧵",
+    "description": "Textures to integrate into graphic projects to add depth.",
+    "path": "/textures"
   },
   {
     "category_id": 10,
-    "department_id": 3,
-    "name": "Design YouTubers 🎥🎨",
-    "description": "YouTube channels focused on graphic design, UI/UX, and interface creation.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/design-youtubers"
+    "department_id": 2,
+    "name": "3D Models 🏗️",
+    "description": "Three-dimensional models for use in graphic and design projects.",
+    "path": "/3d-models"
   },
   {
     "category_id": 11,
     "department_id": 3,
-    "name": "Documentation 📑",
-    "description": "Platforms and tools for creating, generating, and maintaining technical documentation.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/documentation"
+    "name": "Audios 🎧",
+    "description": "Audio files for use in multimedia projects.",
+    "path": "/audios"
   },
   {
     "category_id": 12,
-    "department_id": 4,
-    "name": "AI Background Remover 🤖🖼️",
-    "description": "AI-based tools for removing backgrounds from images, videos, and text.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/ai-background-remover"
+    "department_id": 3,
+    "name": "Videos 🎥",
+    "description": "Video resources for inclusion in visual and multimedia projects.",
+    "path": "/videos"
   },
   {
     "category_id": 13,
-    "department_id": 4,
-    "name": "Photos 🖼️",
-    "description": "Resources for editing, enhancing, and working with images and photographs.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/photos"
+    "department_id": 3,
+    "name": "Video Templates 🎬",
+    "description": "Templates for editing and customizing videos.",
+    "path": "/video-templates"
   },
   {
     "category_id": 14,
     "department_id": 4,
-    "name": "Videos 🎬",
-    "description": "Tools and platforms for video editing and creation.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/videos"
+    "name": "API 🔌",
+    "description": "Application programming interfaces to integrate with other systems.",
+    "path": "/api"
   },
   {
     "category_id": 15,
     "department_id": 4,
-    "name": "Text ✍️",
-    "description": "Tools for working with text, converting it into images, or manipulating it in various ways.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/text"
+    "name": "Components 🧩",
+    "description": "Reusable components for building user interfaces.",
+    "path": "/components"
   },
   {
     "category_id": 16,
-    "department_id": 5,
-    "name": "E-commerce 🛒",
-    "description": "Resources and tools for creating online stores and managing products.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/e-commerce"
+    "department_id": 4,
+    "name": "Libraries 📚",
+    "description": "Libraries to facilitate software development.",
+    "path": "/libraries"
   },
   {
     "category_id": 17,
-    "department_id": 5,
-    "name": "Digital Marketing 📊",
-    "description": "Platforms and tools for managing digital marketing campaigns and social media.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/digital-marketing"
+    "department_id": 4,
+    "name": "Frameworks ⚙️",
+    "description": "Tools and structures that provide a foundation for software development.",
+    "path": "/frameworks"
   },
   {
     "category_id": 18,
-    "department_id": 5,
-    "name": "Productivity 🗂️",
-    "description": "Tools to improve productivity both in work and personal projects.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/productivity"
+    "department_id": 4,
+    "name": "Tutorials and Courses 🎓",
+    "description": "Educational resources for learning and improving programming skills.",
+    "path": "/tutorials-courses"
   },
   {
     "category_id": 19,
+    "department_id": 5,
+    "name": "Programming YouTubers 🎥💻",
+    "description": "Educational programming channels to learn new skills.",
+    "path": "/programming-youtubers"
+  },
+  {
+    "category_id": 20,
+    "department_id": 5,
+    "name": "Design YouTubers 🎥🎨",
+    "description": "Educational design channels for graphic and creative learning.",
+    "path": "/design-youtubers"
+  },
+  {
+    "category_id": 21,
+    "department_id": 5,
+    "name": "Documentation 📑",
+    "description": "Written guides and resources to consult on various topics.",
+    "path": "/documentation"
+  },
+  {
+    "category_id": 22,
     "department_id": 6,
-    "name": "Mobile Development 📱💡",
-    "description": "Resources for developing mobile applications for both Android and iOS.",
-    "categories_url": "./images/categories/settings.svg",
-    "path": "/mobile-development"
+    "name": "Text Generation 📝",
+    "description": "Tools for generating text using artificial intelligence.",
+    "path": "/text-generation"
+  },
+  {
+    "category_id": 23,
+    "department_id": 6,
+    "name": "Image Generation 🖼️",
+    "description": "Tools for creating images using artificial intelligence.",
+    "path": "/image-generation"
+  },
+  {
+    "category_id": 24,
+    "department_id": 6,
+    "name": "Video Generation 🎬",
+    "description": "Tools for creating videos using artificial intelligence.",
+    "path": "/video-generation"
+  },
+  {
+    "category_id": 25,
+    "department_id": 7,
+    "name": "Creative Portfolios 🌟",
+    "description": "Portfolios from designers and creatives to inspire new ideas.",
+    "path": "/creative-portfolios"
+  },
+  {
+    "category_id": 26,
+    "department_id": 7,
+    "name": "Design Trends 🔥",
+    "description": "The latest trends in graphic and digital design.",
+    "path": "/design-trends"
+  },
+  {
+    "category_id": 27,
+    "department_id": 8,
+    "name": "Image Compressors 📉",
+    "description": "Tools to reduce image size without losing quality.",
+    "path": "/image-compressors"
+  },
+  {
+    "category_id": 28,
+    "department_id": 8,
+    "name": "Background Removers 🖼️",
+    "description": "Tools to automatically remove backgrounds from images.",
+    "path": "/background-removers"
+  },
+  {
+    "category_id": 29,
+    "department_id": 8,
+    "name": "Resource Optimizers ⚙️",
+    "description": "Tools for optimizing resources like images, videos, and other files.",
+    "path": "/resource-optimizers"
+  },
+  {
+    "category_id": 30,
+    "department_id": 9,
+    "name": "SEO 🚀",
+    "description": "Tools for optimizing and improving search engine rankings.",
+    "path": "/seo"
+  },
+  {
+    "category_id": 31,
+    "department_id": 9,
+    "name": "Social Media 📱",
+    "description": "Tools for managing and analyzing social media.",
+    "path": "/social-media"
+  },
+  {
+    "category_id": 32,
+    "department_id": 9,
+    "name": "Email Marketing 📧",
+    "description": "Tools for creating and managing email marketing campaigns.",
+    "path": "/email-marketing"
+  },
+  {
+    "category_id": 33,
+    "department_id": 10,
+    "name": "Game Engines 🎮",
+    "description": "Platforms and software for creating video games.",
+    "path": "/game-engines"
+  },
+  {
+    "category_id": 34,
+    "department_id": 10,
+    "name": "Game Assets 🎮",
+    "description": "Resources and visual elements for video games.",
+    "path": "/game-assets"
+  },
+  {
+    "category_id": 35,
+    "department_id": 10,
+    "name": "Game Tutorials 🎮",
+    "description": "Tutorials and educational resources for video game creation.",
+    "path": "/game-tutorials"
+  },
+  {
+    "category_id": 36,
+    "department_id": 11,
+    "name": "UI/UX 🎨",
+    "description": "Visual components, themes, frameworks for user interfaces.",
+    "path": "/ui-ux-libraries"
+  },
+  {
+    "category_id": 37,
+    "department_id": 11,
+    "name": "Animation ✨",
+    "description": "Visual effects, transitions, animations for interfaces.",
+    "path": "/animation-libraries"
+  },
+  {
+    "category_id": 38,
+    "department_id": 11,
+    "name": "State Management Libraries 🗃️",
+    "description": "Redux, MobX, Zustand for managing application state.",
+    "path": "/state-management-libraries"
+  },
+  {
+    "category_id": 39,
+    "department_id": 11,
+    "name": "Form Libraries 📝",
+    "description": "Libraries for handling forms in web applications.",
+    "path": "/form-libraries"
+  },
+  {
+    "category_id": 40,
+    "department_id": 11,
+    "name": "Conexión con APIs 🔗",
+    "description": "Axios, Fetch, GraphQL, herramientas para consumir APIs externas.",
+    "path": "/api-connection-libraries"
   }
+  
 ]

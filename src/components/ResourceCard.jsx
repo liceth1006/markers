@@ -34,10 +34,10 @@ const ResourceCard = ({
       const updatedResources = [...savedResources, resource];
       setSavedResources(updatedResources);
       localStorage.setItem("savedResources", JSON.stringify(updatedResources)); // Guardar en LocalStorage
-      toast.success("Recurso guardado!");
+      toast.success(t("success.saved"));
     
     } else {
-      toast.error("Este recurso ya está guardado!");
+      toast.error(t("error.alreadySaved"));
     }
   };
   const handleDelete = () => {
@@ -51,10 +51,10 @@ const ResourceCard = ({
     if (updatedResources.length !== resources.length) {
       setSavedResources(updatedResources);
       localStorage.setItem("savedResources", JSON.stringify(updatedResources)); // Actualizar en LocalStorage
-      toast.success("Recurso eliminado!");
+      toast.success(t("success.deleted"));
       if (onDelete) onDelete(resource_id);
     } else {
-      toast.error("Este recurso no se encontraba guardado.");
+      toast.error(t("error.notSave"));
     }
   };
   
@@ -119,7 +119,7 @@ const ResourceCard = ({
             rel="noopener noreferrer"
             className="text-sm text-text-light dark:text-text-dark hover:text-primary dark:hover:text-primary font-medium flex items-center"
           >
-            <FaExternalLinkAlt className="mr-2" />  {t("actions.shareLink")}
+            <FaExternalLinkAlt className="mr-2" />  {t("actions.openLink")}
           </a>
         </div>
       </div>

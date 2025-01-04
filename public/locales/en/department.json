@@ -1,32 +1,57 @@
 [
   {
     "department_id": 1,
-    "department": "Design",
-    "description": "Resources and tools for graphic designers, UI/UX, and interface creation."
+    "department": "Graphic Design",
+    "description": "Resources and tools for creating and editing visual elements, including colors, typography, and templates."
   },
   {
     "department_id": 2,
-    "department": "Development",
-    "description": "Resources and tools for developers, including programming languages, frameworks, and libraries."
+    "department": "Visual Resources",
+    "description": "Collection of images, illustrations, icons, and 3D models to enhance visual designs in graphic and digital projects."
   },
   {
     "department_id": 3,
-    "department": "Content",
-    "description": "Resources related to educational content, tutorials, videos, and technical documentation."
+    "department": "Audio and Video Resources",
+    "description": "Multimedia tools and resources for creating and editing audio and video content, including templates and effects."
   },
   {
     "department_id": 4,
-    "department": "Multimedia",
-    "description": "Tools and resources for creating and editing multimedia content such as images, videos, and text."
+    "department": "Programming",
+    "description": "Resources, libraries, and frameworks for software development, including APIs, components, and useful tools for programmers."
   },
   {
     "department_id": 5,
-    "department": "Business",
-    "description": "Resources related to business creation, digital marketing, e-commerce, and productivity."
+    "department": "Content",
+    "description": "Online content sources such as YouTubers, blogs, and documentation for programmers and designers seeking to learn and improve their skills."
   },
   {
     "department_id": 6,
-    "department": "Mobile",
-    "description": "Resources for mobile app development and optimization for mobile devices."
+    "department": "Artificial Intelligence",
+    "description": "AI-based tools for generating text, images, and videos, applied to both programming and design."
+  },
+  {
+    "department_id": 7,
+    "department": "Inspiration",
+    "description": "Collection of creative portfolios, trends, and challenges to inspire creativity in design and programming."
+  },
+  {
+    "department_id": 8,
+    "department": "Useful Tools",
+    "description": "Set of tools for common tasks like image compression, background removal, and resource optimization."
+  },
+  {
+    "department_id": 9,
+    "department": "Digital Marketing",
+    "description": "Strategies and tools to enhance the visibility and promotion of products or services online, including SEO, social media, and email marketing."
+  },
+  {
+    "department_id": 10,
+    "department": "Game Development",
+    "description": "Resources and platforms for creating and distributing video games, including game engines, assets, and tutorials."
+  },
+  {
+    "department_id": 11,
+    "department": "Libraries",
+    "description": "A set of libraries and frameworks to facilitate application development, from user interfaces to data management and APIs."
   }
 ]

@@ -1,0 +1,74 @@
+[
+  {
+    "resource_id": 1,
+    "title": "Modern Graphic Design Template",
+    "description": "A professional and modern graphic design template for creative projects.",
+    "category": "Templates",
+    "category_id": 4,
+    "subcategory": "Graphic Design",
+    "subcategory_id": 1,
+    "imgUrl": "./images/templates/graphic-design-modern.jpg",
+    "link": "https://www.example.com/modern-graphic-design-template",
+    "pricing": "Free"
+  },
+  {
+    "resource_id": 2,
+    "title": "Corporate Presentation Template",
+    "description": "A professional presentation template for businesses and companies.",
+    "category": "Templates",
+    "category_id": 4,
+    "subcategory": "Presentations",
+    "subcategory_id": 2,
+    "imgUrl": "./images/templates/corporate-presentation.jpg",
+    "link": "https://www.example.com/corporate-presentation-template",
+    "pricing": "Free"
+  },
+  {
+    "resource_id": 3,
+    "title": "Event Poster Template",
+    "description": "A creative poster template for events and concerts.",
+    "category": "Templates",
+    "category_id": 4,
+    "subcategory": "Posters and Flyers",
+    "subcategory_id": 3,
+    "imgUrl": "./images/templates/event-poster.jpg",
+    "link": "https://www.example.com/event-poster-template",
+    "pricing": "$10"
+  },
+  {
+    "resource_id": 4,
+    "title": "Professional Resume Template",
+    "description": "An elegant resume template to stand out in the job market.",
+    "category": "Templates",
+    "category_id": 4,
+    "subcategory": "Resumes and Cover Letters",
+    "subcategory_id": 4,
+    "imgUrl": "./images/templates/professional-resume.jpg",
+    "link": "https://www.example.com/professional-resume-template",
+    "pricing": "Free"
+  },
+  {
+    "resource_id": 5,
+    "title": "Social Media Template",
+    "description": "Templates for social media posts on platforms like Instagram and Facebook.",
+    "category": "Templates",
+    "category_id": 4,
+    "subcategory": "Social Media",
+    "subcategory_id": 5,
+    "imgUrl": "./images/templates/social-media-post.jpg",
+    "link": "https://www.example.com/social-media-template",
+    "pricing": "$5"
+  },
+  {
+    "resource_id": 6,
+    "title": "Informative Infographic Template",
+    "description": "An infographic template for presenting information visually.",
+    "category": "Templates",
+    "category_id": 4,
+    "subcategory": "Infographics",
+    "subcategory_id": 6,
+    "imgUrl": "./images/templates/infographic-template.jpg",
+    "link": "https://www.example.com/infographic-template",
+    "pricing": "$8"
+  }
+]

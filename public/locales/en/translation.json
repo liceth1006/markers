@@ -49,8 +49,21 @@
     "save": "Save",
     "share": "Share",
     "search": "Search resources",
-   "openLink": "Open link",
+   "openLink": "Link",
    "shareLink": "Share link",
     "copy": "Copy"
-}
+},
+"error": {
+  "notFound": {
+    "title": "Resource not found",
+    "message": "We're sorry, we couldn't find the resource you're looking for. Please check and try again."
+  },
+  "alreadySaved": "This resource is already saved!",
+      "notSave": "This resource was not saved."
+    },
+    "success": {
+      "saved": "Resource saved!",
+      "deleted": "Resource deleted!"
+    }
+
 }

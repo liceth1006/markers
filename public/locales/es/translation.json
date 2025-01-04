@@ -10,13 +10,13 @@
   "cardsSection": {
     "title": "Descubre tu próximo recurso favorito",
     "paragraph": "Más que una herramienta, una fuente de inspiración",
-   "categories": {
-    "categoryOne": "Componentes web",
-    "categoryTwo": "Colores y tipografías",
-    "categoryThree": "Fotos y videos",
-    "categoryFour": "Inspiración creativa",
-    "categoryFive": "Librerías y APIs"
-  }
+    "categories": {
+      "categoryOne": "Componentes web",
+      "categoryTwo": "Colores y tipografías",
+      "categoryThree": "Fotos y videos",
+      "categoryFour": "Inspiración creativa",
+      "categoryFive": "Librerías y APIs"
+    }
   },
   "myBookmarks": "Mis Marcadores",
   "allResources": "Todos los Recursos 🛍️",
@@ -40,9 +40,8 @@
       "text": "En <span class='text-[#F35B04] font-bold'>RoosterTools</span>, creemos que la clave para ser más <span class='bg-[#71f0ce] dark:bg-[#40EEC0] py-1 px-3 rounded-lg font-semibold'>productivo</span> es tener todo lo que necesitas al alcance de tu mano. Ya seas <span class='font-semibold'>programador</span> <span>o</span> <span class='font-semibold'>diseñador</span>, nuestra plataforma te permite <span class='bg-[#fce47b] dark:bg-[#eea840] py-1 px-3 rounded-lg font-semibold'>guardar</span>, <span class='bg-[#da7bff] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>organizar</span>, y <span class='bg-[#9e93fd] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>acceder</span> fácilmente a tus recursos favoritos sin la necesidad de saturar tus marcadores de navegador."
     }
   },
-  "color":{
+  "color": {
     "title": "🎨 Transforma tu diseño con paletas y colores increíbles 🌈"
-    
   },
   "actions": {
     "delete": "Eliminar",
@@ -50,9 +49,19 @@
     "share": "Compartir",
     "search": "Buscar recursos",
     "shareLink": "Compartir enlace",
-    "openLink": "Abrir enlace",
+    "openLink": "Enlace",
     "copy": "Copiar"
+  },
+  "error": {
+    "notFound": {
+      "title": "Recurso no encontrado",
+      "message": "Lo sentimos, no pudimos encontrar el recurso que estás buscando. Por favor, verifica e intenta nuevamente."
+    },
+    "alreadySaved": "Este recurso ya está guardado!",
+    "notSave": "Este recurso no se encontraba guardado."
+  },
+  "success": {
+    "saved": "Recurso guardado!",
+    "deleted": "Recurso eliminado!"
   }
-  
-  
 }

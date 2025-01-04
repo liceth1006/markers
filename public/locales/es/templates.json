@@ -1,0 +1,74 @@
+[
+  {
+    "resource_id": 1,
+    "title": "Plantilla de Diseño Gráfico Moderno",
+    "description": "Una plantilla de diseño gráfico profesional y moderna para proyectos creativos.",
+    "category": "Plantillas",
+    "category_id": 4,
+    "subcategory": "Diseño Gráfico",
+    "subcategory_id": 1,
+    "imgUrl": "./images/templates/graphic-design-modern.jpg",
+    "link": "https://www.ejemplo.com/plantilla-diseno-grafico",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 2,
+    "title": "Plantilla de Presentación Corporativa",
+    "description": "Plantilla de presentación profesional para empresas y negocios.",
+    "category": "Plantillas",
+    "category_id": 4,
+    "subcategory": "Presentaciones",
+    "subcategory_id": 2,
+    "imgUrl": "./images/templates/corporate-presentation.jpg",
+    "link": "https://www.ejemplo.com/plantilla-presentacion-corporativa",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 3,
+    "title": "Plantilla de Cartel para Eventos",
+    "description": "Plantilla creativa de cartel para eventos y conciertos.",
+    "category": "Plantillas",
+    "category_id": 4,
+    "subcategory": "Carteles y Pósters",
+    "subcategory_id": 3,
+    "imgUrl": "./images/templates/event-poster.jpg",
+    "link": "https://www.ejemplo.com/plantilla-cartel-eventos",
+    "pricing": "$10"
+  },
+  {
+    "resource_id": 4,
+    "title": "Plantilla de Currículum Profesional",
+    "description": "Plantilla elegante de currículum para destacar en el mundo laboral.",
+    "category": "Plantillas",
+    "category_id": 4,
+    "subcategory": "Currículum y Cartas",
+    "subcategory_id": 4,
+    "imgUrl": "./images/templates/professional-resume.jpg",
+    "link": "https://www.ejemplo.com/plantilla-curriculum",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 5,
+    "title": "Plantilla para Redes Sociales",
+    "description": "Plantillas de publicaciones para redes sociales como Instagram y Facebook.",
+    "category": "Plantillas",
+    "category_id": 4,
+    "subcategory": "Redes Sociales",
+    "subcategory_id": 5,
+    "imgUrl": "./images/templates/social-media-post.jpg",
+    "link": "https://www.ejemplo.com/plantilla-redes-sociales",
+    "pricing": "$5"
+  },
+  {
+    "resource_id": 6,
+    "title": "Plantilla de Infografía Informativa",
+    "description": "Plantilla de infografía para presentar información de forma visual.",
+    "category": "Plantillas",
+    "category_id": 4,
+    "subcategory": "Infografías",
+    "subcategory_id": 6,
+    "imgUrl": "./images/templates/infographic-template.jpg",
+    "link": "https://www.ejemplo.com/plantilla-infografia",
+    "pricing": "$8"
+  }
+]
