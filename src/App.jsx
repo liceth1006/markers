@@ -19,6 +19,18 @@ import Photos from "./pages/Photos";
 import Textures from "./pages/Textures";
 import Models from "./pages/Models";
 import Backgrounds from "./pages/Backgrounds";
+import Audios from "./pages/Audios";
+import Videos from "./pages/Videos";
+import Api from "./pages/Api";
+import VideoTemplates from "./pages/VideoTemplates";
+import Components from "./pages/Components";
+import Frameworks from "./pages/Frameworks";
+import Libraries from "./pages/Libraries";
+import TextGeneration from "./pages/TextGeneration";
+import ImageGeneration from "./pages/ImageGeneration";
+import VideoGeneration from "./pages/VideoGeneration";
+import CreativePortfolios from "./pages/CreativePortfolios";
+import DesignTrends from "./pages/DesignTrends";
 function App() {
   return (
     <Router>
@@ -42,6 +54,18 @@ function App() {
           <Route path="/photos" element={<Photos/>} />
           <Route path="/textures" element={<Textures/>} />
           <Route path="/3d-models" element={<Models/>} />
+          <Route path="/audios" element={<Audios/>} />
+          <Route path="/videos" element={<Videos/>} />
+          <Route path="/api" element={<Api/>} />
+          <Route path="/components" element={<Components/>} />
+          <Route path="/frameworks" element={<Frameworks/>} />
+          <Route path="/libraries" element={<Libraries/>} />
+          <Route path="/text-generation" element={<TextGeneration/>} />
+          <Route path="/image-generation" element={<ImageGeneration/>} />
+          <Route path="/video-generation" element={<VideoGeneration/>} />
+          <Route path="/video-templates" element={<VideoTemplates/>} />
+          <Route path="/creative-portfolios" element={<CreativePortfolios/>} />
+          <Route path="/design-trends" element={<DesignTrends/>} />
           <Route path="/design-tools" element={<DesignTools/>} />
           <Route path="/my-bookmarks" element={<MyBookmarks />} />
         </Routes>

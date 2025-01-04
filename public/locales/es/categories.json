@@ -119,13 +119,7 @@
     "description": "Herramientas y estructuras que proporcionan una base para el desarrollo de software.",
     "path": "/frameworks"
   },
-  {
-    "category_id": 18,
-    "department_id": 4,
-    "name": "Tutoriales y Cursos 🎓",
-    "description": "Recursos educativos para aprender y mejorar habilidades de programación.",
-    "path": "/tutorials-courses"
-  },
+
   {
     "category_id": 19,
     "department_id": 5,

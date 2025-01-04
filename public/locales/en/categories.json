@@ -118,13 +118,7 @@
     "description": "Tools and structures that provide a foundation for software development.",
     "path": "/frameworks"
   },
-  {
-    "category_id": 18,
-    "department_id": 4,
-    "name": "Tutorials and Courses 🎓",
-    "description": "Educational resources for learning and improving programming skills.",
-    "path": "/tutorials-courses"
-  },
+
   {
     "category_id": 19,
     "department_id": 5,

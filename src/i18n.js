@@ -32,7 +32,12 @@ i18n
       "icons",
       "photos",
       "textures",
-      "backgrounds"
+      "backgrounds",
+      "audios",
+      "videos",
+      "api",
+      "components",
+      "video-generation"
     ],
     defaultNS: "translation",
   });
