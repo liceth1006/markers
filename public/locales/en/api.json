@@ -2,241 +2,241 @@
   {
     "resource_id": 1,
     "title": "RapidAPI",
-    "description": "Plataforma que ofrece acceso a miles de APIs de diferentes categorías y funcionalidades.",
+    "description": "Platform offering access to thousands of APIs across various categories and functionalities.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs comerciales",
+    "subcategory": "Commercial APIs",
     "subcategory_id": 1,
     "imgUrl": "./images/categories/api/rapidapi.jpg",
     "link": "https://rapidapi.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 2,
     "title": "Postman",
-    "description": "Una plataforma para crear, probar y administrar APIs con herramientas fáciles de usar.",
+    "description": "A platform for building, testing, and managing APIs with user-friendly tools.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de pruebas y desarrollo",
+    "subcategory": "Testing and Development APIs",
     "subcategory_id": 2,
     "imgUrl": "./images/categories/api/postman.jpg",
     "link": "https://www.postman.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 3,
     "title": "GitHub API",
-    "description": "API de GitHub que permite interactuar con repositorios, issues y otros elementos de GitHub.",
+    "description": "GitHub API allows interaction with repositories, issues, and other GitHub elements.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de gestión de código",
+    "subcategory": "Code Management APIs",
     "subcategory_id": 3,
     "imgUrl": "./images/categories/api/githubapi.jpg",
     "link": "https://developer.github.com/v3/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 4,
     "title": "Google Cloud APIs",
-    "description": "Conjunto de APIs ofrecidas por Google para integrar servicios de almacenamiento, análisis, y más.",
+    "description": "Set of APIs offered by Google to integrate storage, analytics, and other services.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de nube",
+    "subcategory": "Cloud APIs",
     "subcategory_id": 4,
     "imgUrl": "./images/categories/api/googlecloud.jpg",
     "link": "https://cloud.google.com/apis",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 5,
     "title": "AWS APIs",
-    "description": "API de Amazon Web Services para integrar servicios de nube como almacenamiento, bases de datos y más.",
+    "description": "Amazon Web Services APIs for integrating cloud services like storage, databases, and more.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de nube",
+    "subcategory": "Cloud APIs",
     "subcategory_id": 5,
     "imgUrl": "./images/categories/api/aws.jpg",
     "link": "https://aws.amazon.com/api-gateway/",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 6,
     "title": "Twilio",
-    "description": "API para integrar mensajería, llamadas telefónicas y servicios de comunicación en aplicaciones.",
+    "description": "API for integrating messaging, phone calls, and communication services into applications.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de comunicación",
+    "subcategory": "Communication APIs",
     "subcategory_id": 6,
     "imgUrl": "./images/categories/api/twilio.jpg",
     "link": "https://www.twilio.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 7,
     "title": "Stripe API",
-    "description": "API para integrar pagos y suscripciones en aplicaciones web y móviles.",
+    "description": "API for integrating payments and subscriptions in web and mobile applications.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de pagos",
+    "subcategory": "Payment APIs",
     "subcategory_id": 7,
     "imgUrl": "./images/categories/api/stripe.jpg",
     "link": "https://stripe.com/docs/api",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 8,
     "title": "SendGrid API",
-    "description": "API para integrar servicios de correo electrónico transaccional y marketing en aplicaciones.",
+    "description": "API for integrating transactional email and marketing email services into applications.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de correo electrónico",
+    "subcategory": "Email APIs",
     "subcategory_id": 8,
     "imgUrl": "./images/categories/api/sendgrid.jpg",
     "link": "https://sendgrid.com/docs/API_Reference.html",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 9,
     "title": "Spotify API",
-    "description": "API para integrar música, listas de reproducción y funcionalidades de Spotify en aplicaciones.",
+    "description": "API for integrating music, playlists, and Spotify functionalities into applications.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de música",
+    "subcategory": "Music APIs",
     "subcategory_id": 9,
     "imgUrl": "./images/categories/api/spotify.jpg",
     "link": "https://developer.spotify.com/documentation/web-api/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 10,
     "title": "OpenWeather API",
-    "description": "API para acceder a datos meteorológicos en tiempo real y pronósticos.",
+    "description": "API for accessing real-time weather data and forecasts.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de clima",
+    "subcategory": "Weather APIs",
     "subcategory_id": 10,
     "imgUrl": "./images/categories/api/openweather.jpg",
     "link": "https://openweathermap.org/api",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 11,
     "title": "NASA API",
-    "description": "API de la NASA para acceder a datos astronómicos, imágenes y recursos científicos.",
+    "description": "NASA API for accessing astronomical data, images, and scientific resources.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs científicas",
+    "subcategory": "Scientific APIs",
     "subcategory_id": 11,
     "imgUrl": "./images/categories/api/nasa.jpg",
     "link": "https://api.nasa.gov",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 12,
     "title": "CoinGecko API",
-    "description": "API para acceder a datos sobre criptomonedas, como precios y gráficos.",
+    "description": "API for accessing cryptocurrency data like prices and charts.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de criptomonedas",
+    "subcategory": "Cryptocurrency APIs",
     "subcategory_id": 12,
     "imgUrl": "./images/categories/api/coingecko.jpg",
     "link": "https://www.coingecko.com/api",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 13,
     "title": "Mapbox API",
-    "description": "API para integrar mapas interactivos y geolocalización en aplicaciones web y móviles.",
+    "description": "API for integrating interactive maps and geolocation in web and mobile applications.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de mapas",
+    "subcategory": "Map APIs",
     "subcategory_id": 13,
     "imgUrl": "./images/categories/api/mapbox.jpg",
     "link": "https://www.mapbox.com/api-documentation/",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 14,
     "title": "Cloudflare API",
-    "description": "API para integrar servicios de seguridad, rendimiento y protección de sitios web.",
+    "description": "API for integrating website security, performance, and protection services.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de seguridad",
+    "subcategory": "Security APIs",
     "subcategory_id": 14,
     "imgUrl": "./images/categories/api/cloudflare.jpg",
     "link": "https://developers.cloudflare.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 15,
     "title": "Algolia API",
-    "description": "API para integrar búsqueda rápida y eficiente en aplicaciones web y móviles.",
+    "description": "API for integrating fast and efficient search in web and mobile applications.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de búsqueda",
+    "subcategory": "Search APIs",
     "subcategory_id": 15,
     "imgUrl": "./images/categories/api/algolia.jpg",
     "link": "https://www.algolia.com",
-    "pricing": "De pago"
+    "pricing": "Paid"
   },
   {
     "resource_id": 16,
     "title": "JokeAPI",
-    "description": "API para obtener chistes de diferentes categorías y tipos.",
+    "description": "API for fetching jokes of various categories and types.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs divertidas",
+    "subcategory": "Fun APIs",
     "subcategory_id": 16,
     "imgUrl": "./images/categories/api/jokeapi.jpg",
     "link": "https://jokeapi.dev",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 17,
     "title": "Trello API",
-    "description": "API para interactuar con las funcionalidades de gestión de proyectos de Trello.",
+    "description": "API for interacting with Trello's project management features.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de productividad",
+    "subcategory": "Productivity APIs",
     "subcategory_id": 17,
     "imgUrl": "./images/categories/api/trello.jpg",
     "link": "https://developer.atlassian.com/cloud/trello/",
-    "pricing": "Gratis"
+    "pricing": "Free"
   },
   {
     "resource_id": 18,
     "title": "Slack API",
-    "description": "API para integrar Slack en aplicaciones y automatizar flujos de trabajo.",
+    "description": "API for integrating Slack into applications and automating workflows.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de comunicación",
+    "subcategory": "Communication APIs",
     "subcategory_id": 18,
     "imgUrl": "./images/categories/api/slack.jpg",
     "link": "https://api.slack.com",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 19,
     "title": "Foursquare API",
-    "description": "API para acceder a datos de lugares, puntos de interés y geolocalización.",
+    "description": "API for accessing data about places, points of interest, and geolocation.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de localización",
+    "subcategory": "Location APIs",
     "subcategory_id": 19,
     "imgUrl": "./images/categories/api/foursquare.jpg",
     "link": "https://developer.foursquare.com/docs/",
-    "pricing": "Gratis y de pago"
+    "pricing": "Free and Paid"
   },
   {
     "resource_id": 20,
     "title": "Zomato API",
-    "description": "API para acceder a información sobre restaurantes, menús y opiniones de usuarios.",
+    "description": "API for accessing information about restaurants, menus, and user reviews.",
     "category": "API",
     "category_id": 14,
-    "subcategory": "APIs de gastronomía",
+    "subcategory": "Food APIs",
     "subcategory_id": 20,
     "imgUrl": "./images/categories/api/zomato.jpg",
     "link": "https://developers.zomato.com/api",
-    "pricing": "Gratis"
+    "pricing": "Free"
   }
 ]
