@@ -30,9 +30,9 @@
   {
     "category_id": 5,
     "department_id": 1,
-    "name": "Tutorials 📚",
-    "description": "Learning resources and step-by-step guides for graphic designers.",
-    "path": "/tutorials"
+    "name": "Backgrounds 📚",
+    "description": "Recursos de aprendizaje y guías paso a paso para diseñadores gráficos.",
+    "path": "/backgrounds"
   },
   {
     "category_id": 6,
