@@ -5,7 +5,7 @@ import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
 
 function SelectDepartment({ setSelectedDepartment, departments }) {
-   const { t } = useTranslation();
+  const { t } = useTranslation();
   const [isOpenDropdown, setIsOpenDropdown] = useState(false);
   const [selectedDepartmentName, setSelectedDepartmentName] = useState(t("actions.select"));
   const dropdownRef = useRef(null);
@@ -25,17 +25,28 @@ function SelectDepartment({ setSelectedDepartment, departments }) {
     };
   }, []);
 
+  // Efecto para cargar los departamentos al montar el componente
+  useEffect(() => {
+    const loadDepartments = () => {
+      const storedDepartmentId = localStorage.getItem("selectedDepartment");
+      if (storedDepartmentId) {
+        const department = departments.find((item) => item.department_id === parseInt(storedDepartmentId, 10));
+        if (department) {
+          setSelectedDepartmentName(department.department);
+        }
+      } else {
+        setSelectedDepartmentName(t("actions.select"));
+      }
+    };
+
+    loadDepartments();
+  }, [departments, t]);
+
   // Efecto para actualizar el nombre del departamento seleccionado al cambiar el idioma
   useEffect(() => {
-    const storedDepartmentId = localStorage.getItem("selectedDepartment");
-    if (storedDepartmentId) {
-      const department = departments.find((item) => item.department_id === parseInt(storedDepartmentId, 10));
-      if (department) {
-        setSelectedDepartmentName(department.department); 
-      }
-    }
+    setSelectedDepartmentName(t("actions.select"));
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [i18n.language, departments]);
+  }, [i18n.language, t]);
 
   // Manejo de cambios en el departamento seleccionado
   const handleDepartmentChange = (department_id, department_name) => {

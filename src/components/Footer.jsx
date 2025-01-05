@@ -13,7 +13,7 @@ function Footer() {
             to={"/"}
             className="text-text-light dark:text-text-dark text-2xl font-semibold flex items-center relative"
           >
-            <GiRooster className="text-4xl absolute top-[-21px] text-[#132452] dark:text-[#e2e2e2]" />
+            <GiRooster className="text-4xl absolute top-[-21px] text-text-light dark:text-text-dark" />
             <span className="font-bold text-dark">
               Rooster<span className="text-[#F35B04]">Tools</span>
             </span>
