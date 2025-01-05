@@ -204,7 +204,9 @@ function Navbar() {
 
             </div>
 
-            <ThemeToggle className="w-6 h-6" />
+            <ThemeToggle className="w-6 h-6" 
+          
+            />
           </div>
         )}
       </div>
