@@ -14,21 +14,21 @@ const ResourceCard = ({
   imgUrl,
   description,
   category,
+  category_id,
   pricing,
   link,
   resource,
   resource_id,
   setSavedResources,
-  onDelete
+  onDelete,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const location = useLocation();
-  
+
   const handleSave = (resource) => {
     const storedResources = JSON.parse(localStorage.getItem("savedResources")) || [];
-    
-    // Comprobar si ya existe el recurso con el mismo ID pero en otra categoría
+  
     const existingResource = storedResources.find(
       (saved) => saved.resource_id === resource.resource_id
     );
@@ -40,48 +40,37 @@ const ResourceCard = ({
       setSavedResources(updatedResources);
       toast.success(t("success.saved"));
     } else if (existingResource.category !== resource.category) {
-      // Si el recurso existe pero en una categoría diferente, lo permitimos guardar
-      const updatedResources = [...storedResources.filter((saved) => saved.resource_id !== resource.resource_id), resource];
+      // Si el recurso existe en una categoría diferente, lo agregamos como nuevo recurso
+      const updatedResources = [
+        ...storedResources,
+        resource,  // Agregamos el recurso con la nueva categoría
+      ];
       localStorage.setItem("savedResources", JSON.stringify(updatedResources));
       setSavedResources(updatedResources);
       toast.success(t("success.saved"));
     } else {
-      // Si el recurso ya existe en la misma categoría, mostramos un error
+      // Si el recurso ya está en la misma categoría, mostramos un error
       toast.error(t("error.alreadySaved"));
     }
   };
   
+
   const handleDelete = () => {
-    // Obtener los recursos guardados desde localStorage
-    const resources = JSON.parse(localStorage.getItem("savedResources")) || [];
-  
-    // Filtrar los recursos eliminando el recurso con el resource_id correspondiente
-    const updatedResources = resources.filter((element) => element.resource_id !== resource_id);
-  
-    // Si la lista de recursos se actualizó, actualizar el estado y el localStorage
-    if (updatedResources.length !== resources.length) {
-      setSavedResources(updatedResources);
-      localStorage.setItem("savedResources", JSON.stringify(updatedResources)); // Actualizar en LocalStorage
-      toast.success(t("success.deleted"));
-      if (onDelete) onDelete(resource_id);
-    } else {
-      toast.error(t("error.notSave"));
+    if (onDelete) {
+      onDelete(resource_id, category_id);
     }
   };
-  
 
   return (
     <>
       <div className="bg-background-secondary-light dark:bg-background-secondary-dark rounded overflow-hidden shadow-lg flex flex-col border border-gray-400 dark:border-gray-200 transition-transform transform hover:scale-105 hover:border-primary">
         <div className="relative">
-          <a  href={link}
-          target="_blank"
-          rel="noopener noreferrer">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             <img className="w-full" src={imgUrl} alt={title} />
           </a>
           <a href="#!">
             <span className="text-sm absolute top-0 right-0 border-none  rounded p-2 m-2 bg-[#ffe9dd] text-text-light dark:text-text-light">
-              {pricing} 
+              {pricing}
             </span>
           </a>
         </div>
@@ -100,18 +89,16 @@ const ResourceCard = ({
           <p className="text-text-light dark:text-text-dark ">{description}</p>
         </div>
         <div className="w-full px-5 py-2 flex flex-row items-center justify-between  border-t  border-gray-200 dark:border-gray-200">
-          { location.pathname == "/my-bookmarks" ? (
+          {location.pathname == "/my-bookmarks" ? (
             <button
-            
               className="text-sm text-red-600 hover:text-red-800 font-medium flex items-center"
-              onClick={() => handleDelete()} 
+              onClick={() => handleDelete()}
             >
               <MdDelete className="mr-2" /> {t("actions.delete")}
             </button>
           ) : (
             <button
-              
-              onClick={() => handleSave(resource)} 
+              onClick={() => handleSave(resource)}
               className="text-sm text-text-light dark:text-text-dark hover:text-primary dark:hover:text-primary  font-medium flex items-center"
             >
               <MdOutlineAddTask className="mr-2" /> {t("actions.save")}
@@ -122,7 +109,7 @@ const ResourceCard = ({
             onClick={() => setIsOpen(true)}
             className="text-sm text-text-light dark:text-text-dark hover:text-primary dark:hover:text-primary  font-medium flex items-center"
           >
-            <IoShareSocialSharp className="mr-2" />  {t("actions.share")}
+            <IoShareSocialSharp className="mr-2" /> {t("actions.share")}
           </button>
           <a
             href={link}
@@ -130,7 +117,7 @@ const ResourceCard = ({
             rel="noopener noreferrer"
             className="text-sm text-text-light dark:text-text-dark hover:text-primary dark:hover:text-primary font-medium flex items-center"
           >
-            <FaExternalLinkAlt className="mr-2" />  {t("actions.openLink")}
+            <FaExternalLinkAlt className="mr-2" /> {t("actions.openLink")}
           </a>
         </div>
       </div>
@@ -149,6 +136,7 @@ ResourceCard.propTypes = {
   link: PropTypes.string.isRequired,
   resource: PropTypes.object.isRequired,
   resource_id: PropTypes.number.isRequired,
+  category_id: PropTypes.number.isRequired,
   setSavedResources: PropTypes.func.isRequired,
   onDelete: PropTypes.func,
 };

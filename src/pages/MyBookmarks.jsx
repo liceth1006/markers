@@ -3,32 +3,42 @@ import ResourceCard from "../components/ResourceCard";
 import SelectCategory from "../components/SelectCategory";
 import { useTranslation } from "react-i18next";
 import NotFoundResource from "../components/NotFoundResource";
+import toast from "react-hot-toast";
+
 function MyBookmarks() {
   const { t } = useTranslation();
   const [savedResources, setSavedResources] = useState([]);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    const savedResource =
-      JSON.parse(localStorage.getItem("savedResources")) || [];
+    // Cargar los recursos guardados desde localStorage
+    const savedResource = JSON.parse(localStorage.getItem("savedResources")) || [];
     setSavedResources(savedResource);
-    setProducts(savedResource); 
+    setProducts(savedResource); // Inicializamos `products` con `savedResources`
   }, []);
 
   const selectCategory = (categoryId) => {
+    console.log(categoryId);
+    // Filtrar productos por categoría
     const filteredProducts =
       categoryId === ""
-        ? savedResources 
+        ? savedResources // Si no hay categoría seleccionada, mostramos todos los recursos
         : savedResources.filter((item) => item.category_id === categoryId);
-    setProducts(filteredProducts);
+    setProducts(filteredProducts); // Actualizar productos con los filtrados
   };
 
-  const handleRemoveProduct = (resourceId) => {
+  const handleRemoveProduct = (resourceId, categoryId) => {
+    console.log("Eliminando recurso con ID:", resourceId, "y categoría:", categoryId);
+    
     const updatedProducts = products.filter(
-      (product) => product.resource_id !== resourceId
+      (product) => !(product.resource_id === resourceId && product.category_id === categoryId)
     );
+  console.log(updatedProducts)
     setProducts(updatedProducts);
+    localStorage.setItem("savedResources", JSON.stringify(updatedProducts));
+    toast.success(t("success.deleted"));
   };
+  
 
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
@@ -36,30 +46,26 @@ function MyBookmarks() {
         {t("🎨 Explora y Crea Paletas de Colores Perfectas 🌈")}
       </h1>
 
-      <SelectCategory
-       
-        selectCategory={selectCategory}
-        
-      />
+      <SelectCategory selectCategory={selectCategory} />
 
       <div className="grid mt-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.length <= 0 ? (
-         <NotFoundResource/>
+          <NotFoundResource />
         ) : (
-          products.map((resource) => (
+          products.map((resource,index) => (
             <ResourceCard
-              key={resource.resource_id}
-              resource_id={resource.resource_id}
-              title={resource.title}
-              resource={resource}
-              imgUrl={resource.imgUrl}
-              description={resource.description}
-              category={resource.category}
-              pricing={resource.pricing}
-              link={resource.link}
-              savedResources={savedResources}
-              setSavedResources={setSavedResources}
-              onDelete={handleRemoveProduct}
+            key={index}
+            resource_id={resource.resource_id}
+            title={resource.title}
+            resource={resource}
+            imgUrl={resource.imgUrl}
+            description={resource.description}
+            category={resource.category}
+            category_id={resource.category_id}
+            pricing={resource.pricing}
+            link={resource.link}
+            setSavedResources={setSavedResources}
+            onDelete={handleRemoveProduct}
             />
           ))
         )}
