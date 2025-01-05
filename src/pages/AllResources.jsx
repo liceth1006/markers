@@ -4,6 +4,8 @@ import i18n from "../i18n";
 import Search from "../components/Search";
 import { useTranslation } from "react-i18next";
 import NotFoundResource from "../components/NotFoundResource";
+import { IoArrowBackSharp } from "react-icons/io5";
+import { IoMdArrowForward } from "react-icons/io";
 
 function AllResources() {
   const { t } = useTranslation();
@@ -99,7 +101,7 @@ function AllResources() {
           disabled={currentPage === 1}
           onClick={() => handlePageChange(currentPage - 1)}
         >
-          {t("allResources.previous")}
+         <IoArrowBackSharp />
         </button>
         {startPage > 1 && (
           <>
@@ -117,7 +119,7 @@ function AllResources() {
             key={page}
             className={`px-4 py-2 rounded ${
               currentPage === page
-                ? "bg-blue-500 text-white"
+                ? "bg-primary text-white"
                 : "bg-gray-200 dark:bg-gray-700"
             }`}
             onClick={() => handlePageChange(page)}
@@ -141,7 +143,7 @@ function AllResources() {
           disabled={currentPage === totalPages}
           onClick={() => handlePageChange(currentPage + 1)}
         >
-          {t("allResources.next")}
+         <IoMdArrowForward/>
         </button>
       </div>
     );
