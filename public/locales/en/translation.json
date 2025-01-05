@@ -6,7 +6,6 @@
     "subtitle": "Simplify your daily life with an innovative platform. Find, organize, and access resources easily and efficiently.",
     "exploreResources": "Explore Resources",
     "paragraph": "Simplify your daily life with an innovative platform. Find, organize, and access resources easily and efficiently."
-
   },
   "cardsSection": {
     "title": "Discover your next favorite resource",
@@ -41,30 +40,52 @@
       "text": "At <span class='text-[#F35B04] font-bold'>RoosterTools</span>, we believe that the key to being more <span class='bg-[#71f0ce] dark:bg-[#40EEC0] py-1 px-3 rounded-lg font-semibold'>productive</span> is having everything you need at your fingertips. Whether you are a <span class='font-semibold'>programmer</span> <span>or</span> a <span class='font-semibold'>designer</span>, our platform allows you to <span class='bg-[#fce47b] dark:bg-[#eea840] py-1 px-3 rounded-lg font-semibold'>save</span>, <span class='bg-[#da7bff] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>organize</span>, and <span class='bg-[#9e93fd] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>access</span> your favorite resources easily without overloading your browser bookmarks."
     }
   },
-  "color": {
-  "title": "🎨 Transform your design with amazing palettes and colors 🌈"
-},
-"actions": {
+  "actions": {
     "delete": "Delete",
     "save": "Save",
     "share": "Share",
     "search": "Search resources",
-   "openLink": "Link",
-   "shareLink": "Share link",
+    "openLink": "Link",
+    "shareLink": "Share link",
     "copy": "Copy",
-    "select":"Select a department"
-},
-"error": {
-  "notFound": {
-    "title": "Resource not found",
-    "message": "We're sorry, we couldn't find the resource you're looking for. Please check and try again."
+    "select": "Select a department"
   },
-  "alreadySaved": "This resource is already saved!",
-      "notSave": "This resource was not saved."
+  "error": {
+    "notFound": {
+      "title": "Resource not found",
+      "message": "We're sorry, we couldn't find the resource you're looking for. Please check and try again."
     },
-    "success": {
-      "saved": "Resource saved!",
-      "deleted": "Resource deleted!"
-    }
+    "alreadySaved": "This resource is already saved!",
+    "notSave": "This resource was not saved."
+  },
+  "success": {
+    "saved": "Resource saved!",
+    "deleted": "Resource deleted!"
+  },
 
+  "color": "Color Inspiration 🎨",
+  "typography": "Fonts & Typography 🔤",
+  "designtools": "Design Tools 🖌️",
+  "templates": "Useful Templates 📐",
+  "backgrounds": "Creative Backgrounds 📚",
+  "illustrations": "Explore Creative Illustrations 🖼️",
+  "icons": "Icon Sets for Every Design 🧭",
+  "photos": "High-Quality Photos 📸",
+  "textures": "Textural Inspirations 🧵",
+  "3dmodels": "Explore 3D Models 🏗️",
+  "audios": "Soothing and Dynamic Audio 🎧",
+  "videos": "Captivating Videos 🎥",
+  "videotemplates": "Professional Video Templates 🎬",
+  "api": "Powerful APIs to Enhance Your Work 🔌",
+  "components": "Design Components to Build With 🧩",
+  "libraries": "Essential Libraries for Developers 📚",
+  "frameworks": "Popular Frameworks for Rapid Development ⚙️",
+  "textgeneration": "AI-Powered Text Generation 📝",
+  "imagegeneration": "Create Stunning Images with AI 🖼️",
+  "videogeneration": "Generate Videos with Ease 🎬",
+  "portfolios": "Inspiring Creative Portfolios 🌟",
+  "designtrends": "Latest Design Trends 🔥",
+  "imagecompressors": "Optimize Your Images 📉",
+  "backgroundremovers": "Remove Backgrounds in Seconds 🖼️",
+  "resourceoptimizers": "Optimize Your Resources ⚙️"
 }

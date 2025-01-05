@@ -59,7 +59,7 @@ function Navbar() {
 
 
   return (
-    <header className="shadow-md bg-background-secondary-light dark:bg-background-secondary-dark">
+    <header className=" shadow-md bg-background-secondary-light dark:bg-background-secondary-dark">
       <div className="hidden md:flex container mx-auto py-4 justify-between items-center">
         <Link
           to={"/"}

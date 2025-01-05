@@ -40,9 +40,7 @@
       "text": "En <span class='text-[#F35B04] font-bold'>RoosterTools</span>, creemos que la clave para ser más <span class='bg-[#71f0ce] dark:bg-[#40EEC0] py-1 px-3 rounded-lg font-semibold'>productivo</span> es tener todo lo que necesitas al alcance de tu mano. Ya seas <span class='font-semibold'>programador</span> <span>o</span> <span class='font-semibold'>diseñador</span>, nuestra plataforma te permite <span class='bg-[#fce47b] dark:bg-[#eea840] py-1 px-3 rounded-lg font-semibold'>guardar</span>, <span class='bg-[#da7bff] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>organizar</span>, y <span class='bg-[#9e93fd] dark:bg-[#ee40d7] py-1 px-3 rounded-lg font-semibold'>acceder</span> fácilmente a tus recursos favoritos sin la necesidad de saturar tus marcadores de navegador."
     }
   },
-  "color": {
-    "title": "🎨 Transforma tu diseño con paletas y colores increíbles 🌈"
-  },
+
   "actions": {
     "delete": "Eliminar",
     "save": "Guardar",
@@ -51,7 +49,7 @@
     "shareLink": "Compartir enlace",
     "openLink": "Enlace",
     "copy": "Copiar",
-    "select":"Selecciona un departamento"
+    "select": "Selecciona un departamento"
   },
   "error": {
     "notFound": {
@@ -64,5 +62,30 @@
   "success": {
     "saved": "Recurso guardado!",
     "deleted": "Recurso eliminado!"
-  }
+  },
+  "color": "Inspiración de Color 🎨",
+  "typography": "Fuentes y Tipografía 🔤",
+  "designtools": "Herramientas de Diseño 🖌️",
+  "templates": "Plantillas Útiles 📐",
+  "backgrounds": "Fondos Creativos 📚",
+  "illustrations": "Explora Ilustraciones Creativas 🖼️",
+  "icons": "Conjuntos de Íconos para Cada Diseño 🧭",
+  "photos": "Fotos de Alta Calidad 📸",
+  "textures": "Inspiración Textural 🧵",
+  "3dmodels": "Explora Modelos 3D 🏗️",
+  "audios": "Audio Relajante y Dinámico 🎧",
+  "videos": "Videos Cautivadores 🎥",
+  "videotemplates": "Plantillas Profesionales de Video 🎬",
+  "api": "APIs Poderosas para Mejorar tu Trabajo 🔌",
+  "components": "Componentes de Diseño para Construir 🧩",
+  "libraries": "Bibliotecas Esenciales para Desarrolladores 📚",
+  "frameworks": "Frameworks Populares para Desarrollo Rápido ⚙️",
+  "textgeneration": "Generación de Texto con IA 📝",
+  "imagegeneration": "Crea Imágenes Sorprendentes con IA 🖼️",
+  "videogeneration": "Genera Videos con Facilidad 🎬",
+  "portfolios": "Portfolios Creativos Inspiradores 🌟",
+  "designtrends": "Últimas Tendencias en Diseño 🔥",
+  "imagecompressors": "Optimiza tus Imágenes 📉",
+  "backgroundremovers": "Elimina Fondos en Segundos 🖼️",
+  "resourceoptimizers": "Optimiza tus Recursos ⚙️"
 }

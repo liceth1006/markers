@@ -43,7 +43,7 @@ function Templates() {
   return (
     <div className="p-6 pt-10 bg-background-light py-9 dark:bg-background-dark text-text-light dark:text-text-dark min-h-screen">
       <h1 className="text-4xl  text-text-light dark:text-text-dark font-bold text-center mb-6">
-        {t("color.title")}
+        {t("templates")}
       </h1>
       <Search
         searchTerm={searchTerm}
