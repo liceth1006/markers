@@ -142,6 +142,7 @@ function Navbar() {
           <div className="flex flex-col items-center justify-center space-y-4 w-full">
             <Link
               to={"/"}
+              onClick={()=>setIsOpenDropdown(false)}
               className="text-text-light dark:text-text-dark text-2xl font-semibold flex items-center relative"
             >
               <GiRooster className="text-4xl absolute top-[-21px] text-[#132452] dark:text-[#e2e2e2]" />

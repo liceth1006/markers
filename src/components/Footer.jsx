@@ -27,11 +27,11 @@ function Footer() {
               href="https://github.com/liceth1006"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-text-light dark:text-text-dark hover:text-text-secondary-light  dark:hover:text-text-secondary-dark  transition-colors"
+              className="text-text-light dark:text-text-dark hover:text-text-secondary-light dark:hover:text-text-secondary-dark transition-colors"
             >
               <FaGithub
                 className="sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl"
-                style={{ marginBottom: "10px" }}
+               
               />
             </a>
             <a

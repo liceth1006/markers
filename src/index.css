@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,27 +13,60 @@ body {
   font-family: "Poppins", serif;
 }
 
-h1{
+h1 {
   font-family: "Montserrat", serif;
- 
 }
 
 .bg-image-1 {
-  background-image: url('/images/api.jpg');
+  background-image: url("/images/api.jpg");
 }
 
 .bg-image-2 {
-  background-image: url('/images/creative.jpg');
+  background-image: url("/images/creative.jpg");
 }
 
 .bg-image-3 {
-  background-image: url('/images/web.jpg');
+  background-image: url("/images/web.jpg");
 }
 
 .bg-image-4 {
-  background-image: url('/images/color.jpg');
+  background-image: url("/images/color.jpg");
 }
 
 .bg-image-5 {
-  background-image: url('/images/photo.jpg');
+  background-image: url("/images/photo.jpg");
+}
+
+/* HTML: <div class="loader"></div> */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: calc(6*30px);
+  height: 50px;
+  display: flex;
+  color: #f45709;
+  filter: drop-shadow(30px 25px 0 currentColor) drop-shadow(60px 0 0 currentColor) drop-shadow(120px 0 0 currentColor);
+  clip-path: inset(0 100% 0 0);
+  animation: l11 2s infinite steps(7);
+}
+.loader:before {
+  content: "";
+  width: 30px;
+  height: 25px;
+  background: currentColor;
+  clip-path: polygon(0 50%,30% 40%,100% 0,60% 40%,100% 50%,60% 60%,100% 100%,30% 60%);
+}
+@keyframes l11 {
+  100% {clip-path: inset(0 -30px 0 0)}
 }
