@@ -72,7 +72,7 @@ const ResourceCard = ({
 
   return (
     <>
-      <div className="bg-background-light dark:bg-background-dark rounded overflow-hidden shadow-lg flex flex-col border border-gray-200 transition-transform transform hover:scale-105 hover:border-primary">
+      <div className="bg-background-secondary-light dark:bg-background-secondary-dark rounded overflow-hidden shadow-lg flex flex-col border border-gray-400 dark:border-gray-200 transition-transform transform hover:scale-105 hover:border-primary">
         <div className="relative">
           <a  href={link}
           target="_blank"
