@@ -2,14 +2,12 @@ import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
 
 
-function Search({setSearchTerm,setFilteredProducts,product,searchTerm}) {
+function Search({setSearchTerm,searchTerm}) {
   const { t } = useTranslation();
   const search = (event) => {
    
     const filter = event.target.value.toLowerCase();
     setSearchTerm(filter);
-    const filtered = product.filter((item)=> item.title.toLowerCase().includes(filter))
-    setFilteredProducts(filtered);
   };
   return (
     <div className="flex items-center my-14 border w-80 focus-within:border-primary transition duration-300 pr-3 gap-2  border-primary h-[46px] rounded-[5px] overflow-hidden">
@@ -37,7 +35,6 @@ function Search({setSearchTerm,setFilteredProducts,product,searchTerm}) {
 }
 // Validación de props
 Search.propTypes = {
-  product: PropTypes.array.isRequired,
   searchTerm: PropTypes.string.isRequired,
   setSearchTerm: PropTypes.func.isRequired,
   setFilteredProducts: PropTypes.func.isRequired,

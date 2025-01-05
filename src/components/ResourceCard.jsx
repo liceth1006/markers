@@ -136,8 +136,8 @@ ResourceCard.propTypes = {
   link: PropTypes.string.isRequired,
   resource: PropTypes.object.isRequired,
   resource_id: PropTypes.number.isRequired,
-  category_id: PropTypes.number.isRequired,
-  setSavedResources: PropTypes.func.isRequired,
+  category_id: PropTypes.number,
+  setSavedResources: PropTypes.func,
   onDelete: PropTypes.func,
 };
 

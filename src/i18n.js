@@ -11,12 +11,13 @@ i18n
   .init({
     lng: "es", 
     fallbackLng: "es", 
-    debug: true,
+    debug: false,
     interpolation: {
       escapeValue: false,
     },
     backend: {
       loadPath: "/locales/{{lng}}/{{ns}}.json",
+       logLevel: 'silent'
     },
     react: {
       useSuspense: false,
