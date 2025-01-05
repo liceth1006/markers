@@ -18,7 +18,7 @@ function ImageCompressors() {
     const fetchData = async () => {
       const lang = i18n.language;
       try {
-        const url = `/locales/${lang}/resource-optimizers.json`;
+        const url = `/locales/${lang}/image-compressors.json`;
         const response = await fetch(url);
         if (!response.ok) throw new Error("Error al cargar ");
         const data = await response.json();

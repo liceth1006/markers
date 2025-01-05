@@ -6,7 +6,7 @@ function Benefits() {
   return (
     <section className="text-gray-700 body-font">
      
-      <div className="container px-5 py-12 mx-auto">
+      <div className="container px-2 lg:px-5 py-12 mx-auto">
         <div className="flex flex-wrap text-center justify-center">
           <div className="p-4 md:w-1/4 sm:w-1/2">
             <div className="px-4 py-6 transform transition duration-500 hover:scale-110">

@@ -7,7 +7,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/runwayml.jpg",
+    "imgUrl": "./images/categories/video-generation/runwayml.jpg",
     "link": "https://runwayml.com/",
     "pricing": "De pago"
   },
@@ -19,7 +19,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/pictory.jpg",
+    "imgUrl": "./images/categories/video-generation/pictory.jpg",
     "link": "https://pictory.ai/",
     "pricing": "De pago"
   },
@@ -31,7 +31,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/synthesia.jpg",
+    "imgUrl": "./images/categories/video-generation/synthesia.jpg",
     "link": "https://www.synthesia.io/",
     "pricing": "De pago"
   },
@@ -43,7 +43,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/deepbrain.jpg",
+    "imgUrl": "./images/categories/video-generation/deepbrain.jpg",
     "link": "https://www.deepbrain.io/",
     "pricing": "De pago"
   },
@@ -55,7 +55,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/lumen5.jpg",
+    "imgUrl": "./images/categories/video-generation/lumen5.jpg",
     "link": "https://www.lumen5.com/",
     "pricing": "Gratis y de pago"
   },
@@ -67,7 +67,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/designify.jpg",
+    "imgUrl": "./images/categories/video-generation/designify.jpg",
     "link": "https://www.designify.com/",
     "pricing": "De pago"
   },
@@ -79,7 +79,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/magisto.jpg",
+    "imgUrl": "./images/categories/video-generation/magisto.jpg",
     "link": "https://www.magisto.com/",
     "pricing": "Gratis y de pago"
   },
@@ -91,7 +91,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/descript.jpg",
+    "imgUrl": "./images/categories/video-generation/descript.jpg",
     "link": "https://www.descript.com/",
     "pricing": "De pago"
   },
@@ -103,7 +103,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/animoto.jpg",
+    "imgUrl": "./images/categories/video-generation/animoto.jpg",
     "link": "https://animoto.com/",
     "pricing": "Gratis y de pago"
   },
@@ -115,7 +115,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/veedio.jpg",
+    "imgUrl": "./images/categories/video-generation/veedio.jpg",
     "link": "https://www.veed.io/",
     "pricing": "Gratis y de pago"
   },
@@ -127,7 +127,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/invideo.jpg",
+    "imgUrl": "./images/categories/video-generation/invideo.jpg",
     "link": "https://invideo.io/",
     "pricing": "Gratis y de pago"
   },
@@ -139,7 +139,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/filmora.jpg",
+    "imgUrl": "./images/categories/video-generation/filmora.jpg",
     "link": "https://filmora.wondershare.com/",
     "pricing": "De pago"
   },
@@ -151,7 +151,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/veediovideoediting.jpg",
+    "imgUrl": "./images/categories/video-generation/veediovideoediting.jpg",
     "link": "https://www.veed.io/ai-video-editing",
     "pricing": "Gratis y de pago"
   },
@@ -163,7 +163,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/filmstro.jpg",
+    "imgUrl": "./images/categories/video-generation/filmstro.jpg",
     "link": "https://www.filmstro.com/",
     "pricing": "De pago"
   },
@@ -175,7 +175,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/clipsai.jpg",
+    "imgUrl": "./images/categories/video-generation/clipsai.jpg",
     "link": "https://www.clips.ai/",
     "pricing": "Gratis y de pago"
   },
@@ -187,7 +187,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/videoaigenerator.jpg",
+    "imgUrl": "./images/categories/video-generation/videoaigenerator.jpg",
     "link": "https://www.videoaigenerator.com/",
     "pricing": "De pago"
   },
@@ -199,7 +199,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/rephraseai.jpg",
+    "imgUrl": "./images/categories/video-generation/rephraseai.jpg",
     "link": "https://www.rephrase.ai/",
     "pricing": "De pago"
   },
@@ -211,7 +211,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/cortexica.jpg",
+    "imgUrl": "./images/categories/video-generation/cortexica.jpg",
     "link": "https://www.cortexica.com/",
     "pricing": "De pago"
   },
@@ -223,7 +223,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/aivideogenerator.jpg",
+    "imgUrl": "./images/categories/video-generation/aivideogenerator.jpg",
     "link": "https://aivideogenerator.com/",
     "pricing": "De pago"
   },
@@ -235,7 +235,7 @@
     "category_id": 24,
     "subcategory": "Generación de Videos IA",
     "subcategory_id": 25,
-    "imgUrl": "./images/categories/ai/videogeneration/wibbitz.jpg",
+    "imgUrl": "./images/categories/video-generation/wibbitz.jpg",
     "link": "https://www.wibbitz.com/",
     "pricing": "De pago"
   }

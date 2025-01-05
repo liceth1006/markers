@@ -7,7 +7,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/dalle2.jpg",
+    "imgUrl": "./images/categories/image-generation/dalle2.jpg",
     "link": "https://openai.com/dall-e-2",
     "pricing": "Gratis y de pago"
   },
@@ -19,7 +19,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/deepart.jpg",
+    "imgUrl": "./images/categories/image-generation/deepart.jpg",
     "link": "https://deepart.io/",
     "pricing": "De pago"
   },
@@ -31,7 +31,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/artbreeder.jpg",
+    "imgUrl": "./images/categories/image-generation/artbreeder.jpg",
     "link": "https://www.artbreeder.com/",
     "pricing": "Gratis y de pago"
   },
@@ -43,7 +43,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/runwayml.jpg",
+    "imgUrl": "./images/categories/image-generation/runwayml.jpg",
     "link": "https://runwayml.com/",
     "pricing": "De pago"
   },
@@ -55,7 +55,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/nightcafe.jpg",
+    "imgUrl": "./images/categories/image-generation/nightcafe.jpg",
     "link": "https://creator.nightcafe.studio/",
     "pricing": "Gratis y de pago"
   },
@@ -67,7 +67,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/deepdreamgenerator.jpg",
+    "imgUrl": "./images/categories/image-generation/deepdreamgenerator.jpg",
     "link": "https://deepdreamgenerator.com/",
     "pricing": "Gratis y de pago"
   },
@@ -79,7 +79,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/craiyon.jpg",
+    "imgUrl": "./images/categories/image-generation/craiyon.jpg",
     "link": "https://www.craiyon.com/",
     "pricing": "Gratis"
   },
@@ -91,7 +91,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/fotor.jpg",
+    "imgUrl": "./images/categories/image-generation/fotor.jpg",
     "link": "https://www.fotor.com/features/ai-image-generator/",
     "pricing": "Gratis y de pago"
   },
@@ -103,7 +103,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/paintschainer.jpg",
+    "imgUrl": "./images/categories/image-generation/paintschainer.jpg",
     "link": "https://paintschainer.preferred.tech/index_en.html",
     "pricing": "Gratis y de pago"
   },
@@ -115,7 +115,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/wombo.jpg",
+    "imgUrl": "./images/categories/image-generation/wombo.jpg",
     "link": "https://www.wombo.art/",
     "pricing": "Gratis"
   },
@@ -127,7 +127,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/aipicasso.jpg",
+    "imgUrl": "./images/categories/image-generation/aipicasso.jpg",
     "link": "https://www.aipicasso.com/",
     "pricing": "Gratis y de pago"
   },
@@ -139,7 +139,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/pixray.jpg",
+    "imgUrl": "./images/categories/image-generation/pixray.jpg",
     "link": "https://pixray.github.io/",
     "pricing": "Gratis"
   },
@@ -151,7 +151,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/vqganclip.jpg",
+    "imgUrl": "./images/categories/image-generation/vqganclip.jpg",
     "link": "https://colab.research.google.com/drive/1Z5Gq3MCiDnyrtpDF8c9XhX1eFfD5Ydkn",
     "pricing": "Gratis"
   },
@@ -163,7 +163,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/starryai.jpg",
+    "imgUrl": "./images/categories/image-generation/starryai.jpg",
     "link": "https://www.starryai.com/",
     "pricing": "Gratis y de pago"
   },
@@ -175,7 +175,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/shutterstock.jpg",
+    "imgUrl": "./images/categories/image-generation/shutterstock.jpg",
     "link": "https://www.shutterstock.com/ai-image-generator",
     "pricing": "De pago"
   },
@@ -187,7 +187,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/aiimageenlarger.jpg",
+    "imgUrl": "./images/categories/image-generation/aiimageenlarger.jpg",
     "link": "https://imglarger.com/",
     "pricing": "Gratis y de pago"
   },
@@ -199,7 +199,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/bigsleep.jpg",
+    "imgUrl": "./images/categories/image-generation/bigsleep.jpg",
     "link": "https://github.com/lucidrains/big-sleep",
     "pricing": "Gratis"
   },
@@ -211,7 +211,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/toonify.jpg",
+    "imgUrl": "./images/categories/image-generation/toonify.jpg",
     "link": "https://toonify.justinpinkney.com/",
     "pricing": "Gratis y de pago"
   },
@@ -223,7 +223,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/zyro.jpg",
+    "imgUrl": "./images/categories/image-generation/zyro.jpg",
     "link": "https://zyro.com/tools/ai-image-generator",
     "pricing": "Gratis"
   },
@@ -235,7 +235,7 @@
     "category_id": 23,
     "subcategory": "Generación de Imágenes IA",
     "subcategory_id": 24,
-    "imgUrl": "./images/categories/ai/imagegeneration/photopea.jpg",
+    "imgUrl": "./images/categories/image-generation/photopea.jpg",
     "link": "https://www.photopea.com/",
     "pricing": "Gratis"
   }
