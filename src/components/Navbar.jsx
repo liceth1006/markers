@@ -183,7 +183,7 @@ function Navbar() {
                     : "hover:text-primary"
                 } text-sm md:text-base`}
               >
-               todos
+                {t("allResources")}
               </Link>
             {categories
             .filter((item) => item.department_id === selectedDepartment)

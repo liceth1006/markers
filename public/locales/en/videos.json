@@ -71,18 +71,7 @@
     "link": "https://www.videezy.com",
     "pricing": "Free and Paid"
   },
-  {
-    "resource_id": 7,
-    "title": "Life of Vids",
-    "description": "Free stock videos for personal and commercial projects.",
-    "category": "Videos",
-    "category_id": 12,
-    "subcategory": "Free videos",
-    "subcategory_id": 7,
-    "imgUrl": "./images/categories/videos/lifeofvids.jpg",
-    "link": "https://www.lifeofvids.com",
-    "pricing": "Free"
-  },
+
   {
     "resource_id": 8,
     "title": "Videoblocks",

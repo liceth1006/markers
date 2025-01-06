@@ -29,30 +29,25 @@ const ResourceCard = ({
   const handleSave = (resource) => {
     const storedResources = JSON.parse(localStorage.getItem("savedResources")) || [];
   
+    // Verifica si existe un recurso con el mismo ID y la misma categoría
     const existingResource = storedResources.find(
-      (saved) => saved.resource_id === resource.resource_id
+      (saved) => 
+        saved.resource_id === resource.resource_id && 
+        saved.category === resource.category
     );
   
     if (!existingResource) {
-      // Si el recurso no existe, lo guardamos
+      // Si no existe un recurso con el mismo ID y categoría, lo guardamos
       const updatedResources = [...storedResources, resource];
       localStorage.setItem("savedResources", JSON.stringify(updatedResources));
       setSavedResources(updatedResources);
       toast.success(t("success.saved"));
-    } else if (existingResource.category !== resource.category) {
-      // Si el recurso existe en una categoría diferente, lo agregamos como nuevo recurso
-      const updatedResources = [
-        ...storedResources,
-        resource,  // Agregamos el recurso con la nueva categoría
-      ];
-      localStorage.setItem("savedResources", JSON.stringify(updatedResources));
-      setSavedResources(updatedResources);
-      toast.success(t("success.saved"));
     } else {
-      // Si el recurso ya está en la misma categoría, mostramos un error
+      // Si el recurso ya existe en la misma categoría, mostramos un error
       toast.error(t("error.alreadySaved"));
     }
   };
+  
   
 
   const handleDelete = () => {

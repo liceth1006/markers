@@ -179,42 +179,7 @@
     "link": "https://www.clips.ai/",
     "pricing": "Free and Paid"
   },
-  {
-    "resource_id": 16,
-    "title": "Video AI Generator",
-    "description": "AI video generator that turns ideas and text descriptions into realistic videos automatically.",
-    "category": "Video Generation",
-    "category_id": 24,
-    "subcategory": "AI Video Generation",
-    "subcategory_id": 25,
-    "imgUrl": "./images/categories/video-generation/videoaigenerator.jpg",
-    "link": "https://www.videoaigenerator.com/",
-    "pricing": "Paid"
-  },
-  {
-    "resource_id": 17,
-    "title": "Rephrase.ai",
-    "description": "AI video generator that uses realistic human avatars to create video content from text.",
-    "category": "Video Generation",
-    "category_id": 24,
-    "subcategory": "AI Video Generation",
-    "subcategory_id": 25,
-    "imgUrl": "./images/categories/video-generation/rephraseai.jpg",
-    "link": "https://www.rephrase.ai/",
-    "pricing": "Paid"
-  },
-  {
-    "resource_id": 18,
-    "title": "Cortexica",
-    "description": "Smart video platform that uses AI to analyze and generate videos with personalized visual and auditory content.",
-    "category": "Video Generation",
-    "category_id": 24,
-    "subcategory": "AI Video Generation",
-    "subcategory_id": 25,
-    "imgUrl": "./images/categories/video-generation/cortexica.jpg",
-    "link": "https://www.cortexica.com/",
-    "pricing": "Paid"
-  },
+
   {
     "resource_id": 19,
     "title": "AI Video Generator",

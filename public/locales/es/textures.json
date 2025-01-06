@@ -95,18 +95,7 @@
     "link": "https://www.sharetextures.com",
     "pricing": "Gratis"
   },
-  {
-    "resource_id": 9,
-    "title": "Good Textures",
-    "description": "Texturas gratuitas en alta resolución para proyectos creativos.",
-    "category": "Textures",
-    "category_id": 9,
-    "subcategory": "Alta resolución",
-    "subcategory_id": 9,
-    "imgUrl": "./images/categories/textures/good-textures.jpg",
-    "link": "https://www.goodtextures.com",
-    "pricing": "Gratis"
-  },
+
   {
     "resource_id": 10,
     "title": "Environment Textures",
@@ -191,18 +180,7 @@
     "link": "https://www.ambientcg.com",
     "pricing": "Gratis"
   },
-  {
-    "resource_id": 17,
-    "title": "Real Textures",
-    "description": "Colección de texturas realistas para arquitectura y visualización.",
-    "category": "Textures",
-    "category_id": 9,
-    "subcategory": "Texturas realistas",
-    "subcategory_id": 17,
-    "imgUrl": "./images/categories/textures/real-textures.jpg",
-    "link": "https://www.realtextures.com",
-    "pricing": "De pago"
-  },
+
   {
     "resource_id": 18,
     "title": "CC0 Textures",

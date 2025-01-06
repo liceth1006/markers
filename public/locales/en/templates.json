@@ -132,18 +132,6 @@
     "pricing": "Free and Paid"
   },
   {
-    "resource_id": 12,
-    "title": "Toptal Templates",
-    "description": "High-quality templates and frameworks designed for businesses and startups.",
-    "category": "Templates",
-    "category_id": 4,
-    "subcategory": "Business Templates",
-    "subcategory_id": 8,
-    "imgUrl": "./images/categories/templates/toptal-templates.jpg",
-    "link": "https://toptal.com",
-    "pricing": "Free"
-  },
-  {
     "resource_id": 13,
     "title": "Microsoft Office Templates",
     "description": "Extensive library of templates for Word, Excel, and PowerPoint for various uses.",

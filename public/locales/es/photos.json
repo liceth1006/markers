@@ -95,18 +95,7 @@
     "link": "https://reshot.com",
     "pricing": "Gratis"
   },
-  {
-    "resource_id": 9,
-    "title": "Death to Stock",
-    "description": "Fotos exclusivas y premium para proyectos creativos.",
-    "category": "Photos",
-    "category_id": 8,
-    "subcategory": "Fotos premium",
-    "subcategory_id": 2,
-    "imgUrl": "./images/categories/photos/death-to-stock.jpg",
-    "link": "https://deathtothestockphoto.com",
-    "pricing": "De pago"
-  },
+ 
   {
     "resource_id": 10,
     "title": "Kaboompics",

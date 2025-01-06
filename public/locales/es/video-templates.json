@@ -71,18 +71,7 @@
     "link": "https://filmora.wondershare.com/templates/",
     "pricing": "De pago"
   },
-  {
-    "resource_id": 7,
-    "title": "RocketStock",
-    "description": "Plantillas de video y efectos visuales premium para After Effects.",
-    "category": "Plantillas de Video",
-    "category_id": 13,
-    "subcategory": "Plantillas premium",
-    "subcategory_id": 7,
-    "imgUrl": "./images/categories/video-templates/rocketstock.jpg",
-    "link": "https://www.rocketstock.com",
-    "pricing": "De pago"
-  },
+
   {
     "resource_id": 8,
     "title": "Motion VFX",
@@ -191,42 +180,9 @@
     "link": "https://fxfactory.com",
     "pricing": "De pago"
   },
-  {
-    "resource_id": 17,
-    "title": "Creative Market",
-    "description": "Plantillas y recursos creativos para todo tipo de proyectos de video.",
-    "category": "Plantillas de Video",
-    "category_id": 13,
-    "subcategory": "Plantillas premium",
-    "subcategory_id": 17,
-    "imgUrl": "./images/categories/video-templates/creativemarket.jpg",
-    "link": "https://creativemarket.com",
-    "pricing": "De pago"
-  },
-  {
-    "resource_id": 18,
-    "title": "After Effects Templates",
-    "description": "Colección de plantillas de After Effects para proyectos profesionales.",
-    "category": "Plantillas de Video",
-    "category_id": 13,
-    "subcategory": "Plantillas de After Effects",
-    "subcategory_id": 18,
-    "imgUrl": "./images/categories/video-templates/aftereffecttemplates.jpg",
-    "link": "https://www.aftereffecttemplates.com",
-    "pricing": "De pago"
-  },
-  {
-    "resource_id": 19,
-    "title": "Filmstock",
-    "description": "Plantillas y efectos visuales para videos creativos en una sola plataforma.",
-    "category": "Plantillas de Video",
-    "category_id": 13,
-    "subcategory": "Plantillas y efectos",
-    "subcategory_id": 19,
-    "imgUrl": "./images/categories/video-templates/filmstock.jpg",
-    "link": "https://www.filmstock.com",
-    "pricing": "De pago"
-  },
+
+ 
+
   {
     "resource_id": 20,
     "title": "Cinecom.net",

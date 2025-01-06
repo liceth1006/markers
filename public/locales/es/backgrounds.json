@@ -191,18 +191,7 @@
     "link": "https://www.designify.com",
     "pricing": "Gratis y de pago"
   },
-  {
-    "resource_id": 17,
-    "title": "Abstract Backgrounds",
-    "description": "Fondos abstractos modernos para diseño digital.",
-    "category": "Backgrounds",
-    "category_id": 5,
-    "subcategory": "Abstractos",
-    "subcategory_id": 17,
-    "imgUrl": "./images/categories/backgrounds/abstractbackgrounds.jpg",
-    "link": "https://abstractbackgrounds.com",
-    "pricing": "Gratis y de pago"
-  },
+ 
   {
     "resource_id": 18,
     "title": "ShapeFactory",

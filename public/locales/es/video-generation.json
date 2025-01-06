@@ -179,42 +179,8 @@
     "link": "https://www.clips.ai/",
     "pricing": "Gratis y de pago"
   },
-  {
-    "resource_id": 16,
-    "title": "Video AI Generator",
-    "description": "Generador de videos con IA que transforma ideas y descripciones de texto en videos realistas de manera automatizada.",
-    "category": "Generación de Videos",
-    "category_id": 24,
-    "subcategory": "Generación de Videos IA",
-    "subcategory_id": 25,
-    "imgUrl": "./images/categories/video-generation/videoaigenerator.jpg",
-    "link": "https://www.videoaigenerator.com/",
-    "pricing": "De pago"
-  },
-  {
-    "resource_id": 17,
-    "title": "Rephrase.ai",
-    "description": "Generador de videos de IA que utiliza avatares humanos realistas para crear contenido de video a partir de texto.",
-    "category": "Generación de Videos",
-    "category_id": 24,
-    "subcategory": "Generación de Videos IA",
-    "subcategory_id": 25,
-    "imgUrl": "./images/categories/video-generation/rephraseai.jpg",
-    "link": "https://www.rephrase.ai/",
-    "pricing": "De pago"
-  },
-  {
-    "resource_id": 18,
-    "title": "Cortexica",
-    "description": "Plataforma de video inteligente que emplea IA para analizar y generar videos con contenido visual y auditivo personalizado.",
-    "category": "Generación de Videos",
-    "category_id": 24,
-    "subcategory": "Generación de Videos IA",
-    "subcategory_id": 25,
-    "imgUrl": "./images/categories/video-generation/cortexica.jpg",
-    "link": "https://www.cortexica.com/",
-    "pricing": "De pago"
-  },
+ 
+
   {
     "resource_id": 19,
     "title": "AI Video Generator",

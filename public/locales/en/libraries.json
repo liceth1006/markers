@@ -131,30 +131,7 @@
     "link": "https://leafletjs.com/",
     "pricing": "Free"
   },
-  {
-    "resource_id": 12,
-    "title": "Pikaday",
-    "description": "A library for creating interactive calendars and date pickers in JavaScript.",
-    "category": "Libraries",
-    "category_id": 16,
-    "subcategory": "Calendars",
-    "subcategory_id": 12,
-    "imgUrl": "./images/categories/libraries/pikaday.jpg",
-    "link": "https://pikaday.com/",
-    "pricing": "Free"
-  },
-  {
-    "resource_id": 13,
-    "title": "Is.js",
-    "description": "A small library providing an easy way to perform type checks in JavaScript.",
-    "category": "Libraries",
-    "category_id": 16,
-    "subcategory": "Utilities",
-    "subcategory_id": 13,
-    "imgUrl": "./images/categories/libraries/isjs.jpg",
-    "link": "https://is.js.org/",
-    "pricing": "Free"
-  },
+
   {
     "resource_id": 14,
     "title": "Anime.js",

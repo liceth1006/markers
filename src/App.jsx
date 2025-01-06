@@ -35,6 +35,7 @@ import BackgroundRemovers from "./pages/BackgroundRemovers";
 import ResourceOptimizers from "./pages/ResourceOptimizers";
 import { useEffect, useState } from "react";
 import Loader from "./components/Loader";
+import NotFound from "./pages/NotFound";
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -91,6 +92,7 @@ function App() {
               element={<BackgroundRemovers />}
             />{" "}
             <Route path="/my-bookmarks" element={<MyBookmarks />} />{" "}
+            <Route path="*" element={<NotFound/>}></Route>
           </Routes>{" "}
           <Footer />{" "}
         </div>

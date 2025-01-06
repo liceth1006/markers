@@ -204,18 +204,6 @@
     "pricing": "Free"
   },
   {
-    "resource_id": 18,
-    "title": "Graphic Design Inspiration",
-    "description": "A collection of sites, blogs, and resources for graphic and web design inspiration that highlights the most current trends.",
-    "category": "Design Trends",
-    "category_id": 25,
-    "subcategory": "Design Trends",
-    "subcategory_id": 27,
-    "imgUrl": "./images/categories/design-trends/graphicdesigninspiration.jpg",
-    "link": "https://www.graphicdesigninspiration.com/",
-    "pricing": "Free"
-  },
-  {
     "resource_id": 19,
     "title": "Typewolf",
     "description": "A website specializing in typography, covering the latest trends in typography and recommendations for designers.",

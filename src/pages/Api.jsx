@@ -5,7 +5,6 @@ import Search from "../components/Search";
 import { useTranslation } from "react-i18next";
 import NotFoundResource from "../components/NotFoundResource";
 
-
 function Api() {
   const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState("");
@@ -13,7 +12,7 @@ function Api() {
   const [data, setData] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
 
-  // Cargar 
+  // Cargar
   useEffect(() => {
     const fetchData = async () => {
       const lang = i18n.language;
@@ -32,7 +31,7 @@ function Api() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [i18n.language]);
 
-  // Filtrar productos 
+  // Filtrar productos
   useEffect(() => {
     const filtered = data.filter((resource) =>
       resource.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -45,42 +44,43 @@ function Api() {
       <h1 className="text-4xl  text-text-light dark:text-text-dark font-bold text-center mb-6">
         {t("api")}
       </h1>
-      <Search
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        filteredProducts={filteredProducts}
-        setFilteredProducts={setFilteredProducts}
-      />
-
-<div className="relative">
-  {filteredProducts.length > 0 ? (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {filteredProducts.map((resource) => (
-        <ResourceCard
-          key={resource.resource_id}
-          resource_id={resource.resource_id}
-          title={resource.title}
-          resource={resource}
-          imgUrl={resource.imgUrl}
-          description={resource.description}
-          category={resource.subcategory}
-          pricing={resource.pricing}
-          link={resource.link}
-          savedResources={savedResources}
-          setSavedResources={setSavedResources}
-          isSaved={savedResources.some(
-            (saved) => saved.resource_id === resource.resource_id
-          )}
+      <div className="my-8 lg:my-16 xl:my-16">
+        <Search
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
+          filteredProducts={filteredProducts}
+          setFilteredProducts={setFilteredProducts}
         />
-      ))}
-    </div>
-  ) : (
-   
-    <NotFoundResource />
-  )}
-</div>
+      </div>
+
+      <div className="relative">
+        {filteredProducts.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredProducts.map((resource) => (
+              <ResourceCard
+                key={resource.resource_id}
+                resource_id={resource.resource_id}
+                title={resource.title}
+                resource={resource}
+                imgUrl={resource.imgUrl}
+                description={resource.description}
+                category={resource.subcategory}
+                pricing={resource.pricing}
+                link={resource.link}
+                savedResources={savedResources}
+                setSavedResources={setSavedResources}
+                isSaved={savedResources.some(
+                  (saved) => saved.resource_id === resource.resource_id
+                )}
+              />
+            ))}
+          </div>
+        ) : (
+          <NotFoundResource />
+        )}
+      </div>
     </div>
   );
 }
 
-export default Api
+export default Api;

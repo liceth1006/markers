@@ -227,18 +227,7 @@
     "link": "https://contentbot.ai/",
     "pricing": "Paid"
   },
-  {
-    "resource_id": 20,
-    "title": "Text Generation API",
-    "description": "API that enables text generation integration into any application or workflow using AI.",
-    "category": "Text Generation",
-    "category_id": 21,
-    "subcategory": "AI Text Generation",
-    "subcategory_id": 20,
-    "imgUrl": "./images/categories/text-generation/textgenapi.jpg",
-    "link": "https://textgen.io/",
-    "pricing": "Paid"
-  },
+
   {
     "resource_id": 21,
     "title": "ChatGPT",

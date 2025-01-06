@@ -2,42 +2,49 @@
   {
     "department_id": 1,
     "department": "Diseño Gráfico",
-    "description": "Recursos y herramientas para la creación y edición de elementos visuales, incluyendo colores, tipografías y plantillas."
+    "description": "Recursos y herramientas para la creación y edición de elementos visuales, incluyendo colores, tipografías y plantillas.",
+    "path": "/color"
   },
   {
     "department_id": 2,
     "department": "Recursos Visuales",
-    "description": "Colección de imágenes, ilustraciones, iconos y modelos 3D para mejorar los diseños visuales en proyectos gráficos y digitales."
+    "description": "Colección de imágenes, ilustraciones, iconos y modelos 3D para mejorar los diseños visuales en proyectos gráficos y digitales.",
+    "path": "/illustrations"
   },
   {
     "department_id": 3,
     "department": "Audio y Video",
-    "description": "Herramientas y recursos multimedia para la creación y edición de contenido de audio y video, como plantillas y efectos."
+    "description": "Herramientas y recursos multimedia para la creación y edición de contenido de audio y video, como plantillas y efectos.",
+    "path": "/audios"
   },
   {
     "department_id": 4,
     "department": "Programación",
-    "description": "Recursos  y frameworks para el desarrollo de software, incluyendo APIs, componentes y herramientas útiles para programadores."
+    "description": "Recursos  y frameworks para el desarrollo de software, incluyendo APIs, componentes y herramientas útiles para programadores.",
+    "path": "/api"
   },
   {
     "department_id": 5,
     "department": "Contenido",
-    "description": "Fuentes de contenido en línea como YouTubers, blogs y documentación para programadores y diseñadores que buscan aprender y mejorar sus habilidades."
+    "description": "Fuentes de contenido en línea como YouTubers, blogs y documentación para programadores y diseñadores que buscan aprender y mejorar sus habilidades.",
+    "path": "/programming-youtubers"
   },
   {
     "department_id": 6,
     "department": "Inteligencia Artificial",
-    "description": "Herramientas basadas en IA para la generación de texto, imágenes y videos, aplicadas tanto a programación como a diseño."
+    "description": "Herramientas basadas en IA para la generación de texto, imágenes y videos, aplicadas tanto a programación como a diseño.",
+    "path": "/text-generation"
   },
   {
     "department_id": 7,
     "department": "Inspiración",
-    "description": "Recopilación de portafolios creativos, tendencias y desafíos para motivar la creatividad en diseño y programación."
+    "description": "Recopilación de portafolios creativos, tendencias y desafíos para motivar la creatividad en diseño y programación.",
+    "path": "/creative-portfolios"
   },
   {
     "department_id": 8,
     "department": "Herramientas Útiles",
-    "description": "Conjunto de herramientas para facilitar tareas comunes como compresión de imágenes, eliminación de fondos y optimización de recursos."
+    "description": "Conjunto de herramientas para facilitar tareas comunes como compresión de imágenes, eliminación de fondos y optimización de recursos.",
+    "path": "/image-compressors"
   }
-  
 ]

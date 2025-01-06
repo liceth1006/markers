@@ -143,18 +143,7 @@
     "link": "https://iradesign.io",
     "pricing": "Gratis"
   },
-  {
-    "resource_id": 13,
-    "title": "Froala Illustrations",
-    "description": "Biblioteca de ilustraciones personalizables para proyectos web y aplicaciones.",
-    "category": "Illustrations",
-    "category_id": 6,
-    "subcategory": "Ilustraciones personalizables",
-    "subcategory_id": 16,
-    "imgUrl": "./images/categories/illustrations/froala.jpg",
-    "link": "https://froala.com",
-    "pricing": "Gratis y de pago"
-  },
+ 
   {
     "resource_id": 14,
     "title": "Pixeltrue",

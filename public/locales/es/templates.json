@@ -131,18 +131,7 @@
     "link": "https://visme.co/templates",
     "pricing": "Gratis y de pago"
   },
-  {
-    "resource_id": 12,
-    "title": "Plantillas de Toptal",
-    "description": "Plantillas y marcos de alta calidad diseñados para negocios y startups.",
-    "category": "Plantillas",
-    "category_id": 4,
-    "subcategory": "Plantillas para negocios",
-    "subcategory_id": 8,
-    "imgUrl": "./images/categories/templates/toptal-templates.jpg",
-    "link": "https://toptal.com",
-    "pricing": "Gratis"
-  },
+
   {
     "resource_id": 13,
     "title": "Plantillas de Microsoft Office",

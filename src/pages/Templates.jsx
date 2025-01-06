@@ -45,12 +45,15 @@ function Templates() {
       <h1 className="text-4xl  text-text-light dark:text-text-dark font-bold text-center mb-6">
         {t("templates")}
       </h1>
+      <div className="my-8 lg:my-16 xl:my-16">
+
       <Search
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         filteredProducts={filteredProducts}
         setFilteredProducts={setFilteredProducts}
       />
+      </div>
 
 <div className="relative">
   {filteredProducts.length > 0 ? (

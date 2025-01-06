@@ -2,41 +2,48 @@
   {
     "department_id": 1,
     "department": "Graphic Design",
-    "description": "Resources and tools for creating and editing visual elements, including colors, typography, and templates."
+    "description": "Resources and tools for creating and editing visual elements, including colors, typography, and templates.",
+    "path": "/color"
   },
   {
     "department_id": 2,
     "department": "Visual Resources",
-    "description": "Collection of images, illustrations, icons, and 3D models to enhance visual designs in graphic and digital projects."
+    "description": "Collection of images, illustrations, icons, and 3D models to enhance visual designs in graphic and digital projects.",
+    "path": "/illustrations"
   },
   {
     "department_id": 3,
     "department": "Audio and Video",
-    "description": "Multimedia tools and resources for creating and editing audio and video content, such as templates and effects."
+    "description": "Multimedia tools and resources for creating and editing audio and video content, such as templates and effects.",
+    "path": "/audios"
   },
   {
     "department_id": 4,
     "department": "Programming",
-    "description": "Resources and frameworks for software development, including APIs, components, and useful tools for developers."
+    "description": "Resources and frameworks for software development, including APIs, components, and useful tools for developers.",
+    "path": "/api"
   },
   {
     "department_id": 5,
     "department": "Content",
-    "description": "Online content sources such as YouTubers, blogs, and documentation for programmers and designers looking to learn and improve their skills."
+    "description": "Online content sources such as YouTubers, blogs, and documentation for programmers and designers looking to learn and improve their skills.",
+     "path": "/programming-youtubers"
   },
   {
     "department_id": 6,
     "department": "Artificial Intelligence",
-    "description": "AI-based tools for generating text, images, and videos, applied to both programming and design."
+    "description": "AI-based tools for generating text, images, and videos, applied to both programming and design.",
+    "path": "/text-generation"
   },
   {
     "department_id": 7,
     "department": "Inspiration",
-    "description": "Collection of creative portfolios, trends, and challenges to inspire creativity in design and programming."
+    "description": "Collection of creative portfolios, trends, and challenges to inspire creativity in design and programming.",
+    "path": "/creative-portfolios"
   },
   {
     "department_id": 8,
     "department": "Useful Tools",
-    "description": "Set of tools to simplify common tasks like image compression, background removal, and resource optimization."
-  }
+    "description": "Set of tools to simplify common tasks like image compression, background removal, and resource optimization.",
+    "path": "/image-compressors" }
 ]

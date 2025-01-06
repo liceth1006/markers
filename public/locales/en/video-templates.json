@@ -71,18 +71,7 @@
     "link": "https://filmora.wondershare.com/templates/",
     "pricing": "Paid"
   },
-  {
-    "resource_id": 7,
-    "title": "RocketStock",
-    "description": "Premium video templates and visual effects for After Effects.",
-    "category": "Video Templates",
-    "category_id": 13,
-    "subcategory": "Premium Templates",
-    "subcategory_id": 7,
-    "imgUrl": "./images/categories/video-templates/rocketstock.jpg",
-    "link": "https://www.rocketstock.com",
-    "pricing": "Paid"
-  },
+ 
   {
     "resource_id": 8,
     "title": "Motion VFX",
@@ -191,42 +180,9 @@
     "link": "https://fxfactory.com",
     "pricing": "Paid"
   },
-  {
-    "resource_id": 17,
-    "title": "Creative Market",
-    "description": "Templates and creative resources for all types of video projects.",
-    "category": "Video Templates",
-    "category_id": 13,
-    "subcategory": "Premium Templates",
-    "subcategory_id": 17,
-    "imgUrl": "./images/categories/video-templates/creativemarket.jpg",
-    "link": "https://creativemarket.com",
-    "pricing": "Paid"
-  },
-  {
-    "resource_id": 18,
-    "title": "After Effects Templates",
-    "description": "Collection of After Effects templates for professional projects.",
-    "category": "Video Templates",
-    "category_id": 13,
-    "subcategory": "After Effects Templates",
-    "subcategory_id": 18,
-    "imgUrl": "./images/categories/video-templates/aftereffecttemplates.jpg",
-    "link": "https://www.aftereffecttemplates.com",
-    "pricing": "Paid"
-  },
-  {
-    "resource_id": 19,
-    "title": "Filmstock",
-    "description": "Templates and visual effects for creative videos on one platform.",
-    "category": "Video Templates",
-    "category_id": 13,
-    "subcategory": "Templates and Effects",
-    "subcategory_id": 19,
-    "imgUrl": "./images/categories/video-templates/filmstock.jpg",
-    "link": "https://www.filmstock.com",
-    "pricing": "Paid"
-  },
+
+  
+
   {
     "resource_id": 20,
     "title": "Cinecom.net",

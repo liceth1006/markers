@@ -23,18 +23,7 @@
     "link": "https://www.jpeg-optimizer.com/",
     "pricing": "Free"
   },
-  {
-    "resource_id": 3,
-    "title": "Compressor.io",
-    "description": "Online image compressor that reduces the size of PNG, JPEG, GIF, and SVG files.",
-    "category": "Image Compressors",
-    "category_id": 26,
-    "subcategory": "Image Compressors",
-    "subcategory_id": 28,
-    "imgUrl": "./images/categories/image-compressors/compressor.jpg",
-    "link": "https://compressor.io/",
-    "pricing": "Free"
-  },
+
   {
     "resource_id": 4,
     "title": "ImageOptim",
@@ -106,17 +95,6 @@
     "imgUrl": "./images/categories/image-compressors/resizeimage.jpg",
     "link": "https://www.resizeimage.net/",
     "pricing": "Free"
-  },
-  {
-    "resource_id": 10,
-    "title": "PunyPNG",
-    "description": "PNG image compression tool that optimizes images for the web without losing quality.",
-    "category": "Image Compressors",
-    "category_id": 26,
-    "subcategory": "Image Compressors",
-    "subcategory_id": 28,
-    "imgUrl": "./images/categories/image-compressors/punypng.jpg",
-    "link": "https://punypng.com/",
-    "pricing": "Free"
   }
+
 ]

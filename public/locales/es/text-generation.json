@@ -227,18 +227,7 @@
     "link": "https://contentbot.ai/",
     "pricing": "De pago"
   },
-  {
-    "resource_id": 20,
-    "title": "Text Generation API",
-    "description": "API que permite integrar generación de texto en cualquier aplicación o flujo de trabajo utilizando IA.",
-    "category": "Generación de Texto",
-    "category_id": 21,
-    "subcategory": "Generación de Texto IA",
-    "subcategory_id": 20,
-    "imgUrl": "./images/categories/text-generation/textgenapi.jpg",
-    "link": "https://textgen.io/",
-    "pricing": "De pago"
-  },
+
   {
     "resource_id": 21,
     "title": "ChatGPT",

@@ -133,14 +133,14 @@
   },
   {
     "resource_id": 12,
-    "title": "Shards UI",
+    "title": "Designrevision",
     "description": "Colección de componentes modernos y minimalistas para interfaces web, optimizada para Bootstrap 4.",
     "category": "Componentes",
     "category_id": 15,
     "subcategory": "Componentes listos para usar",
     "subcategory_id": 12,
     "imgUrl": "./images/categories/components/shardsui.jpg",
-    "link": "https://designrevision.com/docs/shards-ui/",
+    "link": "https://designrevision.com/",
     "pricing": "Gratis"
   },
   {

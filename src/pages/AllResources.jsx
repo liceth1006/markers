@@ -58,7 +58,7 @@ function AllResources() {
       }
     };
     fetchResources();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [i18n.language]);
 
   useEffect(() => {
@@ -84,7 +84,6 @@ function AllResources() {
 
   const renderPagination = () => {
     const range = [];
-   
 
     // Calcular el rango visible
     const startPage = Math.max(currentPage - 2, 1);
@@ -101,7 +100,7 @@ function AllResources() {
           disabled={currentPage === 1}
           onClick={() => handlePageChange(currentPage - 1)}
         >
-         <IoArrowBackSharp />
+          <IoArrowBackSharp />
         </button>
         {startPage > 1 && (
           <>
@@ -143,7 +142,7 @@ function AllResources() {
           disabled={currentPage === totalPages}
           onClick={() => handlePageChange(currentPage + 1)}
         >
-         <IoMdArrowForward/>
+          <IoMdArrowForward />
         </button>
       </div>
     );
@@ -152,14 +151,16 @@ function AllResources() {
   return (
     <div className="p-6 pt-10 bg-background-light py-9 dark:bg-background-dark text-text-light dark:text-text-dark min-h-screen">
       <h1 className="text-4xl text-text-light dark:text-text-dark font-bold text-center mb-6">
-        {t("allResources.title")}
+        {t("allresources")}
       </h1>
-      <Search
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        filteredProducts={filteredResources}
-        setFilteredProducts={setFilteredResources}
-      />
+      <div className="my-8 lg:my-16 xl:my-16">
+        <Search
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
+          filteredProducts={filteredResources}
+          setFilteredProducts={setFilteredResources}
+        />
+      </div>
 
       <div className="relative">
         {currentResources.length > 0 ? (

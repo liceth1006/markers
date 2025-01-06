@@ -18,7 +18,7 @@
       "categoryFive": "Libraries and APIs"
     }
   },
-  "myBookmarks": "My Bookmarks",
+  "myBookmarks": "My Favorites",
   "allResources": "All Resources 🛍️",
   "footer": {
     "github": "GitHub",
@@ -87,5 +87,24 @@
   "designtrends": "Latest Design Trends 🔥",
   "imagecompressors": "Optimize Your Images 📉",
   "backgroundremovers": "Remove Backgrounds in Seconds 🖼️",
-  "resourceoptimizers": "Optimize Your Resources ⚙️"
-}
+  "resourceoptimizers": "Optimize Your Resources ⚙️",
+   "allresources": "All Creative Resources and Tools 💡",
+  "favorites": "Your Favorite Resources 🌟",
+  "download":"Download",
+    "title": "Resource List",
+    "columns": {
+      "category": "Category",
+      "title": "Title",
+      "subcategory": "Subcategory",
+      "description": "Description",
+      "link": "Link",
+      "pricing": "Price"
+    },
+    "toastMessages": {
+      "success": "Resource downloaded successfully",
+      "error": "Error downloading the resource"
+    },
+    "buttonText": "Download"
+  }
+  
+

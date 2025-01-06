@@ -59,18 +59,7 @@
     "link": "https://freesound.org",
     "pricing": "Gratis"
   },
-  {
-    "resource_id": 6,
-    "title": "SoundBible",
-    "description": "Una amplia variedad de efectos de sonido gratuitos.",
-    "category": "Audios",
-    "category_id": 11,
-    "subcategory": "Efectos de sonido",
-    "subcategory_id": 6,
-    "imgUrl": "./images/categories/audios/soundbible.jpg",
-    "link": "http://soundbible.com",
-    "pricing": "Gratis"
-  },
+
   {
     "resource_id": 7,
     "title": "ZapSplat",

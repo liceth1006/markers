@@ -11,18 +11,7 @@
     "link": "https://openai.com/dall-e-2",
     "pricing": "Free and Paid"
   },
-  {
-    "resource_id": 2,
-    "title": "DeepArt",
-    "description": "AI-based art generator that transforms photos into high-quality paintings with recognized artistic styles.",
-    "category": "Image Generation",
-   "category_id": 22,
-    "subcategory": "AI Image Generation",
-    "subcategory_id": 24,
-    "imgUrl": "./images/categories/image-generation/deepart.jpg",
-    "link": "https://deepart.io/",
-    "pricing": "Paid"
-  },
+
   {
     "resource_id": 3,
     "title": "Artbreeder",
@@ -119,30 +108,8 @@
     "link": "https://www.wombo.art/",
     "pricing": "Free"
   },
-  {
-    "resource_id": 11,
-    "title": "AI Picasso",
-    "description": "Image generator in Picasso style using AI to transform photos into abstract works of art.",
-    "category": "Image Generation",
-   "category_id": 22,
-    "subcategory": "AI Image Generation",
-    "subcategory_id": 24,
-    "imgUrl": "./images/categories/image-generation/aipicasso.jpg",
-    "link": "https://www.aipicasso.com/",
-    "pricing": "Free and Paid"
-  },
-  {
-    "resource_id": 12,
-    "title": "Pixray",
-    "description": "AI image generator that takes textual descriptions and turns them into visual art with style and customization options.",
-    "category": "Image Generation",
-   "category_id": 22,
-    "subcategory": "AI Image Generation",
-    "subcategory_id": 24,
-    "imgUrl": "./images/categories/image-generation/pixray.jpg",
-    "link": "https://pixray.github.io/",
-    "pricing": "Free"
-  },
+
+
   {
     "resource_id": 13,
     "title": "VQGAN+CLIP",
@@ -203,30 +170,8 @@
     "link": "https://github.com/lucidrains/big-sleep",
     "pricing": "Free"
   },
-  {
-    "resource_id": 18,
-    "title": "Toonify",
-    "description": "Image generation in cartoon style from photos using AI to create an animated version.",
-    "category": "Image Generation",
-   "category_id": 22,
-    "subcategory": "AI Image Generation",
-    "subcategory_id": 24,
-    "imgUrl": "./images/categories/image-generation/toonify.jpg",
-    "link": "https://toonify.justinpinkney.com/",
-    "pricing": "Free and Paid"
-  },
-  {
-    "resource_id": 19,
-    "title": "Zyro AI Image Generator",
-    "description": "AI image generator that allows you to create personalized and unique images from text.",
-    "category": "Image Generation",
-   "category_id": 22,
-    "subcategory": "AI Image Generation",
-    "subcategory_id": 24,
-    "imgUrl": "./images/categories/image-generation/zyro.jpg",
-    "link": "https://zyro.com/tools/ai-image-generator",
-    "pricing": "Free"
-  },
+
+ 
   {
     "resource_id": 20,
     "title": "Photopea",

@@ -203,18 +203,7 @@
     "link": "https://theinspirationgrid.com/",
     "pricing": "Gratis"
   },
-  {
-    "resource_id": 18,
-    "title": "Graphic Design Inspiration",
-    "description": "Colección de sitios, blogs y recursos de inspiración en diseño gráfico y web que destacan las tendencias más actuales.",
-    "category": "Tendencias de Diseño",
-    "category_id": 25,
-    "subcategory": "Tendencias de Diseño",
-    "subcategory_id": 27,
-    "imgUrl": "./images/categories/design-trends/graphicdesigninspiration.jpg",
-    "link": "https://www.graphicdesigninspiration.com/",
-    "pricing": "Gratis"
-  },
+
   {
     "resource_id": 19,
     "title": "Typewolf",

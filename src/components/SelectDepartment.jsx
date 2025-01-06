@@ -3,8 +3,10 @@ import { IoIosArrowDown } from "react-icons/io";
 import PropTypes from "prop-types";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 function SelectDepartment({ setSelectedDepartment, departments }) {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   const [isOpenDropdown, setIsOpenDropdown] = useState(false);
   const [selectedDepartmentName, setSelectedDepartmentName] = useState(t("actions.select"));
@@ -49,11 +51,12 @@ function SelectDepartment({ setSelectedDepartment, departments }) {
   }, [i18n.language, t]);
 
   // Manejo de cambios en el departamento seleccionado
-  const handleDepartmentChange = (department_id, department_name) => {
+  const handleDepartmentChange = (department_id, department_name,path) => {
     setSelectedDepartment(department_id);
     setSelectedDepartmentName(department_name);
     setIsOpenDropdown(false);
     localStorage.setItem("selectedDepartment", department_id);
+    navigate(path);
   };
 
   return (
@@ -77,7 +80,7 @@ function SelectDepartment({ setSelectedDepartment, departments }) {
           {departments.map((item) => (
             <li
               key={item.department_id}
-              onClick={() => handleDepartmentChange(item.department_id, item.department)}
+              onClick={() => handleDepartmentChange(item.department_id, item.department,item.path)}
               className="text-text-light dark:text-text-dark dropdown-item flex items-center px-4 py-2 hover:bg-background-light dark:hover:bg-background-dark cursor-pointer"
             >
               <span>{item.department}</span>

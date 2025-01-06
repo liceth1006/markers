@@ -10,7 +10,7 @@ function Search({setSearchTerm,searchTerm}) {
     setSearchTerm(filter);
   };
   return (
-    <div className="flex items-center my-14 border w-80 focus-within:border-primary transition duration-300 pr-3 gap-2  border-primary h-[46px] rounded-[5px] overflow-hidden">
+    <div className="flex items-center  border w-72 focus-within:border-primary transition duration-300 pr-3 gap-2  border-primary h-[46px] rounded-[5px] overflow-hidden">
     <input
       type="text"
       placeholder={t("actions.search")}
