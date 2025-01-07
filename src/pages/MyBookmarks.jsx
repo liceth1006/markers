@@ -58,6 +58,9 @@ function MyBookmarks() {
       <h1 className="text-4xl  text-text-light dark:text-text-dark font-bold text-center mb-6">
         {t("favorites")}
       </h1>
+      <p className="text-sm text-center text-gray-500 dark:text-gray-400 mb-4">
+        {t("note")}
+      </p>
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-2 my-8 lg:my-16 xl:my-16 ">
         <div className="col-span-1">
           <Search

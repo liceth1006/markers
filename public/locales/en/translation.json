@@ -104,7 +104,8 @@
       "success": "Resource downloaded successfully",
       "error": "Error downloading the resource"
     },
-    "buttonText": "Download"
+    "buttonText": "Download",
+    "note":  "Note: This is a beta version. Your data will be stored locally on this browser and device, ensuring that only you can access it. The data is saved according to the previously selected language and it is not possible to change the language afterward. You can download your favorites in PDF format to access them anywhere."
   }
   
 

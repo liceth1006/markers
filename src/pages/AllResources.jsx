@@ -42,33 +42,43 @@ function AllResources() {
     "/video-templates.json",
     "/videos.json",
   ];
-
   useEffect(() => {
     const fetchResources = async () => {
       const lang = i18n.language;
       try {
         const fetchPromises = jsonUrls.map((url) =>
-          fetch(`/locales/${lang}${url}`).then((res) => res.json())
+          fetch(`/locales/${lang}${url}`)
+            .then((res) => res.json())
+            .catch((err) => {
+              console.error(`Error al cargar ${url}:`, err);
+              return []; // Devuelve un array vacío si hay un error
+            })
         );
         const allData = await Promise.all(fetchPromises);
-        const combinedResources = allData.flat();
+        const combinedResources = allData
+          .flat()
+          .filter((resource) => resource.title); // Asegúrate de filtrar elementos sin título
         setResources(combinedResources);
       } catch (error) {
         console.error("Error al cargar los datos:", error);
       }
     };
     fetchResources();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [i18n.language]);
-
+  
   useEffect(() => {
-    const filtered = resources.filter((resource) =>
-      resource.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredResources(filtered);
-    setCurrentPage(1); // Reiniciar a la primera página cuando se filtra
+    if (resources.length) {
+      const filtered = resources.filter(
+        (resource) =>
+          resource.title &&
+          resource.title.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredResources(filtered);
+      setCurrentPage(1);
+    }
   }, [resources, searchTerm]);
-
+  
   const totalPages = Math.ceil(filteredResources.length / itemsPerPage);
 
   const currentResources = filteredResources.slice(

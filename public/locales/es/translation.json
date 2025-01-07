@@ -105,5 +105,6 @@
     "success": "Recurso descargado con éxito",
     "error": "Error al descargar el recurso"
   },
-  "buttonText": "Descargar"
+  "buttonText": "Descargar",
+  "note": "Nota: Esta es una versión beta. Sus datos se almacenarán localmente en este navegador y dispositivo, garantizando que solo usted pueda acceder a ellos. Los datos se guardan según el idioma seleccionado previamente y no es posible cambiar el idioma posteriormente. Puede descargar sus favoritos en formato PDF para consultarlos en cualquier lugar."
 }
