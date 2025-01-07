@@ -238,5 +238,18 @@
     "imgUrl": "./images/categories/api/zomato.jpg",
     "link": "https://developers.zomato.com/api",
     "pricing": "Gratis"
+  },
+  {
+    "resource_id": 22,
+    "title": "Colección de APIs Gratuitas",
+    "description": "Una colección de APIs gratuitas para diversos propósitos, incluyendo datos, utilidades y servicios en diferentes categorías.",
+    "category": "API",
+    "category_id": 14,
+    "subcategory": "APIs Generales",
+    "subcategory_id": 22,
+    "imgUrl": "./images/categories/api/freeapiscollection.jpg",
+    "link": "https://apilist.fun/collection/free-apis",
+    "pricing": "Gratis"
   }
+  
 ]

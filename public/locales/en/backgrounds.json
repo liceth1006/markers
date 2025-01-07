@@ -227,5 +227,30 @@
     "imgUrl": "./images/categories/backgrounds/meshgradient.jpg",
     "link": "https://www.meshgradient.com",
     "pricing": "Free"
+  },
+  {
+    "resource_id": 21,
+    "title": "SVG Wavy Transitions Between Sections",
+    "description": "A guide on creating SVG wavy transitions between sections for smooth scrolling effects.",
+   "category": "Backgrounds",
+    "category_id": 5,
+    "subcategory": "SVG Effects",
+    "subcategory_id": 21,
+    "imgUrl": "./images/categories/backgrounds/svgwaveytransitions.jpg",
+    "link": "https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections",
+    "pricing": "Free"
+  },
+  {
+    "resource_id": 22,
+    "title": "SVG Wave Generator",
+    "description": "Tool to create customizable SVG waves for use in backgrounds or transitions on your website.",
+    "category": "Backgrounds",
+    "category_id": 5,
+    "subcategory": "SVG Effects",
+    "subcategory_id": 23,
+    "imgUrl": "./images/categories/backgrounds/svgwavegenerator.jpg",
+    "link": "https://www.softr.io/tools/svg-wave-generator",
+    "pricing": "Free"
   }
+  
 ]

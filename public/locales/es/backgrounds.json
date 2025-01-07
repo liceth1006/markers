@@ -227,5 +227,31 @@
     "imgUrl": "./images/categories/backgrounds/meshgradient.jpg",
     "link": "https://www.meshgradient.com",
     "pricing": "Gratis"
+  },
+  {
+    "resource_id": 21,
+    "title": "Transiciones Onduladas SVG Entre Secciones",
+    "description": "Una guía para crear transiciones onduladas SVG entre secciones para efectos de desplazamiento suave.",
+    "category": "Backgrounds",
+    "category_id": 5,
+    "subcategory": "Efectos SVG",
+    "subcategory_id": 21,
+    "imgUrl": "./images/categories/backgrounds/svgwaveytransitions.jpg",
+    "link": "https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections",
+    "pricing": "Gratis"
+  },
+  {
+    "resource_id": 22,
+    "title": "Generador de Ondas SVG",
+    "description": "Herramienta para crear ondas SVG personalizables para usar en fondos o transiciones en tu sitio web.",
+    "category": "Backgrounds",
+    "category_id": 5,
+    "subcategory": "Efectos SVG",
+    "subcategory_id": 23,
+    "imgUrl": "./images/categories/backgrounds/svgwavegenerator.jpg",
+    "link": "https://www.softr.io/tools/svg-wave-generator",
+    "pricing": "Gratis"
   }
+  
+  
 ]

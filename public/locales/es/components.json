@@ -227,5 +227,18 @@
     "imgUrl": "./images/categories/components/webgradients.jpg",
     "link": "https://webgradients.com/",
     "pricing": "Gratis"
+  },
+  {
+    "resource_id": 21,
+    "title": "ShadCN UI",
+    "description": "Una colección de componentes y plantillas para construir interfaces de usuario modernas, accesibles y personalizables.",
+    "category": "Componentes",
+    "category_id": 15,
+    "subcategory": "Componentes UI",
+    "subcategory_id": 7,
+    "imgUrl": "./images/categories/components/shadcnui.jpg",
+    "link": "https://ui.shadcn.com/",
+    "pricing": "Gratis"
   }
+  
 ]
