@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const NotFoundResource = () => {
    const { t } = useTranslation();
   return (
-    <div className="flex flex-col items-center justify-center  text-text-light dark:text-text-dark">
+    <div className="flex flex-col items-center bg-background-light  dark:bg-background-dark justify-center  text-text-light dark:text-text-dark">
      
       <img 
         src="/taken.svg" 
