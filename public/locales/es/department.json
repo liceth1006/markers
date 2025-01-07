@@ -24,12 +24,6 @@
     "path": "/api"
   },
   {
-    "department_id": 5,
-    "department": "Contenido",
-    "description": "Fuentes de contenido en línea como YouTubers, blogs y documentación para programadores y diseñadores que buscan aprender y mejorar sus habilidades.",
-    "path": "/programming-youtubers"
-  },
-  {
     "department_id": 6,
     "department": "Inteligencia Artificial",
     "description": "Herramientas basadas en IA para la generación de texto, imágenes y videos, aplicadas tanto a programación como a diseño.",

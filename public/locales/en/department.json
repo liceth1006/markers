@@ -24,12 +24,6 @@
     "path": "/api"
   },
   {
-    "department_id": 5,
-    "department": "Content",
-    "description": "Online content sources such as YouTubers, blogs, and documentation for programmers and designers looking to learn and improve their skills.",
-     "path": "/programming-youtubers"
-  },
-  {
     "department_id": 6,
     "department": "Artificial Intelligence",
     "description": "AI-based tools for generating text, images, and videos, applied to both programming and design.",
