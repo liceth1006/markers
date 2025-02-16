@@ -1,6 +1,6 @@
 # RoosterTools - Recursos para Programadores y Diseñadores
 
-![RoosterTools](https://roostertools.vercel.app/roostertools.jpg)
+![RoosterTools](https://roostertools.vercel.app/roostertools.png)
 
 RoosterTools es una aplicación web que agrupa más de 20 categorías de recursos útiles para programadores y diseñadores, desde herramientas de color hasta frameworks y APIs. Está disponible en inglés y español, e incluye un botón para cambiar entre modo claro y oscuro.
 
