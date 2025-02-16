@@ -26,7 +26,6 @@ RoosterTools es una aplicación web que agrupa más de 20 categorías de recurso
 ### 1. Clonar el repositorio:
 ```bash
   git clone https://github.com/liceth1006/markers.git 
-  cd roostertools
 ```
 
 ### 2. Instalar dependencias:
